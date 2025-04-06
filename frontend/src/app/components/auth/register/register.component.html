@@ -1,0 +1,33 @@
+<div class="form-container">
+    <div class="form" [formGroup]="form">
+        <div class="title">Sign up</div>
+        <div class="sb-title">
+            Please fill out the form to create your account
+        </div>
+        <mat-form-field appearance="outline">
+            <mat-label>Name</mat-label>
+            <input type="text" matInput formControlName="login" placeholder="login">
+            <mat-error *ngIf="form.controls.login.hasError('required')">
+                Name is <strong>required</strong>
+            </mat-error>
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Login</mat-label>
+            <input type="text" matInput formControlName="login" placeholder="login">
+            <mat-error *ngIf="form.controls.login.hasError('required')">
+                Login is <strong>required</strong>
+            </mat-error>
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Password</mat-label>
+            <input type="password" matInput formControlName="password" placeholder="password">
+            <mat-error *ngIf="form.controls.password.hasError('required')">
+                password is <strong>required</strong>
+            </mat-error>
+        </mat-form-field>
+        <button mat-raised-button color="primary">create account</button>
+        <div class="ft">
+            Already have an account ? <span routerLink="/auth/login">Sign in</span>
+        </div>
+    </div>
+</div>

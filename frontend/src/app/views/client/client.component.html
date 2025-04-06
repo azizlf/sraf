@@ -1,0 +1,49 @@
+<div class="client-app">
+    <div class="navbar">
+        <mat-toolbar>
+            <span class="toolbar-title">Tableau de bord</span>
+            <div class="menu">
+                <div [class]="route === '' ? 'item active':'item'" (click)="route = ''" routerLink="/">
+                    <button class="flat" mat-flat-button color="primary">
+                        <i class="fa-solid fa-chart-line"></i>
+                        &nbsp;
+                        Discover analytics
+                    </button>
+                    <button class="stroked" mat-stroked-button>
+                        <i class="fa-solid fa-chart-line"></i>
+                        &nbsp;
+                        Discover analytics
+                    </button>
+                </div>
+                <div [class]="route === 'assistant' ? 'item active':'item'" (click)="route = 'assistant'"
+                    routerLink="/assistant">
+                    <button class="flat" mat-flat-button color="primary">
+                        <i class="fa-solid fa-headset"></i>
+                        &nbsp;
+                        Ai Assistant
+                    </button>
+                    <button class="stroked" mat-stroked-button>
+                        <i class="fa-solid fa-headset"></i>
+                        &nbsp;
+                        Ai Assistant
+                    </button>
+                </div>
+                <div class="item icn">
+                    <button mat-mini-fab matTooltip="Primary" class="user-btn"
+                        [color]="openMenuDiag ? 'primary':'white'" (click)="openMenuDiag = !openMenuDiag"
+                        [matMenuTriggerFor]="menu">
+                        <i class="fa-solid fa-user"></i>
+                    </button>
+                    <mat-menu #menu="matMenu">
+                        <button mat-menu-item routerLink="/settings" (click)="openMenuDiag = false">Profil
+                            settings</button>
+                        <button mat-menu-item (click)="logout();openMenuDiag = false">Logout</button>
+                    </mat-menu>
+                </div>
+            </div>
+        </mat-toolbar>
+    </div>
+    <div class="content-app">
+        <router-outlet></router-outlet>
+    </div>
+</div>

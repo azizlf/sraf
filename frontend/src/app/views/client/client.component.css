@@ -1,0 +1,94 @@
+.client-app {
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.client-app .navbar {
+
+    width: 100%;
+    padding: 0.6% 0;
+    background-color: #fafafa;
+    border-bottom: 0.1vw solid #efefef;
+
+}
+
+.client-app .navbar mat-toolbar {
+    height: 100%;
+    padding: 0% 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fafafa;
+}
+
+.client-app .navbar mat-toolbar .toolbar-title{
+
+    font-size: 1.4vw;
+
+}
+
+.client-app .navbar mat-toolbar .menu{
+
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 0.1%;
+
+}
+
+.client-app .navbar mat-toolbar .menu .item{
+
+    margin-left: 2%;
+    box-shadow: 0 0 0.5vw 0 #00000014;
+
+}
+
+.client-app .navbar mat-toolbar .menu .item.icn{
+
+    box-shadow: 0 0 0 0 transparent;
+
+}
+
+.client-app .navbar mat-toolbar .menu .item .flat{
+
+    display: none;
+
+}
+
+.client-app .navbar mat-toolbar .menu .item .stroked{
+
+    display: block;
+
+}
+
+.client-app .navbar mat-toolbar .menu .item.active .flat{
+
+    display: block;
+
+}
+
+.client-app .navbar mat-toolbar .menu .item.active .stroked{
+
+    display: none;
+
+}
+
+.client-app .content-app {
+
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: auto;
+    background-color: white;
+
+}
