@@ -1,7 +1,7 @@
 <div class="client-app">
     <div class="navbar">
         <mat-toolbar>
-            <span class="toolbar-title">Tableau de bord</span>
+            <span class="toolbar-title">Website logo</span>
             <div class="menu">
                 <div [class]="route === '' ? 'item active':'item'" (click)="route = ''" routerLink="/">
                     <button class="flat" mat-flat-button color="primary">
@@ -13,6 +13,19 @@
                         <i class="fa-solid fa-chart-line"></i>
                         &nbsp;
                         Discover analytics
+                    </button>
+                </div>
+                <div [class]="route === 'assistant' ? 'item active':'item'" (click)="route = 'assistant'"
+                    routerLink="/assistant">
+                    <button class="flat" mat-flat-button color="primary">
+                        <i class="fa-solid fa-headset"></i>
+                        &nbsp;
+                        Ai Analytics
+                    </button>
+                    <button class="stroked" mat-stroked-button>
+                        <i class="fa-solid fa-headset"></i>
+                        &nbsp;
+                        Ai Analytics
                     </button>
                 </div>
                 <div [class]="route === 'assistant' ? 'item active':'item'" (click)="route = 'assistant'"
