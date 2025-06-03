@@ -1,0 +1,122 @@
+[
+    {
+        "full_name": "Lina Mansour",
+        "email": "lina.mansour23@example.com",
+        "password": "LinaPass!2025",
+        "role": "consumer"
+    },
+    {
+        "full_name": "Youssef Haddad",
+        "email": "youssef.hd@example.net",
+        "password": "Youssef#321",
+        "role": "consumer"
+    },
+    {
+        "full_name": "Amira Trabelsi",
+        "email": "amira.trabelsi88@example.org",
+        "password": "Amira_88*pass",
+        "role": "consumer"
+    },
+    {
+        "full_name": "Karim Ayari",
+        "email": "karim.ayari45@example.com",
+        "password": "KarimPass2025!",
+        "role": "consumer"
+    },
+    {
+        "full_name": "Fatma Jlassi",
+        "email": "fatma.jlassi@example.net",
+        "password": "Fatma#Secure123",
+        "role": "consumer"
+    },
+    {
+        "full_name": "Rami Bahri",
+        "email": "rami.bahri@example.org",
+        "password": "Rami!2024@pass",
+        "role": "consumer"
+    },
+    {
+        "full_name": "Nour Gharbi",
+        "email": "nour.gharbi@example.com",
+        "password": "Nour*1234",
+        "role": "consumer"
+    },
+    {
+        "full_name": "Omar Ferjani",
+        "email": "omar.ferjani@example.net",
+        "password": "Ferjani2025!",
+        "role": "consumer"
+    },
+    {
+        "full_name": "Syrine Bouzid",
+        "email": "syrine.bz@example.org",
+        "password": "Syrine*Pass",
+        "role": "consumer"
+    },
+    {
+        "full_name": "Aymen Kefi",
+        "email": "aymen.kefi2025@example.com",
+        "password": "Aymen@Dev321",
+        "role": "consumer"
+    },
+    {
+        "full_name": "Nesrine Fekih",
+        "email": "nesrine.f@example.net",
+        "password": "Nesrine2025!",
+        "role": "consumer"
+    },
+    {
+        "full_name": "Walid Guesmi",
+        "email": "walid.g@example.org",
+        "password": "Walid!Secure",
+        "role": "consumer"
+    },
+    {
+        "full_name": "Marwa Ben Ali",
+        "email": "marwa.ba@example.com",
+        "password": "Marwa@88pass",
+        "role": "consumer"
+    },
+    {
+        "full_name": "Mehdi Sassi",
+        "email": "mehdi.sassi@example.net",
+        "password": "Mehdi#Pass",
+        "role": "consumer"
+    },
+    {
+        "full_name": "Ines Zoghlami",
+        "email": "ines.z@example.org",
+        "password": "ZoghlaMi123*",
+        "role": "consumer"
+    },
+    {
+        "full_name": "Anis Mhiri",
+        "email": "anis.mhiri@example.com",
+        "password": "Anis2025@mh",
+        "role": "consumer"
+    },
+    {
+        "full_name": "Sabrine Kraiem",
+        "email": "sabrine.k@example.net",
+        "password": "Sabrine_Pass!",
+        "role": "consumer"
+    },
+    {
+        "full_name": "Houssem Dali",
+        "email": "houssem.dali@example.org",
+        "password": "DaliSecure!2025",
+        "role": "consumer"
+    },
+    {
+        "full_name": "Ikram Neji",
+        "email": "ikram.n@example.com",
+        "password": "IkramNeji_123",
+        "role": "consumer"
+    },
+    {
+        "full_name": "Mohamed Ghariani",
+        "email": "mohamed.g@example.net",
+        "password": "MG@2025pass!",
+        "role": "consumer"
+    }
+]

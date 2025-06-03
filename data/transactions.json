@@ -1,0 +1,2000 @@
+[{
+  "_id": {
+    "$oid": "683cc9638bf92c935399eb44"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd13",
+  "transaction_date": "27-5-2024",
+  "country": "-27;133"
+},
+{
+  "_id": {
+    "$oid": "683cc9638bf92c935399eb40"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd08",
+  "transaction_date": "12-0-2025",
+  "country": "45.1667;15.5"
+},
+{
+  "_id": {
+    "$oid": "683cc9638bf92c935399eb41"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd0f",
+  "transaction_date": "20-0-2023",
+  "country": "45.1667;15.5"
+},
+{
+  "_id": {
+    "$oid": "683cc9638bf92c935399eb45"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd04",
+  "transaction_date": "3-3-2023",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc9638bf92c935399eb46"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd14",
+  "transaction_date": "29-4-2023",
+  "country": "38;-97"
+},
+{
+  "_id": {
+    "$oid": "683cc9638bf92c935399eb47"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd12",
+  "transaction_date": "5-7-2023",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc9638bf92c935399eb4a"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd06",
+  "transaction_date": "4-7-2024",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc9638bf92c935399eb4d"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd14",
+  "transaction_date": "9-4-2024",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc9638bf92c935399eb4c"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd09",
+  "transaction_date": "25-7-2024",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc9648bf92c935399eb50"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd15",
+  "transaction_date": "29-4-2023",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc9648bf92c935399eb53"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd09",
+  "transaction_date": "3-4-2025",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc9648bf92c935399eb52"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd17",
+  "transaction_date": "28-0-2025",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc9648bf92c935399eb55"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd0c",
+  "transaction_date": "7-10-2024",
+  "country": "38;-97"
+},
+{
+  "_id": {
+    "$oid": "683cc9648bf92c935399eb58"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd0d",
+  "transaction_date": "6-0-2024",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc9648bf92c935399eb59"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd0c",
+  "transaction_date": "20-2-2023",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc9648bf92c935399eb5c"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd04",
+  "transaction_date": "4-11-2024",
+  "country": "38;-97"
+},
+{
+  "_id": {
+    "$oid": "683cc9648bf92c935399eb5d"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd17",
+  "transaction_date": "12-3-2023",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc9648bf92c935399eb5f"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd13",
+  "transaction_date": "30-4-2023",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc9648bf92c935399eb61"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd0e",
+  "transaction_date": "13-0-2025",
+  "country": "38;-97"
+},
+{
+  "_id": {
+    "$oid": "683cc9648bf92c935399eb64"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd15",
+  "transaction_date": "15-2-2023",
+  "country": "45.1667;15.5"
+},
+{
+  "_id": {
+    "$oid": "683cc9648bf92c935399eb65"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd07",
+  "transaction_date": "29-2-2024",
+  "country": "45.1667;15.5"
+},
+{
+  "_id": {
+    "$oid": "683cc9658bf92c935399eb69"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd0f",
+  "transaction_date": "6-4-2024",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc9658bf92c935399eb68"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd11",
+  "transaction_date": "2-5-2023",
+  "country": "45.1667;15.5"
+},
+{
+  "_id": {
+    "$oid": "683cc9658bf92c935399eb6c"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd07",
+  "transaction_date": "13-1-2024",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc9658bf92c935399eb6d"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd0a",
+  "transaction_date": "9-7-2023",
+  "country": "45.1667;15.5"
+},
+{
+  "_id": {
+    "$oid": "683cc9658bf92c935399eb71"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd11",
+  "transaction_date": "18-7-2024",
+  "country": "-27;133"
+},
+{
+  "_id": {
+    "$oid": "683cc9658bf92c935399eb70"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd0b",
+  "transaction_date": "25-4-2023",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc9658bf92c935399eb73"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd0b",
+  "transaction_date": "10-1-2023",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc9658bf92c935399eb75"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd17",
+  "transaction_date": "14-4-2025",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc9658bf92c935399eb78"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd16",
+  "transaction_date": "20-4-2025",
+  "country": "38;-97"
+},
+{
+  "_id": {
+    "$oid": "683cc9658bf92c935399eb79"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd11",
+  "transaction_date": "27-7-2024",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc9658bf92c935399eb7c"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd10",
+  "transaction_date": "12-10-2024",
+  "country": "-27;133"
+},
+{
+  "_id": {
+    "$oid": "683cc9658bf92c935399eb7d"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd04",
+  "transaction_date": "18-3-2023",
+  "country": "-27;133"
+},
+{
+  "_id": {
+    "$oid": "683cc9658bf92c935399eb7f"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd11",
+  "transaction_date": "28-6-2023",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc9658bf92c935399eb81"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd09",
+  "transaction_date": "30-8-2024",
+  "country": "45.1667;15.5"
+},
+{
+  "_id": {
+    "$oid": "683cc9668bf92c935399eb83"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd0a",
+  "transaction_date": "10-7-2024",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc9668bf92c935399eb85"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd06",
+  "transaction_date": "26-4-2024",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc9668bf92c935399eb87"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd06",
+  "transaction_date": "6-11-2024",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc9668bf92c935399eb89"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd12",
+  "transaction_date": "17-1-2023",
+  "country": "-27;133"
+},
+{
+  "_id": {
+    "$oid": "683cc9668bf92c935399eb8b"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd16",
+  "transaction_date": "16-2-2025",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc9668bf92c935399eb8d"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd08",
+  "transaction_date": "10-4-2024",
+  "country": "45.1667;15.5"
+},
+{
+  "_id": {
+    "$oid": "683cc9668bf92c935399eb8f"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd09",
+  "transaction_date": "10-8-2024",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc9668bf92c935399eb91"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd0a",
+  "transaction_date": "4-3-2024",
+  "country": "45.1667;15.5"
+},
+{
+  "_id": {
+    "$oid": "683cc9668bf92c935399eb94"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd11",
+  "transaction_date": "3-0-2023",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc9668bf92c935399eb95"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd07",
+  "transaction_date": "24-1-2025",
+  "country": "-27;133"
+},
+{
+  "_id": {
+    "$oid": "683cc9668bf92c935399eb98"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd0b",
+  "transaction_date": "15-5-2024",
+  "country": "38;-97"
+},
+{
+  "_id": {
+    "$oid": "683cc9668bf92c935399eb99"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd0d",
+  "transaction_date": "5-4-2025",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc9668bf92c935399eb9b"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd0a",
+  "transaction_date": "12-4-2023",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc9668bf92c935399eb9d"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd05",
+  "transaction_date": "9-9-2023",
+  "country": "38;-97"
+},
+{
+  "_id": {
+    "$oid": "683cc9668bf92c935399eb9f"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd15",
+  "transaction_date": "6-8-2023",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc9678bf92c935399eba1"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd05",
+  "transaction_date": "28-4-2024",
+  "country": "38;-97"
+},
+{
+  "_id": {
+    "$oid": "683cc9678bf92c935399eba4"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd0b",
+  "transaction_date": "16-1-2025",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc9678bf92c935399eba5"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd06",
+  "transaction_date": "4-3-2024",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc9678bf92c935399eba8"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd06",
+  "transaction_date": "2-1-2024",
+  "country": "45.1667;15.5"
+},
+{
+  "_id": {
+    "$oid": "683cc9678bf92c935399eba9"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd09",
+  "transaction_date": "18-6-2023",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc9678bf92c935399ebad"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd0b",
+  "transaction_date": "4-3-2024",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc9678bf92c935399ebac"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd11",
+  "transaction_date": "10-6-2023",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc9678bf92c935399ebb0"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd13",
+  "transaction_date": "10-4-2025",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc9678bf92c935399ebb1"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd15",
+  "transaction_date": "7-1-2023",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc9678bf92c935399ebb3"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd09",
+  "transaction_date": "8-1-2024",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc9678bf92c935399ebb5"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd0c",
+  "transaction_date": "19-9-2023",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc9678bf92c935399ebb7"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd0b",
+  "transaction_date": "14-6-2023",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc9678bf92c935399ebb9"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd0e",
+  "transaction_date": "28-8-2024",
+  "country": "-27;133"
+},
+{
+  "_id": {
+    "$oid": "683cc9678bf92c935399ebbb"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd0d",
+  "transaction_date": "18-1-2025",
+  "country": "45.1667;15.5"
+},
+{
+  "_id": {
+    "$oid": "683cc9688bf92c935399ebbd"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd0d",
+  "transaction_date": "13-6-2023",
+  "country": "38;-97"
+},
+{
+  "_id": {
+    "$oid": "683cc9688bf92c935399ebbf"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd14",
+  "transaction_date": "5-0-2025",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc9688bf92c935399ebc1"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd0c",
+  "transaction_date": "8-10-2024",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc9688bf92c935399ebc3"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd09",
+  "transaction_date": "15-11-2024",
+  "country": "38;-97"
+},
+{
+  "_id": {
+    "$oid": "683cc9688bf92c935399ebc5"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd16",
+  "transaction_date": "6-5-2023",
+  "country": "45.1667;15.5"
+},
+{
+  "_id": {
+    "$oid": "683cc9688bf92c935399ebc7"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd10",
+  "transaction_date": "5-4-2023",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc9688bf92c935399ebc9"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd0c",
+  "transaction_date": "14-11-2024",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc9688bf92c935399ebcb"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd0b",
+  "transaction_date": "11-4-2024",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc9688bf92c935399ebce"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd08",
+  "transaction_date": "8-2-2025",
+  "country": "45.1667;15.5"
+},
+{
+  "_id": {
+    "$oid": "683cc9688bf92c935399ebd0"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd12",
+  "transaction_date": "9-2-2023",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc9688bf92c935399ebd1"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd0a",
+  "transaction_date": "25-2-2024",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc9688bf92c935399ebd3"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd0d",
+  "transaction_date": "21-7-2023",
+  "country": "-27;133"
+},
+{
+  "_id": {
+    "$oid": "683cc9688bf92c935399ebd5"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd08",
+  "transaction_date": "3-4-2023",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc9688bf92c935399ebd7"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd05",
+  "transaction_date": "6-10-2023",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc9698bf92c935399ebdc"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd06",
+  "transaction_date": "6-4-2023",
+  "country": "45.1667;15.5"
+},
+{
+  "_id": {
+    "$oid": "683cc9698bf92c935399ebdb"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd06",
+  "transaction_date": "1-10-2023",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc9698bf92c935399ebdd"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd0f",
+  "transaction_date": "28-1-2023",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc9698bf92c935399ebdf"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd14",
+  "transaction_date": "19-1-2023",
+  "country": "45.1667;15.5"
+},
+{
+  "_id": {
+    "$oid": "683cc9698bf92c935399ebe1"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd0c",
+  "transaction_date": "20-2-2023",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc9698bf92c935399ebe3"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd16",
+  "transaction_date": "27-1-2023",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc9698bf92c935399ebe7"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd0e",
+  "transaction_date": "15-6-2024",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc9698bf92c935399ebe8"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd09",
+  "transaction_date": "9-8-2023",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc9698bf92c935399ebe9"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd11",
+  "transaction_date": "16-2-2025",
+  "country": "-27;133"
+},
+{
+  "_id": {
+    "$oid": "683cc9698bf92c935399ebeb"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd08",
+  "transaction_date": "10-0-2024",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc9698bf92c935399ebed"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd11",
+  "transaction_date": "3-0-2023",
+  "country": "45.1667;15.5"
+},
+{
+  "_id": {
+    "$oid": "683cc9698bf92c935399ebef"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd06",
+  "transaction_date": "31-6-2024",
+  "country": "38;-97"
+},
+{
+  "_id": {
+    "$oid": "683cc9698bf92c935399ebf1"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd0f",
+  "transaction_date": "23-10-2024",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc9698bf92c935399ebf4"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd12",
+  "transaction_date": "30-11-2024",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc9698bf92c935399ebf5"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd04",
+  "transaction_date": "30-10-2023",
+  "country": "38;-97"
+},
+{
+  "_id": {
+    "$oid": "683cc9698bf92c935399ebf7"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd07",
+  "transaction_date": "11-4-2023",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc96a8bf92c935399ebfb"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd05",
+  "transaction_date": "25-1-2024",
+  "country": "38;-97"
+},
+{
+  "_id": {
+    "$oid": "683cc96a8bf92c935399ebfa"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd07",
+  "transaction_date": "22-2-2023",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc96a8bf92c935399ebfd"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd08",
+  "transaction_date": "14-9-2024",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc96a8bf92c935399ec00"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd14",
+  "transaction_date": "13-1-2023",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc96a8bf92c935399ec01"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd07",
+  "transaction_date": "12-10-2024",
+  "country": "-27;133"
+},
+{
+  "_id": {
+    "$oid": "683cc96a8bf92c935399ec03"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd09",
+  "transaction_date": "15-8-2023",
+  "country": "38;-97"
+},
+{
+  "_id": {
+    "$oid": "683cc9778bf92c935399ec0e"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd15",
+  "transaction_date": "17-0-2025",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc9778bf92c935399ec0d"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd0c",
+  "transaction_date": "6-3-2024",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc9778bf92c935399ec0f"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd07",
+  "transaction_date": "12-7-2024",
+  "country": "-27;133"
+},
+{
+  "_id": {
+    "$oid": "683cc9778bf92c935399ec0c"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd06",
+  "transaction_date": "1-6-2024",
+  "country": "-27;133"
+},
+{
+  "_id": {
+    "$oid": "683cc9778bf92c935399ec10"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd11",
+  "transaction_date": "27-6-2024",
+  "country": "38;-97"
+},
+{
+  "_id": {
+    "$oid": "683cc9778bf92c935399ec12"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd08",
+  "transaction_date": "15-2-2023",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc9778bf92c935399ec17"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd0f",
+  "transaction_date": "31-11-2024",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc9778bf92c935399ec1a"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd13",
+  "transaction_date": "17-1-2023",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc9778bf92c935399ec19"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd04",
+  "transaction_date": "9-3-2025",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc9778bf92c935399ec1c"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd17",
+  "transaction_date": "11-4-2025",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc9778bf92c935399ec1d"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd06",
+  "transaction_date": "2-0-2025",
+  "country": "-27;133"
+},
+{
+  "_id": {
+    "$oid": "683cc9778bf92c935399ec1e"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd15",
+  "transaction_date": "27-1-2024",
+  "country": "45.1667;15.5"
+},
+{
+  "_id": {
+    "$oid": "683cc9788bf92c935399ec21"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd0b",
+  "transaction_date": "6-3-2023",
+  "country": "-27;133"
+},
+{
+  "_id": {
+    "$oid": "683cc9788bf92c935399ec27"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd05",
+  "transaction_date": "25-2-2023",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc9788bf92c935399ec24"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd0f",
+  "transaction_date": "6-8-2024",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc9788bf92c935399ec28"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd0c",
+  "transaction_date": "4-11-2023",
+  "country": "-27;133"
+},
+{
+  "_id": {
+    "$oid": "683cc9788bf92c935399ec29"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd16",
+  "transaction_date": "21-5-2023",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc9788bf92c935399ec2a"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd08",
+  "transaction_date": "4-4-2025",
+  "country": "-27;133"
+},
+{
+  "_id": {
+    "$oid": "683cc9788bf92c935399ec2c"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd07",
+  "transaction_date": "23-2-2023",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc9798bf92c935399ec2f"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd06",
+  "transaction_date": "14-5-2024",
+  "country": "38;-97"
+},
+{
+  "_id": {
+    "$oid": "683cc9798bf92c935399ec32"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd14",
+  "transaction_date": "29-5-2023",
+  "country": "-27;133"
+},
+{
+  "_id": {
+    "$oid": "683cc9798bf92c935399ec36"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd16",
+  "transaction_date": "17-4-2024",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc9798bf92c935399ec35"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd16",
+  "transaction_date": "10-0-2025",
+  "country": "-27;133"
+},
+{
+  "_id": {
+    "$oid": "683cc9798bf92c935399ec37"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd11",
+  "transaction_date": "19-6-2023",
+  "country": "45.1667;15.5"
+},
+{
+  "_id": {
+    "$oid": "683cc9798bf92c935399ec38"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd16",
+  "transaction_date": "12-4-2025",
+  "country": "-27;133"
+},
+{
+  "_id": {
+    "$oid": "683cc9798bf92c935399ec3a"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd10",
+  "transaction_date": "9-3-2023",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc9798bf92c935399ec3c"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd0d",
+  "transaction_date": "1-0-2024",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc9798bf92c935399ec40"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd0e",
+  "transaction_date": "12-3-2023",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc9798bf92c935399ec41"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd12",
+  "transaction_date": "11-0-2023",
+  "country": "-27;133"
+},
+{
+  "_id": {
+    "$oid": "683cc9798bf92c935399ec42"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd0a",
+  "transaction_date": "12-2-2023",
+  "country": "-27;133"
+},
+{
+  "_id": {
+    "$oid": "683cc9798bf92c935399ec45"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd0b",
+  "transaction_date": "20-11-2024",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc9798bf92c935399ec46"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd05",
+  "transaction_date": "9-11-2024",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc97a8bf92c935399ec48"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd09",
+  "transaction_date": "13-1-2023",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc97a8bf92c935399ec4b"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd11",
+  "transaction_date": "3-10-2023",
+  "country": "38;-97"
+},
+{
+  "_id": {
+    "$oid": "683cc97a8bf92c935399ec4d"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd0f",
+  "transaction_date": "16-6-2024",
+  "country": "38;-97"
+},
+{
+  "_id": {
+    "$oid": "683cc97a8bf92c935399ec4f"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd0d",
+  "transaction_date": "10-8-2024",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc97a8bf92c935399ec51"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd12",
+  "transaction_date": "11-4-2023",
+  "country": "38;-97"
+},
+{
+  "_id": {
+    "$oid": "683cc97a8bf92c935399ec52"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd06",
+  "transaction_date": "12-8-2023",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc97a8bf92c935399ec54"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd0a",
+  "transaction_date": "8-2-2025",
+  "country": "-27;133"
+},
+{
+  "_id": {
+    "$oid": "683cc97a8bf92c935399ec56"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd05",
+  "transaction_date": "5-1-2024",
+  "country": "-27;133"
+},
+{
+  "_id": {
+    "$oid": "683cc97a8bf92c935399ec59"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd07",
+  "transaction_date": "12-6-2023",
+  "country": "45.1667;15.5"
+},
+{
+  "_id": {
+    "$oid": "683cc97a8bf92c935399ec5a"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd11",
+  "transaction_date": "7-2-2025",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc97a8bf92c935399ec5e"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd15",
+  "transaction_date": "14-2-2023",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc97a8bf92c935399ec5d"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd0b",
+  "transaction_date": "14-1-2025",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc97a8bf92c935399ec60"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd0c",
+  "transaction_date": "7-5-2023",
+  "country": "38;-97"
+},
+{
+  "_id": {
+    "$oid": "683cc97b8bf92c935399ec62"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd13",
+  "transaction_date": "8-11-2024",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc97b8bf92c935399ec64"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd04",
+  "transaction_date": "12-3-2023",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc97b8bf92c935399ec68"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd06",
+  "transaction_date": "31-4-2024",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc97b8bf92c935399ec69"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd16",
+  "transaction_date": "6-7-2023",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc97b8bf92c935399ec6a"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd0c",
+  "transaction_date": "2-5-2024",
+  "country": "38;-97"
+},
+{
+  "_id": {
+    "$oid": "683cc97b8bf92c935399ec6c"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd0d",
+  "transaction_date": "11-2-2023",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc97b8bf92c935399ec6e"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd12",
+  "transaction_date": "23-3-2025",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc97b8bf92c935399ec70"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd0c",
+  "transaction_date": "17-4-2023",
+  "country": "-27;133"
+},
+{
+  "_id": {
+    "$oid": "683cc97b8bf92c935399ec72"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd0b",
+  "transaction_date": "29-0-2025",
+  "country": "38;-97"
+},
+{
+  "_id": {
+    "$oid": "683cc97b8bf92c935399ec75"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd15",
+  "transaction_date": "24-2-2025",
+  "country": "45.1667;15.5"
+},
+{
+  "_id": {
+    "$oid": "683cc97b8bf92c935399ec77"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd16",
+  "transaction_date": "31-6-2023",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc97b8bf92c935399ec7a"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd0c",
+  "transaction_date": "29-4-2025",
+  "country": "38;-97"
+},
+{
+  "_id": {
+    "$oid": "683cc97b8bf92c935399ec79"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd06",
+  "transaction_date": "13-2-2023",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc97c8bf92c935399ec7c"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd12",
+  "transaction_date": "12-3-2025",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc97c8bf92c935399ec7e"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd08",
+  "transaction_date": "11-10-2024",
+  "country": "45.1667;15.5"
+},
+{
+  "_id": {
+    "$oid": "683cc97c8bf92c935399ec80"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd12",
+  "transaction_date": "18-4-2024",
+  "country": "38;-97"
+},
+{
+  "_id": {
+    "$oid": "683cc97c8bf92c935399ec84"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd05",
+  "transaction_date": "25-3-2025",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc97c8bf92c935399ec85"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd04",
+  "transaction_date": "17-1-2023",
+  "country": "-27;133"
+},
+{
+  "_id": {
+    "$oid": "683cc97c8bf92c935399ec86"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd15",
+  "transaction_date": "20-11-2023",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc97c8bf92c935399ec8a"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd09",
+  "transaction_date": "12-9-2023",
+  "country": "-27;133"
+},
+{
+  "_id": {
+    "$oid": "683cc97c8bf92c935399ec89"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd05",
+  "transaction_date": "16-1-2025",
+  "country": "45.1667;15.5"
+},
+{
+  "_id": {
+    "$oid": "683cc97c8bf92c935399ec8c"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd08",
+  "transaction_date": "13-7-2024",
+  "country": "45.1667;15.5"
+},
+{
+  "_id": {
+    "$oid": "683cc97c8bf92c935399ec90"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd14",
+  "transaction_date": "6-0-2023",
+  "country": "38;-97"
+},
+{
+  "_id": {
+    "$oid": "683cc97c8bf92c935399ec91"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd16",
+  "transaction_date": "26-0-2024",
+  "country": "38;-97"
+},
+{
+  "_id": {
+    "$oid": "683cc97c8bf92c935399ec92"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd12",
+  "transaction_date": "20-1-2023",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc97c8bf92c935399ec95"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd17",
+  "transaction_date": "22-2-2025",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc97c8bf92c935399ec96"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd17",
+  "transaction_date": "11-11-2024",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc97c8bf92c935399ec98"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd0f",
+  "transaction_date": "17-8-2024",
+  "country": "38;-97"
+},
+{
+  "_id": {
+    "$oid": "683cc97d8bf92c935399ec9b"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd05",
+  "transaction_date": "16-5-2023",
+  "country": "45.1667;15.5"
+},
+{
+  "_id": {
+    "$oid": "683cc97d8bf92c935399ec9f"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd0a",
+  "transaction_date": "29-0-2024",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc97d8bf92c935399eca1"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd12",
+  "transaction_date": "9-1-2025",
+  "country": "45.1667;15.5"
+},
+{
+  "_id": {
+    "$oid": "683cc97d8bf92c935399eca0"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd16",
+  "transaction_date": "29-7-2024",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc97d8bf92c935399eca2"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd0f",
+  "transaction_date": "14-1-2024",
+  "country": "38;-97"
+},
+{
+  "_id": {
+    "$oid": "683cc97d8bf92c935399eca4"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd0c",
+  "transaction_date": "11-4-2024",
+  "country": "45.1667;15.5"
+},
+{
+  "_id": {
+    "$oid": "683cc97d8bf92c935399eca6"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd08",
+  "transaction_date": "3-1-2023",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc97d8bf92c935399eca8"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd0c",
+  "transaction_date": "6-10-2023",
+  "country": "-27;133"
+},
+{
+  "_id": {
+    "$oid": "683cc97d8bf92c935399ecab"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd0d",
+  "transaction_date": "24-2-2024",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc97d8bf92c935399ecae"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd12",
+  "transaction_date": "8-4-2025",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc97d8bf92c935399ecb0"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd0a",
+  "transaction_date": "14-0-2025",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc97d8bf92c935399ecaf"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd0c",
+  "transaction_date": "14-11-2023",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc97e8bf92c935399ecb2"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd17",
+  "transaction_date": "12-1-2024",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc97e8bf92c935399ecb5"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd0b",
+  "transaction_date": "19-3-2023",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc97e8bf92c935399ecb8"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd12",
+  "transaction_date": "15-11-2024",
+  "country": "-27;133"
+},
+{
+  "_id": {
+    "$oid": "683cc97e8bf92c935399ecba"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd08",
+  "transaction_date": "25-2-2023",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc97e8bf92c935399ecbc"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd09",
+  "transaction_date": "26-5-2024",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc97e8bf92c935399ecbb"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd09",
+  "transaction_date": "7-11-2023",
+  "country": "-27;133"
+},
+{
+  "_id": {
+    "$oid": "683cc97e8bf92c935399ecbe"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd0a",
+  "transaction_date": "7-4-2023",
+  "country": "45.1667;15.5"
+},
+{
+  "_id": {
+    "$oid": "683cc97e8bf92c935399ecc1"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd05",
+  "transaction_date": "9-0-2024",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc97e8bf92c935399ecc3"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd15",
+  "transaction_date": "9-5-2024",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc97e8bf92c935399ecc4"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd10",
+  "transaction_date": "21-3-2025",
+  "country": "38;-97"
+},
+{
+  "_id": {
+    "$oid": "683cc97e8bf92c935399ecc8"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd08",
+  "transaction_date": "29-2-2023",
+  "country": "38;-97"
+},
+{
+  "_id": {
+    "$oid": "683cc97e8bf92c935399ecca"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd10",
+  "transaction_date": "26-5-2024",
+  "country": "46;2"
+},
+{
+  "_id": {
+    "$oid": "683cc97e8bf92c935399ecc9"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd06",
+  "transaction_date": "21-0-2023",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc97f8bf92c935399eccd"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd15",
+  "transaction_date": "20-0-2025",
+  "country": "49;32"
+},
+{
+  "_id": {
+    "$oid": "683cc97f8bf92c935399ecce"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd0f",
+  "transaction_date": "25-7-2023",
+  "country": "-27;133"
+}]

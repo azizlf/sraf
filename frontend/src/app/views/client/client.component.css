@@ -15,7 +15,7 @@
 .client-app .navbar {
 
     width: 100%;
-    padding: 0.6% 0;
+    padding: 0.2% 0;
     background-color: #fafafa;
     border-bottom: 0.1vw solid #efefef;
 
@@ -33,6 +33,14 @@
 .client-app .navbar mat-toolbar .toolbar-title{
 
     font-size: 1.4vw;
+    width: 4%;
+    transform: translateY(10%);
+
+}
+
+.client-app .navbar mat-toolbar .toolbar-title img{
+
+    width: 100%;
 
 }
 

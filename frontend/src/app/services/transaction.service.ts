@@ -5,9 +5,11 @@ import { enviremnt } from 'src/envirements/envirement.prod';
 @Injectable({
   providedIn: 'root'
 })
-export class UserService {
+export class TransactionService {
 
-  baseUrl = enviremnt.backend + "user"
+  baseUrl = enviremnt.backend + "transaction"
+
+  transactions:any = []
 
   constructor(private http: HttpClient) { }
 
@@ -19,8 +21,8 @@ export class UserService {
     return this.http.post(this.baseUrl + "/add", data)
   }
 
-  login(data: any) {
-    return this.http.post(this.baseUrl + "/login", data)
+  update(id: any, data: any) {
+    return this.http.put(this.baseUrl + "/update/" + id, data)
   }
-  
+
 }

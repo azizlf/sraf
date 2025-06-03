@@ -1,9 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ClientComponent } from './client.component';
-import { DashbordComponent } from 'src/app/components/client/dashbord/dashbord.component';
 import { SettingsComponent } from 'src/app/components/client/settings/settings.component';
 import { AssistantComponent } from 'src/app/components/client/assistant/assistant.component';
+import { ConsumerComponent } from 'src/app/components/client/dashbords/consumer/consumer.component';
+import { ProviderComponent } from 'src/app/components/client/dashbords/provider/provider.component';
+import { OperatorComponent } from 'src/app/components/client/dashbords/operator/operator.component';
+import { DataSService } from 'src/app/services/data-s.service';
+
 
 const routes: Routes = [
   {
@@ -11,8 +15,16 @@ const routes: Routes = [
     component: ClientComponent,
     children: [
       {
-        path: '',
-        component: DashbordComponent
+        path: 'operator-dashbord',
+        component: OperatorComponent
+      },
+      {
+        path: 'provider-dashbord',
+        component: ProviderComponent
+      },
+      {
+        path: 'consumer-dashbord',
+        component: ConsumerComponent
       },
       {
         path: 'settings',

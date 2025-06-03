@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 
 import { ClientRoutingModule } from './client-routing.module';
 import { ClientComponent } from './client.component';
-import { DashbordComponent } from '../../components/client/dashbord/dashbord.component';
 import { SettingsComponent } from '../../components/client/settings/settings.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
@@ -17,13 +16,19 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatMenuModule } from '@angular/material/menu';
+import { ConsumerComponent } from '../../components/client/dashbords/consumer/consumer.component';
+import { ProviderComponent } from '../../components/client/dashbords/provider/provider.component';
+import { OperatorComponent } from '../../components/client/dashbords/operator/operator.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
     ClientComponent,
-    DashbordComponent,
     SettingsComponent,
-    AssistantComponent
+    AssistantComponent,
+    ConsumerComponent,
+    ProviderComponent,
+    OperatorComponent
   ],
   imports: [
     CommonModule,
@@ -38,7 +43,8 @@ import { MatMenuModule } from '@angular/material/menu';
     MatFormFieldModule,
     MatInputModule,
     MatDialogModule,
-    MatMenuModule
+    MatMenuModule,
+    HttpClientModule
   ]
 })
 export class ClientModule { }

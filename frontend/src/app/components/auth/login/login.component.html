@@ -5,10 +5,13 @@
             Please fill out the form and enter your credentials to sign in
         </div>
         <mat-form-field appearance="outline">
-            <mat-label>Login</mat-label>
-            <input type="text" matInput formControlName="login" placeholder="login">
-            <mat-error *ngIf="form.controls.login.hasError('required')">
-                Login is <strong>required</strong>
+            <mat-label>Email adress</mat-label>
+            <input type="text" matInput formControlName="email" placeholder="Email adress">
+            <mat-error *ngIf="form.controls.email.hasError('required')">
+                Email is <strong>required</strong>
+            </mat-error>
+            <mat-error *ngIf="form.controls.email.hasError('email')">
+                Email adress not <strong>valid</strong>
             </mat-error>
         </mat-form-field>
         <mat-form-field appearance="outline">
@@ -19,8 +22,8 @@
             </mat-error>
         </mat-form-field>
         <button mat-raised-button color="primary" (click)="login()">sign in</button>
-        <div class="ft">
+        <!-- <div class="ft">
             Don't have an account ? <span routerLink="/auth/register">Sign up</span>
-        </div>
+        </div> -->
     </div>
 </div>

@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
+import { DataSService } from 'src/app/services/data-s.service';
 import { UserService } from 'src/app/services/user.service';
 
 @Component({
@@ -11,16 +12,34 @@ import { UserService } from 'src/app/services/user.service';
 export class LoginComponent {
 
   form = new FormGroup({
-    login: new FormControl("",[Validators.required]),
-    password: new FormControl("",[Validators.required])
+    email: new FormControl("", [Validators.required, Validators.email]),
+    password: new FormControl("", [Validators.required])
   })
 
-  constructor(private router:Router,private userService:UserService){}
+  constructor(private router: Router, private dataService: DataSService, private userService: UserService) { }
 
-  login(){
+  login() {
 
-    this.router.navigate(["/"])
-    this.userService.userId = "1"
+    this.userService.login(this.form.value).subscribe((res: any) => {
+      if (res.response.status === true) {
+
+        this.dataService.role = res.response.user.role
+        this.dataService.userId = res.response.user._id
+        localStorage.setItem("userid", res.response.user._id)
+        localStorage.setItem("userrole", res.response.user.role)
+        if (this.dataService.role === "provider") {
+          localStorage.setItem("provider", res.response.user.full_name)
+        }
+        this.router.navigate(["/" + this.dataService.role + "-dashbord"])
+      } else {
+
+        alert(res.response.user)
+
+      }
+
+    })
+
+
 
   }
 

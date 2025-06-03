@@ -1,9 +1,11 @@
 <div class="client-app">
     <div class="navbar">
         <mat-toolbar>
-            <span class="toolbar-title">Website logo</span>
+            <span class="toolbar-title">
+                <img src="/assets/img/logo.png" />
+            </span>
             <div class="menu">
-                <div [class]="route === '' ? 'item active':'item'" (click)="route = ''" routerLink="/">
+                <div [class]="route === dataService.role+'-dashbord' ? 'item active':'item'" (click)="route = dataService.role+'-dashbord'" [routerLink]="'/'+dataService.role+'-dashbord'">
                     <button class="flat" mat-flat-button color="primary">
                         <i class="fa-solid fa-chart-line"></i>
                         &nbsp;
@@ -20,25 +22,12 @@
                     <button class="flat" mat-flat-button color="primary">
                         <i class="fa-solid fa-headset"></i>
                         &nbsp;
-                        Ai Analytics
+                        AI-Driven Insights
                     </button>
                     <button class="stroked" mat-stroked-button>
                         <i class="fa-solid fa-headset"></i>
                         &nbsp;
-                        Ai Analytics
-                    </button>
-                </div>
-                <div [class]="route === 'assistant' ? 'item active':'item'" (click)="route = 'assistant'"
-                    routerLink="/assistant">
-                    <button class="flat" mat-flat-button color="primary">
-                        <i class="fa-solid fa-headset"></i>
-                        &nbsp;
-                        Ai Assistant
-                    </button>
-                    <button class="stroked" mat-stroked-button>
-                        <i class="fa-solid fa-headset"></i>
-                        &nbsp;
-                        Ai Assistant
+                        AI-Driven Insights
                     </button>
                 </div>
                 <div class="item icn">

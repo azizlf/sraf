@@ -4,16 +4,6 @@
             <br>
             <div class="slc">
                 <mat-form-field appearance="outline">
-                    <mat-label>Types</mat-label>
-                    <mat-select>
-                        <mat-option *ngFor="let type of data" [value]="type.title" (click)="catalogs = type.catalog">
-                            {{type.title}}
-                        </mat-option>
-                    </mat-select>
-                </mat-form-field>
-            </div>
-            <div class="slc">
-                <mat-form-field appearance="outline">
                     <mat-label>Catalogs</mat-label>
                     <mat-select [disabled]="catalogs.length === 0">
                         <mat-option *ngFor="let cat of catalogs" [value]="cat.title" (click)="products = cat.products">
@@ -37,7 +27,7 @@
                 <mat-form-field appearance="outline">
                     <mat-label>Consumers</mat-label>
                     <mat-select [disabled]="consumers.length === 0">
-                        <mat-option *ngFor="let cons of consumers" [value]="cons">
+                        <mat-option *ngFor="let cons of consumers" [value]="cons" (click)="consumerSelected=cons">
                             {{cons}}
                         </mat-option>
                     </mat-select>
@@ -69,46 +59,28 @@
                 <button mat-raised-button color="primary">Apply</button>
             </div>
             <div class="btn exl">
-                <button mat-raised-button color="primary">Export</button>
+                <button mat-raised-button color="accent">Export</button>
             </div>
         </div>
     </div>
     <div class="charts">
         <div class="boxs">
-            <div class="lbl">Data Exchange</div>
+            <!-- <div class="lbl">Data Exchange</div> -->
             <div class="ctn-boxs">
                 <div class="item-box">
-                    <canvas id="chart1"></canvas>
+                    <canvas id="chart1" class="chrt"></canvas>
                 </div>
                 <div class="item-box">
-                    <canvas id="chart2"></canvas>
+                    <canvas id="chart2" class="chrt"></canvas>
                 </div>
                 <div class="item-box">
-                    <canvas id="chart3"></canvas>
-                </div>
-            </div>
-            <div class="lbl">Health System</div>
-            <div class="ctn-boxs">
-                <div class="item-box">
-                    <canvas id="chart4"></canvas>
+                    <canvas id="chart3" class="chrt"></canvas>
                 </div>
                 <div class="item-box">
-                    <canvas id="chart5"></canvas>
-                </div>
-                <div class="item-box">
-                    <canvas id="chart6"></canvas>
-                </div>
-            </div>
-            <div class="lbl">Feedbacks, Alerts</div>
-            <div class="ctn-boxs">
-                <div class="item-box">
-                    <canvas id="chart7"></canvas>
-                </div>
-                <div class="item-box">
-                    <canvas id="chart8"></canvas>
-                </div>
-                <div class="item-box">
-                    <canvas id="chart9"></canvas>
+                    <div class="title">Products by country</div>
+                    <div class="map-container">
+                        <div id="map"></div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -67,11 +67,11 @@
 
 }
 
-.dashbord-app .sidenav .ctn .btn.exl button{
+/* .dashbord-app .sidenav .ctn .btn.exl button{
 
     background-color: #09943c;
 
-}
+} */
 
 
 .dashbord-app .charts{
@@ -105,7 +105,7 @@
 .dashbord-app .charts .boxs .item-box{
 
     width: 47%;
-    padding: 13% 0;
+    padding: 15% 0;
     border-radius: 0.5vw;
     background-color: white;
     box-shadow: 0 0 0.5vw 0 #00000023 ;
@@ -117,13 +117,29 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    overflow: hidden;
 
 }
 
-.dashbord-app .charts .boxs .item-box canvas{
+.dashbord-app .charts .boxs .item-box.hr{
+
+    width: 43%;
+    padding: 2%;
+
+}
+
+.dashbord-app .charts .boxs .item-box .chrt{
 
     position: absolute;
-    width: 95% !important;
+    width: 98% !important;
+    height: 90% !important;
+
+}
+
+.dashbord-app .charts .boxs .item-box .auto{
+
+    width: auto;
+    height: auto;
 
 }
 
@@ -133,5 +149,39 @@
     font-weight: 700;
     padding: 3% 2.2%;
     padding-bottom: 0;
+
+}
+
+.dashbord-app .charts .boxs .item-box .title{
+
+    font-size: 1.2vw;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 0;
+    padding: 3% 0;
+    font-weight: 600;
+
+}
+
+.dashbord-app .charts .boxs .item-box .map-container{
+
+    width: 100%;
+    height: 85%;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.dashbord-app .charts .boxs .item-box .map-container #map{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }

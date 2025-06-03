@@ -1,0 +1,84 @@
+[{
+  "_id": {
+    "$oid": "683ca1986355938715707e14"
+  },
+  "language": "english",
+  "location": "38;-97",
+  "category": "top",
+  "country": "united states of america",
+  "pubDate": "1-5-2025",
+  "provider": "Nwaonline",
+  "title": "When our best friends were Canadians"
+},
+{
+  "_id": {
+    "$oid": "683ca1986355938715707e16"
+  },
+  "language": "english",
+  "location": "-27;133",
+  "category": "sports",
+  "country": "australia",
+  "pubDate": "1-5-2025",
+  "provider": "Fox Sports",
+  "title": "A-League player among two charged over alleged yellow card manipulation during games"
+},
+{
+  "_id": {
+    "$oid": "683ca1986355938715707e1a"
+  },
+  "language": "croatian",
+  "location": "45.1667;15.5",
+  "category": "top",
+  "country": "croatia",
+  "pubDate": "1-5-2025",
+  "provider": "Index",
+  "title": "Je li ovo najljepša kolekcija kupaćih kostima iz high street ponude?"
+},
+{
+  "_id": {
+    "$oid": "683ca1986355938715707e19"
+  },
+  "language": "french",
+  "location": "46;2",
+  "category": "top",
+  "country": "france",
+  "pubDate": "1-5-2025",
+  "provider": "Var-matin",
+  "title": "Un motard gravement blessé après un choc avec une voiture: la circulation paralysée entre Gassin et Saint-Tropez ce dimanche matin"
+},
+{
+  "_id": {
+    "$oid": "683ca1986355938715707e1b"
+  },
+  "language": "ukrainian",
+  "location": "49;32",
+  "category": "sports",
+  "country": "ukraine",
+  "pubDate": "1-5-2025",
+  "provider": "Факти",
+  "title": "Луїс Енріке присвятив перемогу у Лізі чемпіонів своїй доньці, котра померла (фото)"
+},
+{
+  "_id": {
+    "$oid": "683ca1986355938715707e1d"
+  },
+  "language": "french",
+  "location": "46;2",
+  "category": "sports",
+  "country": "france",
+  "pubDate": "1-5-2025",
+  "provider": "Nextgen-auto",
+  "title": "Russell ne verrait pas Verstappen chez Mercedes F1 comme 'un manque de respect'"
+},
+{
+  "_id": {
+    "$oid": "683ca1986355938715707e1f"
+  },
+  "language": "ukrainian",
+  "location": "49;32",
+  "category": "top",
+  "country": "ukraine",
+  "pubDate": "1-5-2025",
+  "provider": "Unian",
+  "title": "Розробник Cyberpunk 2077 поділився, що звуки зброї записали з автомата з газованою водою в KFC"
+}]
