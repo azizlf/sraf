@@ -19,7 +19,8 @@ class TransactionService:
             "provider": data.get("provider"),
             "consumer": data.get("consumer"),
             "transaction_date": data.get("transaction_date"),
-            "country": data.get("country")
+            "country": data.get("country"),
+            "category": data.get("category")
         }
         
         return Transaction.create(dt)

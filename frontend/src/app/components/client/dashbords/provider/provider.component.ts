@@ -58,7 +58,7 @@ export class ProviderComponent implements OnInit, AfterViewInit {
   initMap() {
 
     const locations = this.transactionService.transactions.filter((trs: any) => trs.provider === localStorage.getItem("userid") )
-    console.log(locations)
+
     const features = locations.map((loc:any) => {
       const point = new Feature({
         geometry: new Point(fromLonLat([loc.country.split(";")[1], loc.country.split(";")[0]])),

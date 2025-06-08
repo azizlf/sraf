@@ -6,8 +6,20 @@
                 <mat-form-field appearance="outline">
                     <mat-label>Catalogs</mat-label>
                     <mat-select [disabled]="catalogs.length === 0">
-                        <mat-option *ngFor="let cat of catalogs" [value]="cat.title" (click)="products = cat.products">
-                            {{cat.title}}
+                        <mat-option value="all" (click)="selectCatalog('all')">All</mat-option>
+                        <mat-option *ngFor="let cat of catalogs" [value]="cat" (click)="selectCatalog(cat)">
+                            {{cat}}
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </div>
+            <div class="slc">
+                <mat-form-field appearance="outline">
+                    <mat-label>Providers</mat-label>
+                    <mat-select [disabled]="providers.length === 0">
+                        <mat-option value="all" (click)="selectProvider('all')">All</mat-option>
+                        <mat-option *ngFor="let prov of providers" [value]="prov" (click)="selectProvider(prov)">
+                            {{prov}}
                         </mat-option>
                     </mat-select>
                 </mat-form-field>
@@ -16,47 +28,27 @@
                 <mat-form-field appearance="outline">
                     <mat-label>Products</mat-label>
                     <mat-select [disabled]="products.length === 0">
-                        <mat-option *ngFor="let prod of products" [value]="prod.title"
-                            (click)="consumers = prod.consumers">
+                        <mat-option value="all" >All</mat-option>
+                        <mat-option *ngFor="let prod of products" [value]="prod.title">
                             {{prod.title}}
                         </mat-option>
                     </mat-select>
                 </mat-form-field>
             </div>
-            <div class="slc">
-                <mat-form-field appearance="outline">
-                    <mat-label>Providers</mat-label>
-                    <mat-select [disabled]="consumers.length === 0">
-                        <mat-option *ngFor="let cons of consumers" [value]="cons" (click)="consumerSelected=cons">
-                            {{cons}}
-                        </mat-option>
-                    </mat-select>
-                </mat-form-field>
-            </div>
             <div class="label">Date Granularity</div>
-            <!-- <div class="slc">
-                <mat-form-field appearance="outline">
-                    <mat-label>choose option</mat-label>
-                    <mat-select>
-                        <mat-option value="Week">Week</mat-option>
-                        <mat-option value="Month">Month</mat-option>
-                        <mat-option value="Year">Year</mat-option>
-                    </mat-select>
-                </mat-form-field>
-            </div> -->
             <div class="slc">
                 <mat-form-field appearance="outline">
                     <mat-label>choose date</mat-label>
-                    <mat-date-range-input [rangePicker]="campaignOnePicker">
-                        <input readonly matStartDate>
-                        <input readonly matEndDate>
+                    <mat-date-range-input [formGroup]="intervalDates" [rangePicker]="campaignOnePicker">
+                        <input matStartDate formControlName="start">
+                        <input matEndDate formControlName="end">
                     </mat-date-range-input>
                     <mat-datepicker-toggle matIconSuffix [for]="campaignOnePicker"></mat-datepicker-toggle>
                     <mat-date-range-picker #campaignOnePicker></mat-date-range-picker>
                 </mat-form-field>
             </div>
             <div class="btn">
-                <button mat-raised-button color="primary">Apply</button>
+                <button mat-raised-button color="primary" (click)="applySearch()">Apply</button>
             </div>
             <div class="btn exl">
                 <button mat-raised-button color="accent">Export</button>
@@ -67,10 +59,10 @@
         <div class="boxs">
             <!-- <div class="lbl">Data Exchange</div> -->
             <div class="ctn-boxs">
-                <div class="item-box">
+                <div class="item-box c1">
                     <canvas id="chart1" class="chrt"></canvas>
                 </div>
-                <div class="item-box">
+                <div class="item-box c2">
                     <canvas id="chart2" class="chrt"></canvas>
                 </div>
                 <div class="item-box hr">

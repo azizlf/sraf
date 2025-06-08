@@ -103,7 +103,7 @@ export class AppComponent implements OnInit {
 
   makeTransactions(articles: any) {
 
-    const count = 100
+    const count = 150
 
     this.userService.getAll().subscribe((usrs: any) => {
 
@@ -128,7 +128,8 @@ export class AppComponent implements OnInit {
           provider: providerUser._id,
           consumer: consumer._id,
           transaction_date: this.randomDate(),
-          country:article.location
+          country:article.location,
+          category:article.category
         }
 
         this.transactionService.create(transaction).subscribe((res:any)=>{

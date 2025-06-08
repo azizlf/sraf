@@ -1,1 +1,36 @@
-<p>settings works!</p>
+<div class="settings-app">
+    <div class="form" [formGroup]="form" >
+        <div class="input">
+            <mat-form-field appearance="outline">
+                <mat-label>Full Name</mat-label>
+                <input type="text" matInput formControlName="full_name" placeholder="full name">
+                <mat-error *ngIf="form.controls.full_name.hasError('required')">
+                    field <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+        </div>
+        <div class="input">
+            <mat-form-field appearance="outline">
+                <mat-label>Email Adress</mat-label>
+                <input type="text" matInput formControlName="email" placeholder="email adress">
+                <mat-error *ngIf="form.controls.email.hasError('required')">
+                    field <strong>required</strong>
+                </mat-error>
+                <mat-error *ngIf="form.controls.email.hasError('email')">
+                    Email adress not <strong>valid</strong>
+                </mat-error>
+            </mat-form-field>
+        </div>
+        <div class="input">
+            <mat-form-field appearance="outline">
+                <mat-label>Password</mat-label>
+                <input type="password" matInput formControlName="password" placeholder="password">
+                <mat-error *ngIf="form.controls.password.hasError('required')">
+                    field <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+        </div>
+
+        <button mat-raised-button color="primary" [disabled]="form.invalid" (click)="submit()" >submit</button>
+    </div>
+</div>

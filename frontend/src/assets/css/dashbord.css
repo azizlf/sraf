@@ -154,13 +154,14 @@
 
 .dashbord-app .charts .boxs .item-box .title{
 
-    font-size: 1.2vw;
+    font-size: 1vw;
     position: absolute;
     width: 100%;
     text-align: center;
     top: 0;
     padding: 3% 0;
     font-weight: 600;
+    color: #707070;
 
 }
 
