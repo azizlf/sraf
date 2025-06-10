@@ -13,6 +13,8 @@ import { DataSService } from 'src/app/services/data-s.service';
 import { TransactionService } from 'src/app/services/transaction.service';
 import { ArticleService } from 'src/app/services/article.service';
 import { FormGroup, FormControl } from '@angular/forms';
+import * as XLSX from 'xlsx';
+import { saveAs } from 'file-saver';
 
 declare function createChart(ctx: any, config: any): void
 
@@ -177,6 +179,76 @@ export class ConsumerComponent implements OnInit, AfterViewInit {
 
   }
 
+  exportData() {
+
+    let catalogsData: any = []
+    let transactionsData: any = []
+    let dates: any = []
+
+    const date = this.intervalDates.value.start + ";" + this.intervalDates.value.end
+
+    const startDate = new Date(date.split(";")[0]).getTime()
+    const endDate = new Date(date.split(";")[1]).getTime()
+
+    this.transactionService.transactions.forEach((transaction: any) => {
+
+      const transactionDate = new Date(transaction.transaction_date).getTime()
+
+      if (transaction.consumer === localStorage.getItem("userid") && (
+        transactionDate >= startDate && transactionDate <= endDate
+      )) {
+
+        dates.push(transaction.transaction_date)
+
+      }
+
+    })
+
+    dates.forEach((date: any) => {
+
+      const transactions = this.transactionService.transactions.filter((tr: any) => tr.transaction_date === date)
+
+      const catalogs = new Set()
+
+      transactions.forEach((tr: any) => {
+
+        catalogs.add(tr.category)
+
+      })
+
+      transactionsData.push({
+        date: date,
+        value: transactions.length
+      })
+
+      catalogsData.push({
+        date: date,
+        value: Array.from(catalogs).length
+      })
+
+    })
+
+
+    const dt = new Date().getDate()+"-"+(new Date().getMonth()+1)+"-"+new Date().getFullYear()+" "+new Date().getHours()+"h"+new Date().getMinutes()
+
+    this.downloadCSV([transactionsData,catalogsData], "consumer-dashbord "+dt)
+  }
+
+  downloadCSV(data: any[], filename: string) {
+    const wb = XLSX.utils.book_new();
+
+    const ws1 = XLSX.utils.json_to_sheet(data[0]);
+    const ws2 = XLSX.utils.json_to_sheet(data[1]);
+
+    XLSX.utils.book_append_sheet(wb, ws1, 'Number Of Transactions');
+    XLSX.utils.book_append_sheet(wb, ws2, 'Number Of Catalogs');
+
+    const wbout = XLSX.write(wb, { bookType: 'xlsx', type: 'array' });
+    const blob = new Blob([wbout], { type: 'application/octet-stream' });
+
+    saveAs(blob, filename + '.xlsx');
+  }
+
   createChart1(date: any) {
 
     const oldCtx = document.querySelector("#chart1")
@@ -256,7 +328,7 @@ export class ConsumerComponent implements OnInit, AfterViewInit {
     const config = {
       type: 'line',
       data: {
-        labels: labels.slice(0, 6),
+        labels: labels.sort((a: any, b: any) => this.parseDMY(b).getTime() - this.parseDMY(a).getTime()).slice(0, 6),
         datasets: [{
           label: 'Number of catalogs',
           data: data,
@@ -276,6 +348,11 @@ export class ConsumerComponent implements OnInit, AfterViewInit {
 
     createChart(ctx, config)
 
+  }
+
+  parseDMY(dateStr: string): Date {
+    const [day, month, year] = dateStr.split("-");
+    return new Date(Number(year), Number(month) - 1, Number(day));
   }
 
   createChart2(date: any) {
@@ -341,7 +418,7 @@ export class ConsumerComponent implements OnInit, AfterViewInit {
     const config = {
       type: 'line',
       data: {
-        labels: labels.slice(0, 6),
+        labels: labels.sort((a: any, b: any) => this.parseDMY(b).getTime() - this.parseDMY(a).getTime()).slice(0, 6),
         datasets: [{
           label: 'Number of transactions',
           data: data,
@@ -367,14 +444,30 @@ export class ConsumerComponent implements OnInit, AfterViewInit {
 
     const ctx = document.querySelector("#chart3")
 
+    const categoryCounts: { [key: string]: number } = {}
+
+    this.transactionService.transactions.forEach((transaction: any) => {
+
+      if (transaction.consumer === localStorage.getItem("userid")) {
+
+        const category = transaction.category;
+        categoryCounts[category] = (categoryCounts[category] || 0) + 1
+
+      }
+
+    })
+
+    const categories = Object.keys(categoryCounts);
+    const counts = Object.values(categoryCounts);
+
     const config = {
       type: 'pie',
       data: {
-        labels: ['Videos', 'Articles', 'Others'],
+        labels: categories,
         datasets: [
           {
             label: 'Products',
-            data: [104, 198, 167],
+            data: counts,
             backgroundColor: ["#0a68da", "#bb0888", "#5e08bb"],
           }
         ]
@@ -437,7 +530,6 @@ export class ConsumerComponent implements OnInit, AfterViewInit {
 
 
   ngOnInit(): void {
-    this.createChart3()
     const checkData = setInterval(() => {
       if (this.articleService.articles.length > 0) {
 
@@ -457,6 +549,7 @@ export class ConsumerComponent implements OnInit, AfterViewInit {
         this.initMap()
         this.createChart1("all")
         this.createChart2("all")
+        this.createChart3()
 
         clearInterval(checkData)
       }

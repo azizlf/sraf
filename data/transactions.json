@@ -1,2000 +1,6000 @@
 [{
   "_id": {
-    "$oid": "683cc9638bf92c935399eb44"
+    "$oid": "68489cc6a92c77c7faa122f7"
   },
-  "article": "683ca1986355938715707e16",
-  "provider": "683ca2026355938715707e4a",
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd15",
+  "transaction_date": "21-9-2024",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489cc6a92c77c7faa122fa"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd0a",
+  "transaction_date": "11-8-2024",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489cc6a92c77c7faa122fb"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd14",
+  "transaction_date": "24-1-2023",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489cc6a92c77c7faa122fd"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd06",
+  "transaction_date": "16-10-2023",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489cc6a92c77c7faa122ff"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd16",
+  "transaction_date": "11-1-2023",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489cc6a92c77c7faa12301"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
   "consumer": "683ca1fcaa60b99c8d36fd13",
-  "transaction_date": "27-5-2024",
-  "country": "-27;133"
+  "transaction_date": "3-9-2023",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872df"
 },
 {
   "_id": {
-    "$oid": "683cc9638bf92c935399eb40"
+    "$oid": "68489cc6a92c77c7faa12305"
   },
-  "article": "683ca1986355938715707e1a",
-  "provider": "683ca2026355938715707e48",
-  "consumer": "683ca1fcaa60b99c8d36fd08",
-  "transaction_date": "12-0-2025",
-  "country": "45.1667;15.5"
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd09",
+  "transaction_date": "22-3-2025",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e4"
 },
 {
   "_id": {
-    "$oid": "683cc9638bf92c935399eb41"
-  },
-  "article": "683ca1986355938715707e1a",
-  "provider": "683ca2026355938715707e48",
-  "consumer": "683ca1fcaa60b99c8d36fd0f",
-  "transaction_date": "20-0-2023",
-  "country": "45.1667;15.5"
-},
-{
-  "_id": {
-    "$oid": "683cc9638bf92c935399eb45"
-  },
-  "article": "683ca1986355938715707e1f",
-  "provider": "683ca2026355938715707e4c",
-  "consumer": "683ca1fcaa60b99c8d36fd04",
-  "transaction_date": "3-3-2023",
-  "country": "49;32"
-},
-{
-  "_id": {
-    "$oid": "683cc9638bf92c935399eb46"
+    "$oid": "68489cc6a92c77c7faa12306"
   },
   "article": "683ca1986355938715707e14",
   "provider": "683ca2026355938715707e41",
   "consumer": "683ca1fcaa60b99c8d36fd14",
-  "transaction_date": "29-4-2023",
-  "country": "38;-97"
+  "transaction_date": "12-6-2024",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872df"
 },
 {
   "_id": {
-    "$oid": "683cc9638bf92c935399eb47"
+    "$oid": "68489cc6a92c77c7faa12307"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd07",
+  "transaction_date": "19-2-2023",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489cc6a92c77c7faa12309"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd0b",
+  "transaction_date": "10-6-2023",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489cc6a92c77c7faa1230b"
   },
   "article": "683ca1986355938715707e19",
   "provider": "683ca2026355938715707e49",
   "consumer": "683ca1fcaa60b99c8d36fd12",
-  "transaction_date": "5-7-2023",
-  "country": "46;2"
+  "transaction_date": "27-4-2024",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872df"
 },
 {
   "_id": {
-    "$oid": "683cc9638bf92c935399eb4a"
+    "$oid": "68489cc6a92c77c7faa1230d"
   },
   "article": "683ca1986355938715707e19",
   "provider": "683ca2026355938715707e49",
-  "consumer": "683ca1fcaa60b99c8d36fd06",
-  "transaction_date": "4-7-2024",
-  "country": "46;2"
+  "consumer": "683ca1fcaa60b99c8d36fd0c",
+  "transaction_date": "15-1-2025",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e3"
 },
 {
   "_id": {
-    "$oid": "683cc9638bf92c935399eb4d"
-  },
-  "article": "683ca1986355938715707e19",
-  "provider": "683ca2026355938715707e49",
-  "consumer": "683ca1fcaa60b99c8d36fd14",
-  "transaction_date": "9-4-2024",
-  "country": "46;2"
-},
-{
-  "_id": {
-    "$oid": "683cc9638bf92c935399eb4c"
-  },
-  "article": "683ca1986355938715707e1f",
-  "provider": "683ca2026355938715707e4c",
-  "consumer": "683ca1fcaa60b99c8d36fd09",
-  "transaction_date": "25-7-2024",
-  "country": "49;32"
-},
-{
-  "_id": {
-    "$oid": "683cc9648bf92c935399eb50"
-  },
-  "article": "683ca1986355938715707e19",
-  "provider": "683ca2026355938715707e49",
-  "consumer": "683ca1fcaa60b99c8d36fd15",
-  "transaction_date": "29-4-2023",
-  "country": "46;2"
-},
-{
-  "_id": {
-    "$oid": "683cc9648bf92c935399eb53"
+    "$oid": "68489cc6a92c77c7faa12310"
   },
   "article": "683ca1986355938715707e1b",
   "provider": "683ca2026355938715707e47",
-  "consumer": "683ca1fcaa60b99c8d36fd09",
-  "transaction_date": "3-4-2025",
-  "country": "49;32"
+  "consumer": "683ca1fcaa60b99c8d36fd12",
+  "transaction_date": "17-2-2025",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e2"
 },
 {
   "_id": {
-    "$oid": "683cc9648bf92c935399eb52"
+    "$oid": "68489cc7a92c77c7faa12312"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd0c",
+  "transaction_date": "3-8-2023",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489cc7a92c77c7faa12313"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd16",
+  "transaction_date": "12-10-2024",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489cc7a92c77c7faa12315"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd08",
+  "transaction_date": "7-2-2025",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489cc7a92c77c7faa12319"
   },
   "article": "683ca1986355938715707e1d",
   "provider": "683ca2026355938715707e43",
-  "consumer": "683ca1fcaa60b99c8d36fd17",
-  "transaction_date": "28-0-2025",
-  "country": "46;2"
+  "consumer": "683ca1fcaa60b99c8d36fd11",
+  "transaction_date": "3-5-2023",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e2"
 },
 {
   "_id": {
-    "$oid": "683cc9648bf92c935399eb55"
-  },
-  "article": "683ca1986355938715707e14",
-  "provider": "683ca2026355938715707e41",
-  "consumer": "683ca1fcaa60b99c8d36fd0c",
-  "transaction_date": "7-10-2024",
-  "country": "38;-97"
-},
-{
-  "_id": {
-    "$oid": "683cc9648bf92c935399eb58"
-  },
-  "article": "683ca1986355938715707e1f",
-  "provider": "683ca2026355938715707e4c",
-  "consumer": "683ca1fcaa60b99c8d36fd0d",
-  "transaction_date": "6-0-2024",
-  "country": "49;32"
-},
-{
-  "_id": {
-    "$oid": "683cc9648bf92c935399eb59"
+    "$oid": "68489cc7a92c77c7faa12317"
   },
   "article": "683ca1986355938715707e1b",
   "provider": "683ca2026355938715707e47",
   "consumer": "683ca1fcaa60b99c8d36fd0c",
-  "transaction_date": "20-2-2023",
-  "country": "49;32"
+  "transaction_date": "29-4-2023",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e2"
 },
 {
   "_id": {
-    "$oid": "683cc9648bf92c935399eb5c"
+    "$oid": "68489cc7a92c77c7faa1231b"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd07",
+  "transaction_date": "23-5-2024",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489cc7a92c77c7faa1231e"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd08",
+  "transaction_date": "12-11-2023",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489cc7a92c77c7faa12320"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd0e",
+  "transaction_date": "1-9-2023",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489cc7a92c77c7faa12321"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd0b",
+  "transaction_date": "4-5-2025",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489cc7a92c77c7faa12324"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd11",
+  "transaction_date": "4-9-2024",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489cc7a92c77c7faa12325"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd06",
+  "transaction_date": "14-10-2024",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489cc7a92c77c7faa12327"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd0c",
+  "transaction_date": "7-11-2023",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489cc7a92c77c7faa12329"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd08",
+  "transaction_date": "28-6-2024",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489cc7a92c77c7faa1232c"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd0c",
+  "transaction_date": "14-1-2025",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489cc7a92c77c7faa1232d"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd11",
+  "transaction_date": "4-2-2023",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489cc7a92c77c7faa12330"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd04",
+  "transaction_date": "27-11-2024",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489cc7a92c77c7faa12331"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd07",
+  "transaction_date": "28-1-2024",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489cc8a92c77c7faa12333"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd06",
+  "transaction_date": "24-10-2024",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489cc8a92c77c7faa12335"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd17",
+  "transaction_date": "25-9-2024",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489cc8a92c77c7faa12337"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd08",
+  "transaction_date": "29-7-2023",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489cc8a92c77c7faa12339"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd0e",
+  "transaction_date": "23-4-2023",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489cc8a92c77c7faa1233c"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd10",
+  "transaction_date": "25-4-2023",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489cc8a92c77c7faa1233d"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd08",
+  "transaction_date": "2-4-2025",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489cc8a92c77c7faa1233f"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd0e",
+  "transaction_date": "11-10-2023",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489cc8a92c77c7faa12341"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd0b",
+  "transaction_date": "3-12-2024",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489cc8a92c77c7faa12343"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd07",
+  "transaction_date": "11-2-2024",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489cc8a92c77c7faa12345"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd04",
+  "transaction_date": "19-4-2024",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489cc8a92c77c7faa12348"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd04",
+  "transaction_date": "11-11-2023",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489cc8a92c77c7faa12349"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd0c",
+  "transaction_date": "14-11-2023",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489cc8a92c77c7faa1234b"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd07",
+  "transaction_date": "22-10-2023",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489cc8a92c77c7faa1234d"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd07",
+  "transaction_date": "22-1-2023",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489cc9a92c77c7faa1234f"
   },
   "article": "683ca1986355938715707e14",
   "provider": "683ca2026355938715707e41",
   "consumer": "683ca1fcaa60b99c8d36fd04",
-  "transaction_date": "4-11-2024",
-  "country": "38;-97"
+  "transaction_date": "3-2-2025",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e3"
 },
 {
   "_id": {
-    "$oid": "683cc9648bf92c935399eb5d"
+    "$oid": "68489cc9a92c77c7faa12351"
   },
-  "article": "683ca1986355938715707e1d",
-  "provider": "683ca2026355938715707e43",
-  "consumer": "683ca1fcaa60b99c8d36fd17",
-  "transaction_date": "12-3-2023",
-  "country": "46;2"
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd05",
+  "transaction_date": "13-9-2024",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e3"
 },
 {
   "_id": {
-    "$oid": "683cc9648bf92c935399eb5f"
+    "$oid": "68489cc9a92c77c7faa12354"
   },
-  "article": "683ca1986355938715707e1d",
-  "provider": "683ca2026355938715707e43",
-  "consumer": "683ca1fcaa60b99c8d36fd13",
-  "transaction_date": "30-4-2023",
-  "country": "46;2"
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd08",
+  "transaction_date": "14-6-2024",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e4"
 },
 {
   "_id": {
-    "$oid": "683cc9648bf92c935399eb61"
+    "$oid": "68489cc9a92c77c7faa12355"
   },
   "article": "683ca1986355938715707e14",
   "provider": "683ca2026355938715707e41",
   "consumer": "683ca1fcaa60b99c8d36fd0e",
-  "transaction_date": "13-0-2025",
-  "country": "38;-97"
+  "transaction_date": "15-5-2025",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872de"
 },
 {
   "_id": {
-    "$oid": "683cc9648bf92c935399eb64"
-  },
-  "article": "683ca1986355938715707e1a",
-  "provider": "683ca2026355938715707e48",
-  "consumer": "683ca1fcaa60b99c8d36fd15",
-  "transaction_date": "15-2-2023",
-  "country": "45.1667;15.5"
-},
-{
-  "_id": {
-    "$oid": "683cc9648bf92c935399eb65"
-  },
-  "article": "683ca1986355938715707e1a",
-  "provider": "683ca2026355938715707e48",
-  "consumer": "683ca1fcaa60b99c8d36fd07",
-  "transaction_date": "29-2-2024",
-  "country": "45.1667;15.5"
-},
-{
-  "_id": {
-    "$oid": "683cc9658bf92c935399eb69"
-  },
-  "article": "683ca1986355938715707e1d",
-  "provider": "683ca2026355938715707e43",
-  "consumer": "683ca1fcaa60b99c8d36fd0f",
-  "transaction_date": "6-4-2024",
-  "country": "46;2"
-},
-{
-  "_id": {
-    "$oid": "683cc9658bf92c935399eb68"
-  },
-  "article": "683ca1986355938715707e1a",
-  "provider": "683ca2026355938715707e48",
-  "consumer": "683ca1fcaa60b99c8d36fd11",
-  "transaction_date": "2-5-2023",
-  "country": "45.1667;15.5"
-},
-{
-  "_id": {
-    "$oid": "683cc9658bf92c935399eb6c"
+    "$oid": "68489cc9a92c77c7faa12357"
   },
   "article": "683ca1986355938715707e1f",
   "provider": "683ca2026355938715707e4c",
-  "consumer": "683ca1fcaa60b99c8d36fd07",
-  "transaction_date": "13-1-2024",
-  "country": "49;32"
+  "consumer": "683ca1fcaa60b99c8d36fd0b",
+  "transaction_date": "12-8-2023",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872dd"
 },
 {
   "_id": {
-    "$oid": "683cc9658bf92c935399eb6d"
-  },
-  "article": "683ca1986355938715707e1a",
-  "provider": "683ca2026355938715707e48",
-  "consumer": "683ca1fcaa60b99c8d36fd0a",
-  "transaction_date": "9-7-2023",
-  "country": "45.1667;15.5"
-},
-{
-  "_id": {
-    "$oid": "683cc9658bf92c935399eb71"
-  },
-  "article": "683ca1986355938715707e16",
-  "provider": "683ca2026355938715707e4a",
-  "consumer": "683ca1fcaa60b99c8d36fd11",
-  "transaction_date": "18-7-2024",
-  "country": "-27;133"
-},
-{
-  "_id": {
-    "$oid": "683cc9658bf92c935399eb70"
+    "$oid": "68489cc9a92c77c7faa12359"
   },
   "article": "683ca1986355938715707e1b",
   "provider": "683ca2026355938715707e47",
-  "consumer": "683ca1fcaa60b99c8d36fd0b",
-  "transaction_date": "25-4-2023",
-  "country": "49;32"
+  "consumer": "683ca1fcaa60b99c8d36fd05",
+  "transaction_date": "28-2-2025",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e4"
 },
 {
   "_id": {
-    "$oid": "683cc9658bf92c935399eb73"
+    "$oid": "68489cc9a92c77c7faa1235b"
   },
   "article": "683ca1986355938715707e1d",
   "provider": "683ca2026355938715707e43",
-  "consumer": "683ca1fcaa60b99c8d36fd0b",
-  "transaction_date": "10-1-2023",
-  "country": "46;2"
+  "consumer": "683ca1fcaa60b99c8d36fd06",
+  "transaction_date": "10-6-2023",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e1"
 },
 {
   "_id": {
-    "$oid": "683cc9658bf92c935399eb75"
+    "$oid": "68489cc9a92c77c7faa1235d"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd16",
+  "transaction_date": "6-11-2023",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489cc9a92c77c7faa12360"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd14",
+  "transaction_date": "19-11-2024",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489cc9a92c77c7faa12361"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd04",
+  "transaction_date": "28-9-2023",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489cc9a92c77c7faa12363"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd13",
+  "transaction_date": "3-12-2024",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489cc9a92c77c7faa12365"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd0b",
+  "transaction_date": "25-3-2025",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489cc9a92c77c7faa12367"
   },
   "article": "683ca1986355938715707e1b",
   "provider": "683ca2026355938715707e47",
   "consumer": "683ca1fcaa60b99c8d36fd17",
-  "transaction_date": "14-4-2025",
-  "country": "49;32"
+  "transaction_date": "24-10-2024",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e3"
 },
 {
   "_id": {
-    "$oid": "683cc9658bf92c935399eb78"
+    "$oid": "68489cc9a92c77c7faa12369"
   },
-  "article": "683ca1986355938715707e14",
-  "provider": "683ca2026355938715707e41",
-  "consumer": "683ca1fcaa60b99c8d36fd16",
-  "transaction_date": "20-4-2025",
-  "country": "38;-97"
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd14",
+  "transaction_date": "21-4-2024",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872dd"
 },
 {
   "_id": {
-    "$oid": "683cc9658bf92c935399eb79"
+    "$oid": "68489cc9a92c77c7faa1236b"
   },
-  "article": "683ca1986355938715707e1d",
-  "provider": "683ca2026355938715707e43",
-  "consumer": "683ca1fcaa60b99c8d36fd11",
-  "transaction_date": "27-7-2024",
-  "country": "46;2"
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd09",
+  "transaction_date": "8-5-2023",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872df"
 },
 {
   "_id": {
-    "$oid": "683cc9658bf92c935399eb7c"
-  },
-  "article": "683ca1986355938715707e16",
-  "provider": "683ca2026355938715707e4a",
-  "consumer": "683ca1fcaa60b99c8d36fd10",
-  "transaction_date": "12-10-2024",
-  "country": "-27;133"
-},
-{
-  "_id": {
-    "$oid": "683cc9658bf92c935399eb7d"
-  },
-  "article": "683ca1986355938715707e16",
-  "provider": "683ca2026355938715707e4a",
-  "consumer": "683ca1fcaa60b99c8d36fd04",
-  "transaction_date": "18-3-2023",
-  "country": "-27;133"
-},
-{
-  "_id": {
-    "$oid": "683cc9658bf92c935399eb7f"
-  },
-  "article": "683ca1986355938715707e1d",
-  "provider": "683ca2026355938715707e43",
-  "consumer": "683ca1fcaa60b99c8d36fd11",
-  "transaction_date": "28-6-2023",
-  "country": "46;2"
-},
-{
-  "_id": {
-    "$oid": "683cc9658bf92c935399eb81"
+    "$oid": "68489cc9a92c77c7faa1236d"
   },
   "article": "683ca1986355938715707e1a",
   "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd0e",
+  "transaction_date": "15-12-2023",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489ccaa92c77c7faa12370"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
   "consumer": "683ca1fcaa60b99c8d36fd09",
-  "transaction_date": "30-8-2024",
-  "country": "45.1667;15.5"
+  "transaction_date": "3-2-2025",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e3"
 },
 {
   "_id": {
-    "$oid": "683cc9668bf92c935399eb83"
+    "$oid": "68489ccaa92c77c7faa12371"
   },
   "article": "683ca1986355938715707e1f",
   "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd0e",
+  "transaction_date": "28-10-2023",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489ccaa92c77c7faa12373"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd11",
+  "transaction_date": "14-2-2023",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489ccaa92c77c7faa12375"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
   "consumer": "683ca1fcaa60b99c8d36fd0a",
-  "transaction_date": "10-7-2024",
-  "country": "49;32"
+  "transaction_date": "15-2-2025",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872de"
 },
 {
   "_id": {
-    "$oid": "683cc9668bf92c935399eb85"
+    "$oid": "68489ccaa92c77c7faa12377"
   },
-  "article": "683ca1986355938715707e1f",
-  "provider": "683ca2026355938715707e4c",
-  "consumer": "683ca1fcaa60b99c8d36fd06",
-  "transaction_date": "26-4-2024",
-  "country": "49;32"
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd07",
+  "transaction_date": "25-1-2024",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872df"
 },
 {
   "_id": {
-    "$oid": "683cc9668bf92c935399eb87"
+    "$oid": "68489ccaa92c77c7faa12379"
   },
-  "article": "683ca1986355938715707e1f",
-  "provider": "683ca2026355938715707e4c",
-  "consumer": "683ca1fcaa60b99c8d36fd06",
-  "transaction_date": "6-11-2024",
-  "country": "49;32"
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd0e",
+  "transaction_date": "2-8-2024",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872de"
 },
 {
   "_id": {
-    "$oid": "683cc9668bf92c935399eb89"
+    "$oid": "68489ccaa92c77c7faa1237c"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd08",
+  "transaction_date": "6-5-2024",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489ccaa92c77c7faa1237d"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd04",
+  "transaction_date": "7-6-2024",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489ccaa92c77c7faa1237f"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd17",
+  "transaction_date": "9-12-2024",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489ccaa92c77c7faa12381"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd0e",
+  "transaction_date": "7-4-2024",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489ccaa92c77c7faa12383"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd17",
+  "transaction_date": "9-12-2023",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489ccaa92c77c7faa12385"
   },
   "article": "683ca1986355938715707e16",
   "provider": "683ca2026355938715707e4a",
   "consumer": "683ca1fcaa60b99c8d36fd12",
-  "transaction_date": "17-1-2023",
-  "country": "-27;133"
+  "transaction_date": "7-4-2025",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872df"
 },
 {
   "_id": {
-    "$oid": "683cc9668bf92c935399eb8b"
-  },
-  "article": "683ca1986355938715707e1b",
-  "provider": "683ca2026355938715707e47",
-  "consumer": "683ca1fcaa60b99c8d36fd16",
-  "transaction_date": "16-2-2025",
-  "country": "49;32"
-},
-{
-  "_id": {
-    "$oid": "683cc9668bf92c935399eb8d"
-  },
-  "article": "683ca1986355938715707e1a",
-  "provider": "683ca2026355938715707e48",
-  "consumer": "683ca1fcaa60b99c8d36fd08",
-  "transaction_date": "10-4-2024",
-  "country": "45.1667;15.5"
-},
-{
-  "_id": {
-    "$oid": "683cc9668bf92c935399eb8f"
+    "$oid": "68489ccaa92c77c7faa12388"
   },
   "article": "683ca1986355938715707e19",
   "provider": "683ca2026355938715707e49",
-  "consumer": "683ca1fcaa60b99c8d36fd09",
-  "transaction_date": "10-8-2024",
-  "country": "46;2"
+  "consumer": "683ca1fcaa60b99c8d36fd05",
+  "transaction_date": "5-12-2023",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e4"
 },
 {
   "_id": {
-    "$oid": "683cc9668bf92c935399eb91"
-  },
-  "article": "683ca1986355938715707e1a",
-  "provider": "683ca2026355938715707e48",
-  "consumer": "683ca1fcaa60b99c8d36fd0a",
-  "transaction_date": "4-3-2024",
-  "country": "45.1667;15.5"
-},
-{
-  "_id": {
-    "$oid": "683cc9668bf92c935399eb94"
+    "$oid": "68489ccaa92c77c7faa12389"
   },
   "article": "683ca1986355938715707e1f",
   "provider": "683ca2026355938715707e4c",
-  "consumer": "683ca1fcaa60b99c8d36fd11",
-  "transaction_date": "3-0-2023",
-  "country": "49;32"
+  "consumer": "683ca1fcaa60b99c8d36fd16",
+  "transaction_date": "29-1-2023",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e2"
 },
 {
   "_id": {
-    "$oid": "683cc9668bf92c935399eb95"
+    "$oid": "68489ccaa92c77c7faa1238b"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd06",
+  "transaction_date": "19-10-2024",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489ccaa92c77c7faa1238d"
   },
   "article": "683ca1986355938715707e16",
   "provider": "683ca2026355938715707e4a",
-  "consumer": "683ca1fcaa60b99c8d36fd07",
-  "transaction_date": "24-1-2025",
-  "country": "-27;133"
-},
-{
-  "_id": {
-    "$oid": "683cc9668bf92c935399eb98"
-  },
-  "article": "683ca1986355938715707e14",
-  "provider": "683ca2026355938715707e41",
-  "consumer": "683ca1fcaa60b99c8d36fd0b",
-  "transaction_date": "15-5-2024",
-  "country": "38;-97"
-},
-{
-  "_id": {
-    "$oid": "683cc9668bf92c935399eb99"
-  },
-  "article": "683ca1986355938715707e19",
-  "provider": "683ca2026355938715707e49",
-  "consumer": "683ca1fcaa60b99c8d36fd0d",
-  "transaction_date": "5-4-2025",
-  "country": "46;2"
-},
-{
-  "_id": {
-    "$oid": "683cc9668bf92c935399eb9b"
-  },
-  "article": "683ca1986355938715707e1b",
-  "provider": "683ca2026355938715707e47",
-  "consumer": "683ca1fcaa60b99c8d36fd0a",
-  "transaction_date": "12-4-2023",
-  "country": "49;32"
-},
-{
-  "_id": {
-    "$oid": "683cc9668bf92c935399eb9d"
-  },
-  "article": "683ca1986355938715707e14",
-  "provider": "683ca2026355938715707e41",
-  "consumer": "683ca1fcaa60b99c8d36fd05",
-  "transaction_date": "9-9-2023",
-  "country": "38;-97"
-},
-{
-  "_id": {
-    "$oid": "683cc9668bf92c935399eb9f"
-  },
-  "article": "683ca1986355938715707e1b",
-  "provider": "683ca2026355938715707e47",
   "consumer": "683ca1fcaa60b99c8d36fd15",
-  "transaction_date": "6-8-2023",
-  "country": "49;32"
+  "transaction_date": "21-1-2025",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872df"
 },
 {
   "_id": {
-    "$oid": "683cc9678bf92c935399eba1"
-  },
-  "article": "683ca1986355938715707e14",
-  "provider": "683ca2026355938715707e41",
-  "consumer": "683ca1fcaa60b99c8d36fd05",
-  "transaction_date": "28-4-2024",
-  "country": "38;-97"
-},
-{
-  "_id": {
-    "$oid": "683cc9678bf92c935399eba4"
-  },
-  "article": "683ca1986355938715707e1f",
-  "provider": "683ca2026355938715707e4c",
-  "consumer": "683ca1fcaa60b99c8d36fd0b",
-  "transaction_date": "16-1-2025",
-  "country": "49;32"
-},
-{
-  "_id": {
-    "$oid": "683cc9678bf92c935399eba5"
-  },
-  "article": "683ca1986355938715707e1d",
-  "provider": "683ca2026355938715707e43",
-  "consumer": "683ca1fcaa60b99c8d36fd06",
-  "transaction_date": "4-3-2024",
-  "country": "46;2"
-},
-{
-  "_id": {
-    "$oid": "683cc9678bf92c935399eba8"
+    "$oid": "68489ccba92c77c7faa1238f"
   },
   "article": "683ca1986355938715707e1a",
   "provider": "683ca2026355938715707e48",
-  "consumer": "683ca1fcaa60b99c8d36fd06",
-  "transaction_date": "2-1-2024",
-  "country": "45.1667;15.5"
+  "consumer": "683ca1fcaa60b99c8d36fd10",
+  "transaction_date": "21-1-2023",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872de"
 },
 {
   "_id": {
-    "$oid": "683cc9678bf92c935399eba9"
+    "$oid": "68489ccba92c77c7faa12391"
   },
-  "article": "683ca1986355938715707e1d",
-  "provider": "683ca2026355938715707e43",
-  "consumer": "683ca1fcaa60b99c8d36fd09",
-  "transaction_date": "18-6-2023",
-  "country": "46;2"
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd14",
+  "transaction_date": "14-6-2023",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e0"
 },
 {
   "_id": {
-    "$oid": "683cc9678bf92c935399ebad"
+    "$oid": "68489ccba92c77c7faa12394"
   },
   "article": "683ca1986355938715707e19",
   "provider": "683ca2026355938715707e49",
-  "consumer": "683ca1fcaa60b99c8d36fd0b",
-  "transaction_date": "4-3-2024",
-  "country": "46;2"
+  "consumer": "683ca1fcaa60b99c8d36fd11",
+  "transaction_date": "14-1-2024",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872df"
 },
 {
   "_id": {
-    "$oid": "683cc9678bf92c935399ebac"
+    "$oid": "68489ccba92c77c7faa12395"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd14",
+  "transaction_date": "27-10-2024",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489ccba92c77c7faa12397"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd15",
+  "transaction_date": "2-3-2023",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489ccba92c77c7faa12399"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd0b",
+  "transaction_date": "10-5-2025",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489ccba92c77c7faa1239b"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd17",
+  "transaction_date": "24-5-2025",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489ccba92c77c7faa1239d"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd15",
+  "transaction_date": "8-3-2023",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489ccba92c77c7faa123a0"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd0b",
+  "transaction_date": "22-5-2024",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489ccba92c77c7faa123a1"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd14",
+  "transaction_date": "26-4-2024",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489ccba92c77c7faa123a3"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd0c",
+  "transaction_date": "23-9-2024",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489ccba92c77c7faa123a5"
   },
   "article": "683ca1986355938715707e1d",
   "provider": "683ca2026355938715707e43",
-  "consumer": "683ca1fcaa60b99c8d36fd11",
-  "transaction_date": "10-6-2023",
-  "country": "46;2"
-},
-{
-  "_id": {
-    "$oid": "683cc9678bf92c935399ebb0"
-  },
-  "article": "683ca1986355938715707e1f",
-  "provider": "683ca2026355938715707e4c",
-  "consumer": "683ca1fcaa60b99c8d36fd13",
-  "transaction_date": "10-4-2025",
-  "country": "49;32"
-},
-{
-  "_id": {
-    "$oid": "683cc9678bf92c935399ebb1"
-  },
-  "article": "683ca1986355938715707e1f",
-  "provider": "683ca2026355938715707e4c",
   "consumer": "683ca1fcaa60b99c8d36fd15",
-  "transaction_date": "7-1-2023",
-  "country": "49;32"
+  "transaction_date": "19-1-2025",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872df"
 },
 {
   "_id": {
-    "$oid": "683cc9678bf92c935399ebb3"
+    "$oid": "68489ccba92c77c7faa123a7"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd05",
+  "transaction_date": "12-10-2024",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489ccba92c77c7faa123a9"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd0d",
+  "transaction_date": "10-9-2023",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489ccba92c77c7faa123ad"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd0b",
+  "transaction_date": "16-6-2023",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489ccba92c77c7faa123ac"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd17",
+  "transaction_date": "14-4-2023",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489ccca92c77c7faa123af"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd15",
+  "transaction_date": "9-7-2023",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489ccca92c77c7faa123b1"
   },
   "article": "683ca1986355938715707e19",
   "provider": "683ca2026355938715707e49",
   "consumer": "683ca1fcaa60b99c8d36fd09",
   "transaction_date": "8-1-2024",
-  "country": "46;2"
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872de"
 },
 {
   "_id": {
-    "$oid": "683cc9678bf92c935399ebb5"
-  },
-  "article": "683ca1986355938715707e19",
-  "provider": "683ca2026355938715707e49",
-  "consumer": "683ca1fcaa60b99c8d36fd0c",
-  "transaction_date": "19-9-2023",
-  "country": "46;2"
-},
-{
-  "_id": {
-    "$oid": "683cc9678bf92c935399ebb7"
-  },
-  "article": "683ca1986355938715707e19",
-  "provider": "683ca2026355938715707e49",
-  "consumer": "683ca1fcaa60b99c8d36fd0b",
-  "transaction_date": "14-6-2023",
-  "country": "46;2"
-},
-{
-  "_id": {
-    "$oid": "683cc9678bf92c935399ebb9"
-  },
-  "article": "683ca1986355938715707e16",
-  "provider": "683ca2026355938715707e4a",
-  "consumer": "683ca1fcaa60b99c8d36fd0e",
-  "transaction_date": "28-8-2024",
-  "country": "-27;133"
-},
-{
-  "_id": {
-    "$oid": "683cc9678bf92c935399ebbb"
-  },
-  "article": "683ca1986355938715707e1a",
-  "provider": "683ca2026355938715707e48",
-  "consumer": "683ca1fcaa60b99c8d36fd0d",
-  "transaction_date": "18-1-2025",
-  "country": "45.1667;15.5"
-},
-{
-  "_id": {
-    "$oid": "683cc9688bf92c935399ebbd"
-  },
-  "article": "683ca1986355938715707e14",
-  "provider": "683ca2026355938715707e41",
-  "consumer": "683ca1fcaa60b99c8d36fd0d",
-  "transaction_date": "13-6-2023",
-  "country": "38;-97"
-},
-{
-  "_id": {
-    "$oid": "683cc9688bf92c935399ebbf"
-  },
-  "article": "683ca1986355938715707e19",
-  "provider": "683ca2026355938715707e49",
-  "consumer": "683ca1fcaa60b99c8d36fd14",
-  "transaction_date": "5-0-2025",
-  "country": "46;2"
-},
-{
-  "_id": {
-    "$oid": "683cc9688bf92c935399ebc1"
-  },
-  "article": "683ca1986355938715707e1b",
-  "provider": "683ca2026355938715707e47",
-  "consumer": "683ca1fcaa60b99c8d36fd0c",
-  "transaction_date": "8-10-2024",
-  "country": "49;32"
-},
-{
-  "_id": {
-    "$oid": "683cc9688bf92c935399ebc3"
-  },
-  "article": "683ca1986355938715707e14",
-  "provider": "683ca2026355938715707e41",
-  "consumer": "683ca1fcaa60b99c8d36fd09",
-  "transaction_date": "15-11-2024",
-  "country": "38;-97"
-},
-{
-  "_id": {
-    "$oid": "683cc9688bf92c935399ebc5"
-  },
-  "article": "683ca1986355938715707e1a",
-  "provider": "683ca2026355938715707e48",
-  "consumer": "683ca1fcaa60b99c8d36fd16",
-  "transaction_date": "6-5-2023",
-  "country": "45.1667;15.5"
-},
-{
-  "_id": {
-    "$oid": "683cc9688bf92c935399ebc7"
-  },
-  "article": "683ca1986355938715707e1d",
-  "provider": "683ca2026355938715707e43",
-  "consumer": "683ca1fcaa60b99c8d36fd10",
-  "transaction_date": "5-4-2023",
-  "country": "46;2"
-},
-{
-  "_id": {
-    "$oid": "683cc9688bf92c935399ebc9"
-  },
-  "article": "683ca1986355938715707e1f",
-  "provider": "683ca2026355938715707e4c",
-  "consumer": "683ca1fcaa60b99c8d36fd0c",
-  "transaction_date": "14-11-2024",
-  "country": "49;32"
-},
-{
-  "_id": {
-    "$oid": "683cc9688bf92c935399ebcb"
-  },
-  "article": "683ca1986355938715707e1b",
-  "provider": "683ca2026355938715707e47",
-  "consumer": "683ca1fcaa60b99c8d36fd0b",
-  "transaction_date": "11-4-2024",
-  "country": "49;32"
-},
-{
-  "_id": {
-    "$oid": "683cc9688bf92c935399ebce"
-  },
-  "article": "683ca1986355938715707e1a",
-  "provider": "683ca2026355938715707e48",
-  "consumer": "683ca1fcaa60b99c8d36fd08",
-  "transaction_date": "8-2-2025",
-  "country": "45.1667;15.5"
-},
-{
-  "_id": {
-    "$oid": "683cc9688bf92c935399ebd0"
-  },
-  "article": "683ca1986355938715707e1f",
-  "provider": "683ca2026355938715707e4c",
-  "consumer": "683ca1fcaa60b99c8d36fd12",
-  "transaction_date": "9-2-2023",
-  "country": "49;32"
-},
-{
-  "_id": {
-    "$oid": "683cc9688bf92c935399ebd1"
-  },
-  "article": "683ca1986355938715707e1f",
-  "provider": "683ca2026355938715707e4c",
-  "consumer": "683ca1fcaa60b99c8d36fd0a",
-  "transaction_date": "25-2-2024",
-  "country": "49;32"
-},
-{
-  "_id": {
-    "$oid": "683cc9688bf92c935399ebd3"
-  },
-  "article": "683ca1986355938715707e16",
-  "provider": "683ca2026355938715707e4a",
-  "consumer": "683ca1fcaa60b99c8d36fd0d",
-  "transaction_date": "21-7-2023",
-  "country": "-27;133"
-},
-{
-  "_id": {
-    "$oid": "683cc9688bf92c935399ebd5"
-  },
-  "article": "683ca1986355938715707e19",
-  "provider": "683ca2026355938715707e49",
-  "consumer": "683ca1fcaa60b99c8d36fd08",
-  "transaction_date": "3-4-2023",
-  "country": "46;2"
-},
-{
-  "_id": {
-    "$oid": "683cc9688bf92c935399ebd7"
+    "$oid": "68489ccca92c77c7faa123b3"
   },
   "article": "683ca1986355938715707e1b",
   "provider": "683ca2026355938715707e47",
   "consumer": "683ca1fcaa60b99c8d36fd05",
-  "transaction_date": "6-10-2023",
-  "country": "49;32"
+  "transaction_date": "6-6-2025",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e2"
 },
 {
   "_id": {
-    "$oid": "683cc9698bf92c935399ebdc"
-  },
-  "article": "683ca1986355938715707e1a",
-  "provider": "683ca2026355938715707e48",
-  "consumer": "683ca1fcaa60b99c8d36fd06",
-  "transaction_date": "6-4-2023",
-  "country": "45.1667;15.5"
-},
-{
-  "_id": {
-    "$oid": "683cc9698bf92c935399ebdb"
+    "$oid": "68489ccca92c77c7faa123b5"
   },
   "article": "683ca1986355938715707e1d",
   "provider": "683ca2026355938715707e43",
-  "consumer": "683ca1fcaa60b99c8d36fd06",
-  "transaction_date": "1-10-2023",
-  "country": "46;2"
-},
-{
-  "_id": {
-    "$oid": "683cc9698bf92c935399ebdd"
-  },
-  "article": "683ca1986355938715707e1b",
-  "provider": "683ca2026355938715707e47",
-  "consumer": "683ca1fcaa60b99c8d36fd0f",
-  "transaction_date": "28-1-2023",
-  "country": "49;32"
-},
-{
-  "_id": {
-    "$oid": "683cc9698bf92c935399ebdf"
-  },
-  "article": "683ca1986355938715707e1a",
-  "provider": "683ca2026355938715707e48",
-  "consumer": "683ca1fcaa60b99c8d36fd14",
-  "transaction_date": "19-1-2023",
-  "country": "45.1667;15.5"
-},
-{
-  "_id": {
-    "$oid": "683cc9698bf92c935399ebe1"
-  },
-  "article": "683ca1986355938715707e1f",
-  "provider": "683ca2026355938715707e4c",
-  "consumer": "683ca1fcaa60b99c8d36fd0c",
-  "transaction_date": "20-2-2023",
-  "country": "49;32"
-},
-{
-  "_id": {
-    "$oid": "683cc9698bf92c935399ebe3"
-  },
-  "article": "683ca1986355938715707e1b",
-  "provider": "683ca2026355938715707e47",
-  "consumer": "683ca1fcaa60b99c8d36fd16",
-  "transaction_date": "27-1-2023",
-  "country": "49;32"
-},
-{
-  "_id": {
-    "$oid": "683cc9698bf92c935399ebe7"
-  },
-  "article": "683ca1986355938715707e1b",
-  "provider": "683ca2026355938715707e47",
-  "consumer": "683ca1fcaa60b99c8d36fd0e",
-  "transaction_date": "15-6-2024",
-  "country": "49;32"
-},
-{
-  "_id": {
-    "$oid": "683cc9698bf92c935399ebe8"
-  },
-  "article": "683ca1986355938715707e1d",
-  "provider": "683ca2026355938715707e43",
-  "consumer": "683ca1fcaa60b99c8d36fd09",
-  "transaction_date": "9-8-2023",
-  "country": "46;2"
-},
-{
-  "_id": {
-    "$oid": "683cc9698bf92c935399ebe9"
-  },
-  "article": "683ca1986355938715707e16",
-  "provider": "683ca2026355938715707e4a",
-  "consumer": "683ca1fcaa60b99c8d36fd11",
-  "transaction_date": "16-2-2025",
-  "country": "-27;133"
-},
-{
-  "_id": {
-    "$oid": "683cc9698bf92c935399ebeb"
-  },
-  "article": "683ca1986355938715707e19",
-  "provider": "683ca2026355938715707e49",
-  "consumer": "683ca1fcaa60b99c8d36fd08",
-  "transaction_date": "10-0-2024",
-  "country": "46;2"
-},
-{
-  "_id": {
-    "$oid": "683cc9698bf92c935399ebed"
-  },
-  "article": "683ca1986355938715707e1a",
-  "provider": "683ca2026355938715707e48",
-  "consumer": "683ca1fcaa60b99c8d36fd11",
-  "transaction_date": "3-0-2023",
-  "country": "45.1667;15.5"
-},
-{
-  "_id": {
-    "$oid": "683cc9698bf92c935399ebef"
-  },
-  "article": "683ca1986355938715707e14",
-  "provider": "683ca2026355938715707e41",
-  "consumer": "683ca1fcaa60b99c8d36fd06",
-  "transaction_date": "31-6-2024",
-  "country": "38;-97"
-},
-{
-  "_id": {
-    "$oid": "683cc9698bf92c935399ebf1"
-  },
-  "article": "683ca1986355938715707e19",
-  "provider": "683ca2026355938715707e49",
-  "consumer": "683ca1fcaa60b99c8d36fd0f",
-  "transaction_date": "23-10-2024",
-  "country": "46;2"
-},
-{
-  "_id": {
-    "$oid": "683cc9698bf92c935399ebf4"
-  },
-  "article": "683ca1986355938715707e1f",
-  "provider": "683ca2026355938715707e4c",
-  "consumer": "683ca1fcaa60b99c8d36fd12",
-  "transaction_date": "30-11-2024",
-  "country": "49;32"
-},
-{
-  "_id": {
-    "$oid": "683cc9698bf92c935399ebf5"
-  },
-  "article": "683ca1986355938715707e14",
-  "provider": "683ca2026355938715707e41",
-  "consumer": "683ca1fcaa60b99c8d36fd04",
-  "transaction_date": "30-10-2023",
-  "country": "38;-97"
-},
-{
-  "_id": {
-    "$oid": "683cc9698bf92c935399ebf7"
-  },
-  "article": "683ca1986355938715707e1b",
-  "provider": "683ca2026355938715707e47",
-  "consumer": "683ca1fcaa60b99c8d36fd07",
-  "transaction_date": "11-4-2023",
-  "country": "49;32"
-},
-{
-  "_id": {
-    "$oid": "683cc96a8bf92c935399ebfb"
-  },
-  "article": "683ca1986355938715707e14",
-  "provider": "683ca2026355938715707e41",
-  "consumer": "683ca1fcaa60b99c8d36fd05",
-  "transaction_date": "25-1-2024",
-  "country": "38;-97"
-},
-{
-  "_id": {
-    "$oid": "683cc96a8bf92c935399ebfa"
-  },
-  "article": "683ca1986355938715707e19",
-  "provider": "683ca2026355938715707e49",
-  "consumer": "683ca1fcaa60b99c8d36fd07",
-  "transaction_date": "22-2-2023",
-  "country": "46;2"
-},
-{
-  "_id": {
-    "$oid": "683cc96a8bf92c935399ebfd"
-  },
-  "article": "683ca1986355938715707e1b",
-  "provider": "683ca2026355938715707e47",
-  "consumer": "683ca1fcaa60b99c8d36fd08",
-  "transaction_date": "14-9-2024",
-  "country": "49;32"
-},
-{
-  "_id": {
-    "$oid": "683cc96a8bf92c935399ec00"
-  },
-  "article": "683ca1986355938715707e1b",
-  "provider": "683ca2026355938715707e47",
-  "consumer": "683ca1fcaa60b99c8d36fd14",
-  "transaction_date": "13-1-2023",
-  "country": "49;32"
-},
-{
-  "_id": {
-    "$oid": "683cc96a8bf92c935399ec01"
-  },
-  "article": "683ca1986355938715707e16",
-  "provider": "683ca2026355938715707e4a",
-  "consumer": "683ca1fcaa60b99c8d36fd07",
-  "transaction_date": "12-10-2024",
-  "country": "-27;133"
-},
-{
-  "_id": {
-    "$oid": "683cc96a8bf92c935399ec03"
-  },
-  "article": "683ca1986355938715707e14",
-  "provider": "683ca2026355938715707e41",
-  "consumer": "683ca1fcaa60b99c8d36fd09",
-  "transaction_date": "15-8-2023",
-  "country": "38;-97"
-},
-{
-  "_id": {
-    "$oid": "683cc9778bf92c935399ec0e"
-  },
-  "article": "683ca1986355938715707e1b",
-  "provider": "683ca2026355938715707e47",
   "consumer": "683ca1fcaa60b99c8d36fd15",
-  "transaction_date": "17-0-2025",
-  "country": "49;32"
+  "transaction_date": "23-2-2025",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e3"
 },
 {
   "_id": {
-    "$oid": "683cc9778bf92c935399ec0d"
+    "$oid": "68489ccca92c77c7faa123b8"
   },
-  "article": "683ca1986355938715707e1f",
-  "provider": "683ca2026355938715707e4c",
-  "consumer": "683ca1fcaa60b99c8d36fd0c",
-  "transaction_date": "6-3-2024",
-  "country": "49;32"
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd0b",
+  "transaction_date": "25-5-2025",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e1"
 },
 {
   "_id": {
-    "$oid": "683cc9778bf92c935399ec0f"
+    "$oid": "68489ccca92c77c7faa123b9"
   },
-  "article": "683ca1986355938715707e16",
-  "provider": "683ca2026355938715707e4a",
-  "consumer": "683ca1fcaa60b99c8d36fd07",
-  "transaction_date": "12-7-2024",
-  "country": "-27;133"
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd16",
+  "transaction_date": "7-8-2024",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872df"
 },
 {
   "_id": {
-    "$oid": "683cc9778bf92c935399ec0c"
-  },
-  "article": "683ca1986355938715707e16",
-  "provider": "683ca2026355938715707e4a",
-  "consumer": "683ca1fcaa60b99c8d36fd06",
-  "transaction_date": "1-6-2024",
-  "country": "-27;133"
-},
-{
-  "_id": {
-    "$oid": "683cc9778bf92c935399ec10"
-  },
-  "article": "683ca1986355938715707e14",
-  "provider": "683ca2026355938715707e41",
-  "consumer": "683ca1fcaa60b99c8d36fd11",
-  "transaction_date": "27-6-2024",
-  "country": "38;-97"
-},
-{
-  "_id": {
-    "$oid": "683cc9778bf92c935399ec12"
-  },
-  "article": "683ca1986355938715707e1f",
-  "provider": "683ca2026355938715707e4c",
-  "consumer": "683ca1fcaa60b99c8d36fd08",
-  "transaction_date": "15-2-2023",
-  "country": "49;32"
-},
-{
-  "_id": {
-    "$oid": "683cc9778bf92c935399ec17"
-  },
-  "article": "683ca1986355938715707e1f",
-  "provider": "683ca2026355938715707e4c",
-  "consumer": "683ca1fcaa60b99c8d36fd0f",
-  "transaction_date": "31-11-2024",
-  "country": "49;32"
-},
-{
-  "_id": {
-    "$oid": "683cc9778bf92c935399ec1a"
+    "$oid": "68489ccca92c77c7faa123bb"
   },
   "article": "683ca1986355938715707e1b",
   "provider": "683ca2026355938715707e47",
   "consumer": "683ca1fcaa60b99c8d36fd13",
-  "transaction_date": "17-1-2023",
-  "country": "49;32"
+  "transaction_date": "11-3-2023",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e1"
 },
 {
   "_id": {
-    "$oid": "683cc9778bf92c935399ec19"
+    "$oid": "68489ccca92c77c7faa123bd"
   },
-  "article": "683ca1986355938715707e1b",
-  "provider": "683ca2026355938715707e47",
-  "consumer": "683ca1fcaa60b99c8d36fd04",
-  "transaction_date": "9-3-2025",
-  "country": "49;32"
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd13",
+  "transaction_date": "1-1-2025",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e1"
 },
 {
   "_id": {
-    "$oid": "683cc9778bf92c935399ec1c"
+    "$oid": "68489ccca92c77c7faa123bf"
   },
-  "article": "683ca1986355938715707e1b",
-  "provider": "683ca2026355938715707e47",
-  "consumer": "683ca1fcaa60b99c8d36fd17",
-  "transaction_date": "11-4-2025",
-  "country": "49;32"
-},
-{
-  "_id": {
-    "$oid": "683cc9778bf92c935399ec1d"
-  },
-  "article": "683ca1986355938715707e16",
-  "provider": "683ca2026355938715707e4a",
-  "consumer": "683ca1fcaa60b99c8d36fd06",
-  "transaction_date": "2-0-2025",
-  "country": "-27;133"
-},
-{
-  "_id": {
-    "$oid": "683cc9778bf92c935399ec1e"
-  },
-  "article": "683ca1986355938715707e1a",
-  "provider": "683ca2026355938715707e48",
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
   "consumer": "683ca1fcaa60b99c8d36fd15",
-  "transaction_date": "27-1-2024",
-  "country": "45.1667;15.5"
+  "transaction_date": "8-7-2023",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872dd"
 },
 {
   "_id": {
-    "$oid": "683cc9788bf92c935399ec21"
-  },
-  "article": "683ca1986355938715707e16",
-  "provider": "683ca2026355938715707e4a",
-  "consumer": "683ca1fcaa60b99c8d36fd0b",
-  "transaction_date": "6-3-2023",
-  "country": "-27;133"
-},
-{
-  "_id": {
-    "$oid": "683cc9788bf92c935399ec27"
-  },
-  "article": "683ca1986355938715707e19",
-  "provider": "683ca2026355938715707e49",
-  "consumer": "683ca1fcaa60b99c8d36fd05",
-  "transaction_date": "25-2-2023",
-  "country": "46;2"
-},
-{
-  "_id": {
-    "$oid": "683cc9788bf92c935399ec24"
-  },
-  "article": "683ca1986355938715707e1d",
-  "provider": "683ca2026355938715707e43",
-  "consumer": "683ca1fcaa60b99c8d36fd0f",
-  "transaction_date": "6-8-2024",
-  "country": "46;2"
-},
-{
-  "_id": {
-    "$oid": "683cc9788bf92c935399ec28"
-  },
-  "article": "683ca1986355938715707e16",
-  "provider": "683ca2026355938715707e4a",
-  "consumer": "683ca1fcaa60b99c8d36fd0c",
-  "transaction_date": "4-11-2023",
-  "country": "-27;133"
-},
-{
-  "_id": {
-    "$oid": "683cc9788bf92c935399ec29"
-  },
-  "article": "683ca1986355938715707e19",
-  "provider": "683ca2026355938715707e49",
-  "consumer": "683ca1fcaa60b99c8d36fd16",
-  "transaction_date": "21-5-2023",
-  "country": "46;2"
-},
-{
-  "_id": {
-    "$oid": "683cc9788bf92c935399ec2a"
-  },
-  "article": "683ca1986355938715707e16",
-  "provider": "683ca2026355938715707e4a",
-  "consumer": "683ca1fcaa60b99c8d36fd08",
-  "transaction_date": "4-4-2025",
-  "country": "-27;133"
-},
-{
-  "_id": {
-    "$oid": "683cc9788bf92c935399ec2c"
+    "$oid": "68489ccca92c77c7faa123c1"
   },
   "article": "683ca1986355938715707e1b",
   "provider": "683ca2026355938715707e47",
   "consumer": "683ca1fcaa60b99c8d36fd07",
-  "transaction_date": "23-2-2023",
-  "country": "49;32"
+  "transaction_date": "6-8-2023",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e2"
 },
 {
   "_id": {
-    "$oid": "683cc9798bf92c935399ec2f"
-  },
-  "article": "683ca1986355938715707e14",
-  "provider": "683ca2026355938715707e41",
-  "consumer": "683ca1fcaa60b99c8d36fd06",
-  "transaction_date": "14-5-2024",
-  "country": "38;-97"
-},
-{
-  "_id": {
-    "$oid": "683cc9798bf92c935399ec32"
-  },
-  "article": "683ca1986355938715707e16",
-  "provider": "683ca2026355938715707e4a",
-  "consumer": "683ca1fcaa60b99c8d36fd14",
-  "transaction_date": "29-5-2023",
-  "country": "-27;133"
-},
-{
-  "_id": {
-    "$oid": "683cc9798bf92c935399ec36"
+    "$oid": "68489ccca92c77c7faa123c4"
   },
   "article": "683ca1986355938715707e1b",
   "provider": "683ca2026355938715707e47",
   "consumer": "683ca1fcaa60b99c8d36fd16",
-  "transaction_date": "17-4-2024",
-  "country": "49;32"
+  "transaction_date": "9-3-2025",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e0"
 },
 {
   "_id": {
-    "$oid": "683cc9798bf92c935399ec35"
+    "$oid": "68489ccca92c77c7faa123c5"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd0e",
+  "transaction_date": "13-2-2023",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489ccca92c77c7faa123c7"
   },
   "article": "683ca1986355938715707e16",
   "provider": "683ca2026355938715707e4a",
-  "consumer": "683ca1fcaa60b99c8d36fd16",
-  "transaction_date": "10-0-2025",
-  "country": "-27;133"
+  "consumer": "683ca1fcaa60b99c8d36fd0b",
+  "transaction_date": "15-4-2023",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e0"
 },
 {
   "_id": {
-    "$oid": "683cc9798bf92c935399ec37"
+    "$oid": "68489ccca92c77c7faa123c9"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd17",
+  "transaction_date": "4-9-2023",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489ccca92c77c7faa123cb"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd10",
+  "transaction_date": "9-10-2024",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489ccca92c77c7faa123cd"
   },
   "article": "683ca1986355938715707e1a",
   "provider": "683ca2026355938715707e48",
-  "consumer": "683ca1fcaa60b99c8d36fd11",
-  "transaction_date": "19-6-2023",
-  "country": "45.1667;15.5"
+  "consumer": "683ca1fcaa60b99c8d36fd05",
+  "transaction_date": "20-4-2023",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e3"
 },
 {
   "_id": {
-    "$oid": "683cc9798bf92c935399ec38"
+    "$oid": "68489ccda92c77c7faa123d0"
   },
-  "article": "683ca1986355938715707e16",
-  "provider": "683ca2026355938715707e4a",
-  "consumer": "683ca1fcaa60b99c8d36fd16",
-  "transaction_date": "12-4-2025",
-  "country": "-27;133"
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd0b",
+  "transaction_date": "3-4-2024",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872de"
 },
 {
   "_id": {
-    "$oid": "683cc9798bf92c935399ec3a"
+    "$oid": "68489ccda92c77c7faa123d1"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd0c",
+  "transaction_date": "22-4-2024",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489ccda92c77c7faa123d3"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd12",
+  "transaction_date": "28-11-2023",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489ccda92c77c7faa123d6"
   },
   "article": "683ca1986355938715707e1f",
   "provider": "683ca2026355938715707e4c",
-  "consumer": "683ca1fcaa60b99c8d36fd10",
-  "transaction_date": "9-3-2023",
-  "country": "49;32"
+  "consumer": "683ca1fcaa60b99c8d36fd12",
+  "transaction_date": "8-8-2023",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e4"
 },
 {
   "_id": {
-    "$oid": "683cc9798bf92c935399ec3c"
+    "$oid": "68489ccda92c77c7faa123d7"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd04",
+  "transaction_date": "6-3-2023",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489ccda92c77c7faa123d9"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd11",
+  "transaction_date": "9-3-2023",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489ccda92c77c7faa123db"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd05",
+  "transaction_date": "27-8-2023",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489ccda92c77c7faa123dd"
   },
   "article": "683ca1986355938715707e1b",
   "provider": "683ca2026355938715707e47",
   "consumer": "683ca1fcaa60b99c8d36fd0d",
-  "transaction_date": "1-0-2024",
-  "country": "49;32"
+  "transaction_date": "15-8-2024",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e3"
 },
 {
   "_id": {
-    "$oid": "683cc9798bf92c935399ec40"
+    "$oid": "68489ccda92c77c7faa123df"
   },
   "article": "683ca1986355938715707e1f",
   "provider": "683ca2026355938715707e4c",
-  "consumer": "683ca1fcaa60b99c8d36fd0e",
-  "transaction_date": "12-3-2023",
-  "country": "49;32"
+  "consumer": "683ca1fcaa60b99c8d36fd0a",
+  "transaction_date": "19-9-2023",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e4"
 },
 {
   "_id": {
-    "$oid": "683cc9798bf92c935399ec41"
+    "$oid": "68489ccda92c77c7faa123e2"
   },
-  "article": "683ca1986355938715707e16",
-  "provider": "683ca2026355938715707e4a",
-  "consumer": "683ca1fcaa60b99c8d36fd12",
-  "transaction_date": "11-0-2023",
-  "country": "-27;133"
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd07",
+  "transaction_date": "28-5-2025",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e3"
 },
 {
   "_id": {
-    "$oid": "683cc9798bf92c935399ec42"
+    "$oid": "68489ccda92c77c7faa123e3"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd06",
+  "transaction_date": "1-1-2025",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489ccda92c77c7faa123e5"
   },
   "article": "683ca1986355938715707e16",
   "provider": "683ca2026355938715707e4a",
   "consumer": "683ca1fcaa60b99c8d36fd0a",
-  "transaction_date": "12-2-2023",
-  "country": "-27;133"
+  "transaction_date": "23-12-2024",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e4"
 },
 {
   "_id": {
-    "$oid": "683cc9798bf92c935399ec45"
+    "$oid": "68489ccda92c77c7faa123e7"
   },
   "article": "683ca1986355938715707e1d",
   "provider": "683ca2026355938715707e43",
-  "consumer": "683ca1fcaa60b99c8d36fd0b",
-  "transaction_date": "20-11-2024",
-  "country": "46;2"
+  "consumer": "683ca1fcaa60b99c8d36fd05",
+  "transaction_date": "13-10-2024",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e3"
 },
 {
   "_id": {
-    "$oid": "683cc9798bf92c935399ec46"
+    "$oid": "68489ccda92c77c7faa123e9"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd05",
+  "transaction_date": "26-10-2023",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489ccda92c77c7faa123eb"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd0d",
+  "transaction_date": "22-9-2023",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489ccea92c77c7faa123ed"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd0e",
+  "transaction_date": "2-5-2024",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489ccea92c77c7faa123ef"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd09",
+  "transaction_date": "8-4-2025",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489ccea92c77c7faa123f1"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd0d",
+  "transaction_date": "27-8-2023",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489ccea92c77c7faa123f3"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd11",
+  "transaction_date": "23-5-2024",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489ccea92c77c7faa123f5"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd10",
+  "transaction_date": "11-6-2023",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489ccea92c77c7faa123f7"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd08",
+  "transaction_date": "18-4-2025",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489ccea92c77c7faa123f9"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd11",
+  "transaction_date": "25-10-2024",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489ccea92c77c7faa123fb"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd16",
+  "transaction_date": "15-2-2023",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489ccea92c77c7faa123fd"
   },
   "article": "683ca1986355938715707e19",
   "provider": "683ca2026355938715707e49",
-  "consumer": "683ca1fcaa60b99c8d36fd05",
-  "transaction_date": "9-11-2024",
-  "country": "46;2"
+  "consumer": "683ca1fcaa60b99c8d36fd0e",
+  "transaction_date": "30-5-2024",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872dd"
 },
 {
   "_id": {
-    "$oid": "683cc97a8bf92c935399ec48"
+    "$oid": "68489ccea92c77c7faa123ff"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd09",
+  "transaction_date": "2-9-2023",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489ccea92c77c7faa12401"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd0e",
+  "transaction_date": "14-3-2025",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489ccea92c77c7faa12403"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd15",
+  "transaction_date": "26-1-2025",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489ccea92c77c7faa12405"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd0b",
+  "transaction_date": "11-12-2024",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489ccea92c77c7faa12407"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd0f",
+  "transaction_date": "26-9-2024",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489ccea92c77c7faa12409"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd12",
+  "transaction_date": "13-2-2023",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489ccea92c77c7faa1240b"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd05",
+  "transaction_date": "11-9-2024",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489ccea92c77c7faa1240d"
   },
   "article": "683ca1986355938715707e1d",
   "provider": "683ca2026355938715707e43",
-  "consumer": "683ca1fcaa60b99c8d36fd09",
-  "transaction_date": "13-1-2023",
-  "country": "46;2"
-},
-{
-  "_id": {
-    "$oid": "683cc97a8bf92c935399ec4b"
-  },
-  "article": "683ca1986355938715707e14",
-  "provider": "683ca2026355938715707e41",
   "consumer": "683ca1fcaa60b99c8d36fd11",
-  "transaction_date": "3-10-2023",
-  "country": "38;-97"
+  "transaction_date": "17-5-2025",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e1"
 },
 {
   "_id": {
-    "$oid": "683cc97a8bf92c935399ec4d"
+    "$oid": "68489ccfa92c77c7faa1240f"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd09",
+  "transaction_date": "18-4-2023",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489ccfa92c77c7faa12411"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd16",
+  "transaction_date": "10-11-2023",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489ccfa92c77c7faa12413"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd13",
+  "transaction_date": "11-4-2024",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489ccfa92c77c7faa12415"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd16",
+  "transaction_date": "20-4-2023",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489ccfa92c77c7faa12417"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd04",
+  "transaction_date": "17-5-2023",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489ccfa92c77c7faa12419"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd0e",
+  "transaction_date": "2-6-2025",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489ccfa92c77c7faa1241b"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd05",
+  "transaction_date": "27-5-2023",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489ccfa92c77c7faa1241d"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd15",
+  "transaction_date": "26-9-2023",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489ccfa92c77c7faa1241f"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd16",
+  "transaction_date": "31-3-2025",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489ccfa92c77c7faa12421"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd13",
+  "transaction_date": "19-10-2023",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489ccfa92c77c7faa12423"
   },
   "article": "683ca1986355938715707e14",
   "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd0e",
+  "transaction_date": "22-2-2024",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489ccfa92c77c7faa12425"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd06",
+  "transaction_date": "25-1-2023",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489ccfa92c77c7faa12427"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd10",
+  "transaction_date": "19-5-2024",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489ccfa92c77c7faa12429"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd06",
+  "transaction_date": "27-4-2024",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489ccfa92c77c7faa1242b"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd0f",
+  "transaction_date": "10-1-2025",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489ccfa92c77c7faa1242d"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd10",
+  "transaction_date": "18-1-2025",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489cd0a92c77c7faa12430"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd06",
+  "transaction_date": "30-8-2023",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489cd0a92c77c7faa12431"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd06",
+  "transaction_date": "27-7-2023",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489cd0a92c77c7faa12433"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd08",
+  "transaction_date": "15-1-2024",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489cd0a92c77c7faa12435"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd0b",
+  "transaction_date": "18-3-2025",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489cd0a92c77c7faa12437"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd04",
+  "transaction_date": "5-1-2025",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489cd0a92c77c7faa12439"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd0f",
+  "transaction_date": "4-12-2023",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489cd0a92c77c7faa1243b"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd0c",
+  "transaction_date": "25-12-2023",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489cd0a92c77c7faa1243d"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd0e",
+  "transaction_date": "17-4-2024",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489cd0a92c77c7faa1243f"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd0b",
+  "transaction_date": "13-12-2023",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489cd0a92c77c7faa12441"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
   "consumer": "683ca1fcaa60b99c8d36fd0f",
   "transaction_date": "16-6-2024",
-  "country": "38;-97"
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e0"
 },
 {
   "_id": {
-    "$oid": "683cc97a8bf92c935399ec4f"
-  },
-  "article": "683ca1986355938715707e19",
-  "provider": "683ca2026355938715707e49",
-  "consumer": "683ca1fcaa60b99c8d36fd0d",
-  "transaction_date": "10-8-2024",
-  "country": "46;2"
-},
-{
-  "_id": {
-    "$oid": "683cc97a8bf92c935399ec51"
-  },
-  "article": "683ca1986355938715707e14",
-  "provider": "683ca2026355938715707e41",
-  "consumer": "683ca1fcaa60b99c8d36fd12",
-  "transaction_date": "11-4-2023",
-  "country": "38;-97"
-},
-{
-  "_id": {
-    "$oid": "683cc97a8bf92c935399ec52"
-  },
-  "article": "683ca1986355938715707e1d",
-  "provider": "683ca2026355938715707e43",
-  "consumer": "683ca1fcaa60b99c8d36fd06",
-  "transaction_date": "12-8-2023",
-  "country": "46;2"
-},
-{
-  "_id": {
-    "$oid": "683cc97a8bf92c935399ec54"
+    "$oid": "68489cd0a92c77c7faa12443"
   },
   "article": "683ca1986355938715707e16",
   "provider": "683ca2026355938715707e4a",
-  "consumer": "683ca1fcaa60b99c8d36fd0a",
-  "transaction_date": "8-2-2025",
-  "country": "-27;133"
-},
-{
-  "_id": {
-    "$oid": "683cc97a8bf92c935399ec56"
-  },
-  "article": "683ca1986355938715707e16",
-  "provider": "683ca2026355938715707e4a",
-  "consumer": "683ca1fcaa60b99c8d36fd05",
-  "transaction_date": "5-1-2024",
-  "country": "-27;133"
-},
-{
-  "_id": {
-    "$oid": "683cc97a8bf92c935399ec59"
-  },
-  "article": "683ca1986355938715707e1a",
-  "provider": "683ca2026355938715707e48",
-  "consumer": "683ca1fcaa60b99c8d36fd07",
-  "transaction_date": "12-6-2023",
-  "country": "45.1667;15.5"
-},
-{
-  "_id": {
-    "$oid": "683cc97a8bf92c935399ec5a"
-  },
-  "article": "683ca1986355938715707e1d",
-  "provider": "683ca2026355938715707e43",
-  "consumer": "683ca1fcaa60b99c8d36fd11",
-  "transaction_date": "7-2-2025",
-  "country": "46;2"
-},
-{
-  "_id": {
-    "$oid": "683cc97a8bf92c935399ec5e"
-  },
-  "article": "683ca1986355938715707e1d",
-  "provider": "683ca2026355938715707e43",
-  "consumer": "683ca1fcaa60b99c8d36fd15",
-  "transaction_date": "14-2-2023",
-  "country": "46;2"
-},
-{
-  "_id": {
-    "$oid": "683cc97a8bf92c935399ec5d"
-  },
-  "article": "683ca1986355938715707e19",
-  "provider": "683ca2026355938715707e49",
   "consumer": "683ca1fcaa60b99c8d36fd0b",
-  "transaction_date": "14-1-2025",
-  "country": "46;2"
+  "transaction_date": "19-8-2024",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872dd"
 },
 {
   "_id": {
-    "$oid": "683cc97a8bf92c935399ec60"
+    "$oid": "68489cd0a92c77c7faa12445"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd0d",
+  "transaction_date": "24-1-2025",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489cd0a92c77c7faa12448"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd12",
+  "transaction_date": "22-10-2024",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489cd0a92c77c7faa12449"
   },
   "article": "683ca1986355938715707e14",
   "provider": "683ca2026355938715707e41",
   "consumer": "683ca1fcaa60b99c8d36fd0c",
-  "transaction_date": "7-5-2023",
-  "country": "38;-97"
+  "transaction_date": "2-9-2023",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872dd"
 },
 {
   "_id": {
-    "$oid": "683cc97b8bf92c935399ec62"
+    "$oid": "68489cd0a92c77c7faa1244b"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd15",
+  "transaction_date": "27-7-2023",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489cd0a92c77c7faa1244d"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd09",
+  "transaction_date": "23-4-2025",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489cd1a92c77c7faa1244f"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd0c",
+  "transaction_date": "10-1-2025",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489cd1a92c77c7faa12451"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd08",
+  "transaction_date": "1-5-2024",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489cd1a92c77c7faa12454"
   },
   "article": "683ca1986355938715707e1b",
   "provider": "683ca2026355938715707e47",
   "consumer": "683ca1fcaa60b99c8d36fd13",
-  "transaction_date": "8-11-2024",
-  "country": "49;32"
+  "transaction_date": "3-3-2025",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e4"
 },
 {
   "_id": {
-    "$oid": "683cc97b8bf92c935399ec64"
+    "$oid": "68489cd1a92c77c7faa12455"
   },
-  "article": "683ca1986355938715707e1f",
-  "provider": "683ca2026355938715707e4c",
-  "consumer": "683ca1fcaa60b99c8d36fd04",
-  "transaction_date": "12-3-2023",
-  "country": "49;32"
-},
-{
-  "_id": {
-    "$oid": "683cc97b8bf92c935399ec68"
-  },
-  "article": "683ca1986355938715707e1d",
-  "provider": "683ca2026355938715707e43",
-  "consumer": "683ca1fcaa60b99c8d36fd06",
-  "transaction_date": "31-4-2024",
-  "country": "46;2"
-},
-{
-  "_id": {
-    "$oid": "683cc97b8bf92c935399ec69"
-  },
-  "article": "683ca1986355938715707e1f",
-  "provider": "683ca2026355938715707e4c",
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
   "consumer": "683ca1fcaa60b99c8d36fd16",
-  "transaction_date": "6-7-2023",
-  "country": "49;32"
+  "transaction_date": "11-4-2025",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e0"
 },
 {
   "_id": {
-    "$oid": "683cc97b8bf92c935399ec6a"
+    "$oid": "68489cd1a92c77c7faa12457"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd0e",
+  "transaction_date": "20-1-2024",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489cd1a92c77c7faa12459"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd13",
+  "transaction_date": "18-12-2024",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489cd1a92c77c7faa1245b"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd14",
+  "transaction_date": "11-8-2024",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489cd1a92c77c7faa1245d"
   },
   "article": "683ca1986355938715707e14",
   "provider": "683ca2026355938715707e41",
-  "consumer": "683ca1fcaa60b99c8d36fd0c",
-  "transaction_date": "2-5-2024",
-  "country": "38;-97"
+  "consumer": "683ca1fcaa60b99c8d36fd17",
+  "transaction_date": "15-9-2024",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872df"
 },
 {
   "_id": {
-    "$oid": "683cc97b8bf92c935399ec6c"
+    "$oid": "68489cd1a92c77c7faa12460"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd11",
+  "transaction_date": "18-8-2023",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489cd1a92c77c7faa12461"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd14",
+  "transaction_date": "14-9-2024",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489cd1a92c77c7faa12463"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd05",
+  "transaction_date": "24-11-2023",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489cd1a92c77c7faa12465"
   },
   "article": "683ca1986355938715707e1d",
   "provider": "683ca2026355938715707e43",
-  "consumer": "683ca1fcaa60b99c8d36fd0d",
-  "transaction_date": "11-2-2023",
-  "country": "46;2"
+  "consumer": "683ca1fcaa60b99c8d36fd04",
+  "transaction_date": "8-3-2025",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e3"
 },
 {
   "_id": {
-    "$oid": "683cc97b8bf92c935399ec6e"
-  },
-  "article": "683ca1986355938715707e1d",
-  "provider": "683ca2026355938715707e43",
-  "consumer": "683ca1fcaa60b99c8d36fd12",
-  "transaction_date": "23-3-2025",
-  "country": "46;2"
-},
-{
-  "_id": {
-    "$oid": "683cc97b8bf92c935399ec70"
+    "$oid": "68489cd1a92c77c7faa12467"
   },
   "article": "683ca1986355938715707e16",
   "provider": "683ca2026355938715707e4a",
-  "consumer": "683ca1fcaa60b99c8d36fd0c",
-  "transaction_date": "17-4-2023",
-  "country": "-27;133"
+  "consumer": "683ca1fcaa60b99c8d36fd14",
+  "transaction_date": "14-4-2023",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e2"
 },
 {
   "_id": {
-    "$oid": "683cc97b8bf92c935399ec72"
+    "$oid": "68489cd1a92c77c7faa12469"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd0a",
+  "transaction_date": "26-9-2023",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489cd1a92c77c7faa1246b"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd0f",
+  "transaction_date": "1-4-2025",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489cd2a92c77c7faa1246d"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd12",
+  "transaction_date": "28-4-2023",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489cd2a92c77c7faa1246f"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd17",
+  "transaction_date": "25-5-2024",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489cd2a92c77c7faa12471"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd0b",
+  "transaction_date": "30-3-2023",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489cd2a92c77c7faa12473"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd17",
+  "transaction_date": "8-2-2025",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489cd2a92c77c7faa12475"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd10",
+  "transaction_date": "30-3-2024",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489cd2a92c77c7faa12477"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd04",
+  "transaction_date": "3-2-2023",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489cd2a92c77c7faa12479"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd10",
+  "transaction_date": "8-4-2024",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489cd2a92c77c7faa1247b"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd07",
+  "transaction_date": "1-4-2025",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489cd2a92c77c7faa1247d"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd13",
+  "transaction_date": "21-6-2024",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489cd2a92c77c7faa1247f"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd0a",
+  "transaction_date": "15-9-2024",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489cd2a92c77c7faa12481"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd0c",
+  "transaction_date": "25-4-2023",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489cd2a92c77c7faa12483"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd0d",
+  "transaction_date": "17-7-2024",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489cd2a92c77c7faa12485"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd0d",
+  "transaction_date": "20-11-2024",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489cd2a92c77c7faa12487"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd17",
+  "transaction_date": "1-1-2025",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489cd2a92c77c7faa12489"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd0b",
+  "transaction_date": "22-4-2025",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489cd2a92c77c7faa1248b"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd07",
+  "transaction_date": "12-2-2025",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489cd2a92c77c7faa1248d"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd0d",
+  "transaction_date": "11-6-2024",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489cd3a92c77c7faa1248f"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd15",
+  "transaction_date": "24-1-2025",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489cd3a92c77c7faa12491"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd11",
+  "transaction_date": "1-9-2024",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489cd3a92c77c7faa12493"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd14",
+  "transaction_date": "10-4-2023",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489cd3a92c77c7faa12495"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd07",
+  "transaction_date": "17-5-2023",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489cd3a92c77c7faa12497"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd11",
+  "transaction_date": "7-10-2023",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489cd3a92c77c7faa12499"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd11",
+  "transaction_date": "12-8-2023",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489cd3a92c77c7faa1249b"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd11",
+  "transaction_date": "18-5-2025",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489cd3a92c77c7faa1249d"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd14",
+  "transaction_date": "21-3-2023",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489cd3a92c77c7faa1249f"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd0a",
+  "transaction_date": "28-7-2024",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489cd3a92c77c7faa124a1"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd10",
+  "transaction_date": "11-3-2025",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489cd3a92c77c7faa124a3"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd15",
+  "transaction_date": "10-10-2024",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489cd3a92c77c7faa124a5"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd15",
+  "transaction_date": "20-12-2023",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489cd3a92c77c7faa124a7"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd13",
+  "transaction_date": "4-3-2024",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489cd3a92c77c7faa124a9"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd0b",
+  "transaction_date": "18-6-2024",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489cd3a92c77c7faa124ab"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd11",
+  "transaction_date": "11-9-2024",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489cd3a92c77c7faa124ad"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd04",
+  "transaction_date": "13-4-2025",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489cd3a92c77c7faa124af"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd0c",
+  "transaction_date": "2-2-2023",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489cd4a92c77c7faa124b1"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd0a",
+  "transaction_date": "15-5-2023",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489cd4a92c77c7faa124b3"
   },
   "article": "683ca1986355938715707e14",
   "provider": "683ca2026355938715707e41",
   "consumer": "683ca1fcaa60b99c8d36fd0b",
-  "transaction_date": "29-0-2025",
-  "country": "38;-97"
+  "transaction_date": "29-5-2023",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872dd"
 },
 {
   "_id": {
-    "$oid": "683cc97b8bf92c935399ec75"
+    "$oid": "68489cd4a92c77c7faa124b5"
   },
-  "article": "683ca1986355938715707e1a",
-  "provider": "683ca2026355938715707e48",
-  "consumer": "683ca1fcaa60b99c8d36fd15",
-  "transaction_date": "24-2-2025",
-  "country": "45.1667;15.5"
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd11",
+  "transaction_date": "20-2-2023",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e0"
 },
 {
   "_id": {
-    "$oid": "683cc97b8bf92c935399ec77"
-  },
-  "article": "683ca1986355938715707e19",
-  "provider": "683ca2026355938715707e49",
-  "consumer": "683ca1fcaa60b99c8d36fd16",
-  "transaction_date": "31-6-2023",
-  "country": "46;2"
-},
-{
-  "_id": {
-    "$oid": "683cc97b8bf92c935399ec7a"
+    "$oid": "68489cd4a92c77c7faa124b7"
   },
   "article": "683ca1986355938715707e14",
   "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd0e",
+  "transaction_date": "30-6-2024",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489cd4a92c77c7faa124b9"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd11",
+  "transaction_date": "2-10-2023",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489cd4a92c77c7faa124bb"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd0d",
+  "transaction_date": "28-3-2023",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489cd4a92c77c7faa124bd"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd08",
+  "transaction_date": "1-10-2023",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489cd4a92c77c7faa124bf"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
   "consumer": "683ca1fcaa60b99c8d36fd0c",
-  "transaction_date": "29-4-2025",
-  "country": "38;-97"
+  "transaction_date": "27-7-2023",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872de"
 },
 {
   "_id": {
-    "$oid": "683cc97b8bf92c935399ec79"
-  },
-  "article": "683ca1986355938715707e1f",
-  "provider": "683ca2026355938715707e4c",
-  "consumer": "683ca1fcaa60b99c8d36fd06",
-  "transaction_date": "13-2-2023",
-  "country": "49;32"
-},
-{
-  "_id": {
-    "$oid": "683cc97c8bf92c935399ec7c"
-  },
-  "article": "683ca1986355938715707e1f",
-  "provider": "683ca2026355938715707e4c",
-  "consumer": "683ca1fcaa60b99c8d36fd12",
-  "transaction_date": "12-3-2025",
-  "country": "49;32"
-},
-{
-  "_id": {
-    "$oid": "683cc97c8bf92c935399ec7e"
+    "$oid": "68489cd4a92c77c7faa124c1"
   },
   "article": "683ca1986355938715707e1a",
   "provider": "683ca2026355938715707e48",
   "consumer": "683ca1fcaa60b99c8d36fd08",
-  "transaction_date": "11-10-2024",
-  "country": "45.1667;15.5"
+  "transaction_date": "20-5-2024",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e3"
 },
 {
   "_id": {
-    "$oid": "683cc97c8bf92c935399ec80"
+    "$oid": "68489cd4a92c77c7faa124c3"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd05",
+  "transaction_date": "15-5-2023",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489cd4a92c77c7faa124c5"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd07",
+  "transaction_date": "12-12-2023",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489cd4a92c77c7faa124c7"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd13",
+  "transaction_date": "20-12-2023",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489cd4a92c77c7faa124c9"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd12",
+  "transaction_date": "22-4-2024",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489cd4a92c77c7faa124cb"
   },
   "article": "683ca1986355938715707e14",
   "provider": "683ca2026355938715707e41",
-  "consumer": "683ca1fcaa60b99c8d36fd12",
-  "transaction_date": "18-4-2024",
-  "country": "38;-97"
+  "consumer": "683ca1fcaa60b99c8d36fd11",
+  "transaction_date": "21-6-2024",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872df"
 },
 {
   "_id": {
-    "$oid": "683cc97c8bf92c935399ec84"
+    "$oid": "68489cd4a92c77c7faa124cd"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd15",
+  "transaction_date": "29-3-2023",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489cd4a92c77c7faa124cf"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd0c",
+  "transaction_date": "15-1-2023",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489cd5a92c77c7faa124d1"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd07",
+  "transaction_date": "27-7-2023",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489cd5a92c77c7faa124d3"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd05",
+  "transaction_date": "11-2-2025",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489cd5a92c77c7faa124d5"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd10",
+  "transaction_date": "18-3-2024",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489cd5a92c77c7faa124d7"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd05",
+  "transaction_date": "4-9-2023",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489cd5a92c77c7faa124d9"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd0b",
+  "transaction_date": "3-9-2024",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489cd5a92c77c7faa124db"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd09",
+  "transaction_date": "19-1-2023",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489cd5a92c77c7faa124dd"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd11",
+  "transaction_date": "23-7-2023",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489cd5a92c77c7faa124df"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd15",
+  "transaction_date": "19-1-2025",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489cd5a92c77c7faa124e1"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd16",
+  "transaction_date": "20-6-2024",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489cd5a92c77c7faa124e3"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd09",
+  "transaction_date": "21-3-2023",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489cd5a92c77c7faa124e5"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd0a",
+  "transaction_date": "6-3-2025",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489cd5a92c77c7faa124e7"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd12",
+  "transaction_date": "2-1-2025",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489cd5a92c77c7faa124e9"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd0d",
+  "transaction_date": "21-8-2024",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489cd5a92c77c7faa124eb"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd05",
+  "transaction_date": "6-5-2025",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489cd5a92c77c7faa124ed"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd13",
+  "transaction_date": "1-3-2025",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489cd5a92c77c7faa124ef"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd0f",
+  "transaction_date": "21-8-2024",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489cd5a92c77c7faa124f1"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd17",
+  "transaction_date": "4-6-2024",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489cd6a92c77c7faa124f3"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd14",
+  "transaction_date": "15-6-2024",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489cd6a92c77c7faa124f5"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd0d",
+  "transaction_date": "3-7-2023",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489cd6a92c77c7faa124f7"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd12",
+  "transaction_date": "31-12-2024",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489cd6a92c77c7faa124f9"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd15",
+  "transaction_date": "23-5-2024",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489cd6a92c77c7faa124fb"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd0c",
+  "transaction_date": "11-2-2025",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489cd6a92c77c7faa124fd"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd04",
+  "transaction_date": "13-7-2024",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489cd6a92c77c7faa124ff"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd17",
+  "transaction_date": "3-3-2024",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489cd6a92c77c7faa12501"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd0d",
+  "transaction_date": "19-8-2023",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489cd6a92c77c7faa12503"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd14",
+  "transaction_date": "4-6-2025",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489cd6a92c77c7faa12505"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd05",
+  "transaction_date": "26-2-2025",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489cd6a92c77c7faa12507"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd05",
+  "transaction_date": "15-2-2024",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489cd6a92c77c7faa12509"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd0d",
+  "transaction_date": "27-5-2023",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489cd6a92c77c7faa1250b"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd15",
+  "transaction_date": "8-1-2025",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489cd6a92c77c7faa1250d"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd0c",
+  "transaction_date": "21-12-2023",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489cd6a92c77c7faa1250f"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd06",
+  "transaction_date": "15-3-2024",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489cd6a92c77c7faa12511"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd09",
+  "transaction_date": "22-12-2023",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489cd6a92c77c7faa12513"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd07",
+  "transaction_date": "15-4-2024",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489cd7a92c77c7faa12515"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd07",
+  "transaction_date": "11-1-2023",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489cd7a92c77c7faa12517"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd0b",
+  "transaction_date": "21-7-2023",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489cd7a92c77c7faa12519"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd0d",
+  "transaction_date": "10-3-2023",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489cd7a92c77c7faa1251b"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd05",
+  "transaction_date": "18-3-2024",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489cd7a92c77c7faa1251d"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd0a",
+  "transaction_date": "8-8-2024",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489cd7a92c77c7faa1251f"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd0e",
+  "transaction_date": "21-11-2024",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489cd7a92c77c7faa12521"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd0a",
+  "transaction_date": "20-5-2023",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489cd7a92c77c7faa12523"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd06",
+  "transaction_date": "13-9-2023",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489cd7a92c77c7faa12525"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd0d",
+  "transaction_date": "20-4-2024",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489cd7a92c77c7faa12527"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd09",
+  "transaction_date": "14-4-2024",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489cd7a92c77c7faa12529"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd0a",
+  "transaction_date": "21-11-2023",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489cd7a92c77c7faa1252b"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd08",
+  "transaction_date": "30-11-2023",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489cd7a92c77c7faa1252d"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd06",
+  "transaction_date": "11-1-2024",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489cd7a92c77c7faa1252f"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd12",
+  "transaction_date": "8-4-2023",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489cd7a92c77c7faa12531"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd08",
+  "transaction_date": "8-8-2023",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489cd7a92c77c7faa12533"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd0c",
+  "transaction_date": "24-11-2024",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489cd8a92c77c7faa12535"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd11",
+  "transaction_date": "13-10-2024",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489cd8a92c77c7faa12537"
   },
   "article": "683ca1986355938715707e1d",
   "provider": "683ca2026355938715707e43",
   "consumer": "683ca1fcaa60b99c8d36fd05",
-  "transaction_date": "25-3-2025",
-  "country": "46;2"
+  "transaction_date": "2-4-2024",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e1"
 },
 {
   "_id": {
-    "$oid": "683cc97c8bf92c935399ec85"
+    "$oid": "68489cd8a92c77c7faa12539"
   },
-  "article": "683ca1986355938715707e16",
-  "provider": "683ca2026355938715707e4a",
-  "consumer": "683ca1fcaa60b99c8d36fd04",
-  "transaction_date": "17-1-2023",
-  "country": "-27;133"
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd07",
+  "transaction_date": "15-5-2025",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e3"
 },
 {
   "_id": {
-    "$oid": "683cc97c8bf92c935399ec86"
+    "$oid": "68489cd8a92c77c7faa1253b"
   },
-  "article": "683ca1986355938715707e1f",
-  "provider": "683ca2026355938715707e4c",
-  "consumer": "683ca1fcaa60b99c8d36fd15",
-  "transaction_date": "20-11-2023",
-  "country": "49;32"
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd0c",
+  "transaction_date": "10-6-2024",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872de"
 },
 {
   "_id": {
-    "$oid": "683cc97c8bf92c935399ec8a"
+    "$oid": "68489cd8a92c77c7faa1253d"
   },
-  "article": "683ca1986355938715707e16",
-  "provider": "683ca2026355938715707e4a",
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
   "consumer": "683ca1fcaa60b99c8d36fd09",
-  "transaction_date": "12-9-2023",
-  "country": "-27;133"
+  "transaction_date": "14-12-2023",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872de"
 },
 {
   "_id": {
-    "$oid": "683cc97c8bf92c935399ec89"
+    "$oid": "68489cd8a92c77c7faa1253f"
   },
-  "article": "683ca1986355938715707e1a",
-  "provider": "683ca2026355938715707e48",
-  "consumer": "683ca1fcaa60b99c8d36fd05",
-  "transaction_date": "16-1-2025",
-  "country": "45.1667;15.5"
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd0c",
+  "transaction_date": "17-9-2024",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872de"
 },
 {
   "_id": {
-    "$oid": "683cc97c8bf92c935399ec8c"
+    "$oid": "68489cd8a92c77c7faa12541"
   },
-  "article": "683ca1986355938715707e1a",
-  "provider": "683ca2026355938715707e48",
-  "consumer": "683ca1fcaa60b99c8d36fd08",
-  "transaction_date": "13-7-2024",
-  "country": "45.1667;15.5"
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd07",
+  "transaction_date": "2-7-2023",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e2"
 },
 {
   "_id": {
-    "$oid": "683cc97c8bf92c935399ec90"
+    "$oid": "68489cd8a92c77c7faa12543"
   },
   "article": "683ca1986355938715707e14",
   "provider": "683ca2026355938715707e41",
   "consumer": "683ca1fcaa60b99c8d36fd14",
-  "transaction_date": "6-0-2023",
-  "country": "38;-97"
+  "transaction_date": "10-11-2024",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872de"
 },
 {
   "_id": {
-    "$oid": "683cc97c8bf92c935399ec91"
-  },
-  "article": "683ca1986355938715707e14",
-  "provider": "683ca2026355938715707e41",
-  "consumer": "683ca1fcaa60b99c8d36fd16",
-  "transaction_date": "26-0-2024",
-  "country": "38;-97"
-},
-{
-  "_id": {
-    "$oid": "683cc97c8bf92c935399ec92"
+    "$oid": "68489cd8a92c77c7faa12545"
   },
   "article": "683ca1986355938715707e19",
   "provider": "683ca2026355938715707e49",
-  "consumer": "683ca1fcaa60b99c8d36fd12",
-  "transaction_date": "20-1-2023",
-  "country": "46;2"
+  "consumer": "683ca1fcaa60b99c8d36fd0a",
+  "transaction_date": "17-4-2023",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872dd"
 },
 {
   "_id": {
-    "$oid": "683cc97c8bf92c935399ec95"
+    "$oid": "68489cd8a92c77c7faa12547"
   },
   "article": "683ca1986355938715707e1b",
   "provider": "683ca2026355938715707e47",
-  "consumer": "683ca1fcaa60b99c8d36fd17",
-  "transaction_date": "22-2-2025",
-  "country": "49;32"
+  "consumer": "683ca1fcaa60b99c8d36fd06",
+  "transaction_date": "29-4-2023",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e3"
 },
 {
   "_id": {
-    "$oid": "683cc97c8bf92c935399ec96"
-  },
-  "article": "683ca1986355938715707e1f",
-  "provider": "683ca2026355938715707e4c",
-  "consumer": "683ca1fcaa60b99c8d36fd17",
-  "transaction_date": "11-11-2024",
-  "country": "49;32"
-},
-{
-  "_id": {
-    "$oid": "683cc97c8bf92c935399ec98"
-  },
-  "article": "683ca1986355938715707e14",
-  "provider": "683ca2026355938715707e41",
-  "consumer": "683ca1fcaa60b99c8d36fd0f",
-  "transaction_date": "17-8-2024",
-  "country": "38;-97"
-},
-{
-  "_id": {
-    "$oid": "683cc97d8bf92c935399ec9b"
+    "$oid": "68489cd8a92c77c7faa12549"
   },
   "article": "683ca1986355938715707e1a",
   "provider": "683ca2026355938715707e48",
   "consumer": "683ca1fcaa60b99c8d36fd05",
-  "transaction_date": "16-5-2023",
-  "country": "45.1667;15.5"
+  "transaction_date": "18-9-2024",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872df"
 },
 {
   "_id": {
-    "$oid": "683cc97d8bf92c935399ec9f"
+    "$oid": "68489cd8a92c77c7faa1254b"
   },
-  "article": "683ca1986355938715707e1b",
-  "provider": "683ca2026355938715707e47",
-  "consumer": "683ca1fcaa60b99c8d36fd0a",
-  "transaction_date": "29-0-2024",
-  "country": "49;32"
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd06",
+  "transaction_date": "14-4-2023",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872dd"
 },
 {
   "_id": {
-    "$oid": "683cc97d8bf92c935399eca1"
+    "$oid": "68489cd8a92c77c7faa1254d"
   },
   "article": "683ca1986355938715707e1a",
   "provider": "683ca2026355938715707e48",
-  "consumer": "683ca1fcaa60b99c8d36fd12",
-  "transaction_date": "9-1-2025",
-  "country": "45.1667;15.5"
+  "consumer": "683ca1fcaa60b99c8d36fd14",
+  "transaction_date": "20-6-2023",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872de"
 },
 {
   "_id": {
-    "$oid": "683cc97d8bf92c935399eca0"
+    "$oid": "68489cd8a92c77c7faa1254f"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd14",
+  "transaction_date": "5-12-2024",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489cd8a92c77c7faa12551"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd04",
+  "transaction_date": "5-2-2024",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489cd8a92c77c7faa12553"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd07",
+  "transaction_date": "10-6-2024",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489cd8a92c77c7faa12555"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd05",
+  "transaction_date": "5-1-2023",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489cd9a92c77c7faa12557"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd13",
+  "transaction_date": "2-12-2023",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489cd9a92c77c7faa12559"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd12",
+  "transaction_date": "10-2-2024",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489cd9a92c77c7faa1255b"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd12",
+  "transaction_date": "2-11-2024",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489cd9a92c77c7faa1255d"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd11",
+  "transaction_date": "30-5-2025",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489cd9a92c77c7faa1255f"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd10",
+  "transaction_date": "15-5-2025",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489cd9a92c77c7faa12561"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd07",
+  "transaction_date": "3-3-2023",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489cd9a92c77c7faa12563"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd16",
+  "transaction_date": "22-12-2024",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489cd9a92c77c7faa12565"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd0e",
+  "transaction_date": "16-3-2024",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489cd9a92c77c7faa12567"
   },
   "article": "683ca1986355938715707e1f",
   "provider": "683ca2026355938715707e4c",
   "consumer": "683ca1fcaa60b99c8d36fd16",
-  "transaction_date": "29-7-2024",
-  "country": "49;32"
+  "transaction_date": "19-9-2023",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872dd"
 },
 {
   "_id": {
-    "$oid": "683cc97d8bf92c935399eca2"
-  },
-  "article": "683ca1986355938715707e14",
-  "provider": "683ca2026355938715707e41",
-  "consumer": "683ca1fcaa60b99c8d36fd0f",
-  "transaction_date": "14-1-2024",
-  "country": "38;-97"
-},
-{
-  "_id": {
-    "$oid": "683cc97d8bf92c935399eca4"
-  },
-  "article": "683ca1986355938715707e1a",
-  "provider": "683ca2026355938715707e48",
-  "consumer": "683ca1fcaa60b99c8d36fd0c",
-  "transaction_date": "11-4-2024",
-  "country": "45.1667;15.5"
-},
-{
-  "_id": {
-    "$oid": "683cc97d8bf92c935399eca6"
-  },
-  "article": "683ca1986355938715707e1d",
-  "provider": "683ca2026355938715707e43",
-  "consumer": "683ca1fcaa60b99c8d36fd08",
-  "transaction_date": "3-1-2023",
-  "country": "46;2"
-},
-{
-  "_id": {
-    "$oid": "683cc97d8bf92c935399eca8"
+    "$oid": "68489cd9a92c77c7faa12569"
   },
   "article": "683ca1986355938715707e16",
   "provider": "683ca2026355938715707e4a",
-  "consumer": "683ca1fcaa60b99c8d36fd0c",
-  "transaction_date": "6-10-2023",
-  "country": "-27;133"
+  "consumer": "683ca1fcaa60b99c8d36fd05",
+  "transaction_date": "19-4-2024",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e1"
 },
 {
   "_id": {
-    "$oid": "683cc97d8bf92c935399ecab"
+    "$oid": "68489cd9a92c77c7faa1256b"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd13",
+  "transaction_date": "14-3-2025",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489cd9a92c77c7faa1256d"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd0c",
+  "transaction_date": "19-10-2024",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489cd9a92c77c7faa1256f"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd0f",
+  "transaction_date": "16-3-2024",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489cd9a92c77c7faa12571"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd08",
+  "transaction_date": "28-10-2023",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489cd9a92c77c7faa12573"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd12",
+  "transaction_date": "7-3-2024",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489cd9a92c77c7faa12575"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd0d",
+  "transaction_date": "26-5-2025",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489cdaa92c77c7faa12577"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd10",
+  "transaction_date": "3-8-2024",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489cdaa92c77c7faa12579"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd12",
+  "transaction_date": "21-9-2024",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489cdaa92c77c7faa1257b"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd17",
+  "transaction_date": "22-7-2024",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489cdaa92c77c7faa1257d"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd0b",
+  "transaction_date": "7-5-2024",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489cdaa92c77c7faa1257f"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd07",
+  "transaction_date": "13-3-2023",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489cdaa92c77c7faa12581"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd08",
+  "transaction_date": "29-6-2024",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489cdaa92c77c7faa12583"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd17",
+  "transaction_date": "20-8-2024",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489cdaa92c77c7faa12585"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd0b",
+  "transaction_date": "6-9-2024",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489cdaa92c77c7faa12587"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd0a",
+  "transaction_date": "8-6-2023",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489cdaa92c77c7faa12589"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd17",
+  "transaction_date": "21-1-2023",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489cdaa92c77c7faa1258b"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd0a",
+  "transaction_date": "29-4-2025",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489cdaa92c77c7faa1258d"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd05",
+  "transaction_date": "29-12-2024",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489cdaa92c77c7faa1258f"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd12",
+  "transaction_date": "2-8-2023",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489cdaa92c77c7faa12591"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd14",
+  "transaction_date": "16-6-2023",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489cdaa92c77c7faa12593"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd11",
+  "transaction_date": "27-5-2024",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489cdaa92c77c7faa12595"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd12",
+  "transaction_date": "7-6-2024",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489cdaa92c77c7faa12597"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd0d",
+  "transaction_date": "25-1-2025",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489cdba92c77c7faa12599"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd14",
+  "transaction_date": "18-3-2025",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489cdba92c77c7faa1259b"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd0c",
+  "transaction_date": "23-8-2024",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489cdba92c77c7faa1259d"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd0e",
+  "transaction_date": "9-8-2023",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489cdba92c77c7faa1259f"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd06",
+  "transaction_date": "24-3-2024",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489cdba92c77c7faa125a1"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd0d",
+  "transaction_date": "24-12-2024",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489cdba92c77c7faa125a3"
   },
   "article": "683ca1986355938715707e1b",
   "provider": "683ca2026355938715707e47",
   "consumer": "683ca1fcaa60b99c8d36fd0d",
-  "transaction_date": "24-2-2024",
-  "country": "49;32"
+  "transaction_date": "3-2-2024",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e2"
 },
 {
   "_id": {
-    "$oid": "683cc97d8bf92c935399ecae"
+    "$oid": "68489cdba92c77c7faa125a5"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd06",
+  "transaction_date": "5-2-2023",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489cdba92c77c7faa125a7"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd0b",
+  "transaction_date": "23-11-2024",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489cdba92c77c7faa125a9"
   },
   "article": "683ca1986355938715707e1f",
   "provider": "683ca2026355938715707e4c",
-  "consumer": "683ca1fcaa60b99c8d36fd12",
-  "transaction_date": "8-4-2025",
-  "country": "49;32"
+  "consumer": "683ca1fcaa60b99c8d36fd0a",
+  "transaction_date": "10-11-2024",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872df"
 },
 {
   "_id": {
-    "$oid": "683cc97d8bf92c935399ecb0"
+    "$oid": "68489cdba92c77c7faa125ab"
   },
   "article": "683ca1986355938715707e1b",
   "provider": "683ca2026355938715707e47",
-  "consumer": "683ca1fcaa60b99c8d36fd0a",
-  "transaction_date": "14-0-2025",
-  "country": "49;32"
+  "consumer": "683ca1fcaa60b99c8d36fd10",
+  "transaction_date": "13-2-2024",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872dd"
 },
 {
   "_id": {
-    "$oid": "683cc97d8bf92c935399ecaf"
+    "$oid": "68489cdba92c77c7faa125ad"
   },
-  "article": "683ca1986355938715707e19",
-  "provider": "683ca2026355938715707e49",
-  "consumer": "683ca1fcaa60b99c8d36fd0c",
-  "transaction_date": "14-11-2023",
-  "country": "46;2"
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd16",
+  "transaction_date": "22-4-2023",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e4"
 },
 {
   "_id": {
-    "$oid": "683cc97e8bf92c935399ecb2"
+    "$oid": "68489cdba92c77c7faa125af"
   },
   "article": "683ca1986355938715707e1d",
   "provider": "683ca2026355938715707e43",
   "consumer": "683ca1fcaa60b99c8d36fd17",
-  "transaction_date": "12-1-2024",
-  "country": "46;2"
+  "transaction_date": "30-6-2023",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e1"
 },
 {
   "_id": {
-    "$oid": "683cc97e8bf92c935399ecb5"
+    "$oid": "68489cdba92c77c7faa125b1"
   },
-  "article": "683ca1986355938715707e1b",
-  "provider": "683ca2026355938715707e47",
-  "consumer": "683ca1fcaa60b99c8d36fd0b",
-  "transaction_date": "19-3-2023",
-  "country": "49;32"
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd0c",
+  "transaction_date": "16-10-2024",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e3"
 },
 {
   "_id": {
-    "$oid": "683cc97e8bf92c935399ecb8"
+    "$oid": "68489cdba92c77c7faa125b3"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd17",
+  "transaction_date": "2-4-2023",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489cdba92c77c7faa125b5"
   },
   "article": "683ca1986355938715707e16",
   "provider": "683ca2026355938715707e4a",
-  "consumer": "683ca1fcaa60b99c8d36fd12",
-  "transaction_date": "15-11-2024",
-  "country": "-27;133"
+  "consumer": "683ca1fcaa60b99c8d36fd06",
+  "transaction_date": "25-9-2023",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e3"
 },
 {
   "_id": {
-    "$oid": "683cc97e8bf92c935399ecba"
+    "$oid": "68489cdba92c77c7faa125b7"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd12",
+  "transaction_date": "12-3-2024",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489cdba92c77c7faa125b9"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd0c",
+  "transaction_date": "9-4-2023",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489cdca92c77c7faa125bb"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd0c",
+  "transaction_date": "29-8-2024",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489cdca92c77c7faa125bd"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd0c",
+  "transaction_date": "17-9-2023",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489cdca92c77c7faa125bf"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd09",
+  "transaction_date": "15-11-2023",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489cdca92c77c7faa125c1"
   },
   "article": "683ca1986355938715707e1b",
   "provider": "683ca2026355938715707e47",
   "consumer": "683ca1fcaa60b99c8d36fd08",
-  "transaction_date": "25-2-2023",
-  "country": "49;32"
+  "transaction_date": "3-5-2025",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e2"
 },
 {
   "_id": {
-    "$oid": "683cc97e8bf92c935399ecbc"
+    "$oid": "68489cdca92c77c7faa125c3"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd13",
+  "transaction_date": "10-8-2024",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489cdca92c77c7faa125c5"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd11",
+  "transaction_date": "1-12-2024",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489cdca92c77c7faa125c7"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd04",
+  "transaction_date": "18-3-2024",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489cdca92c77c7faa125c9"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd0d",
+  "transaction_date": "16-2-2025",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489cdca92c77c7faa125cb"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd0f",
+  "transaction_date": "21-6-2023",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489cdca92c77c7faa125cd"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd07",
+  "transaction_date": "22-9-2023",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489cdca92c77c7faa125cf"
   },
   "article": "683ca1986355938715707e1d",
   "provider": "683ca2026355938715707e43",
-  "consumer": "683ca1fcaa60b99c8d36fd09",
-  "transaction_date": "26-5-2024",
-  "country": "46;2"
+  "consumer": "683ca1fcaa60b99c8d36fd0c",
+  "transaction_date": "3-4-2025",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e0"
 },
 {
   "_id": {
-    "$oid": "683cc97e8bf92c935399ecbb"
+    "$oid": "68489cdca92c77c7faa125d1"
   },
-  "article": "683ca1986355938715707e16",
-  "provider": "683ca2026355938715707e4a",
-  "consumer": "683ca1fcaa60b99c8d36fd09",
-  "transaction_date": "7-11-2023",
-  "country": "-27;133"
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd14",
+  "transaction_date": "13-7-2024",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872de"
 },
 {
   "_id": {
-    "$oid": "683cc97e8bf92c935399ecbe"
+    "$oid": "68489cdca92c77c7faa125d3"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd15",
+  "transaction_date": "10-6-2024",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489cdca92c77c7faa125d5"
   },
   "article": "683ca1986355938715707e1a",
   "provider": "683ca2026355938715707e48",
-  "consumer": "683ca1fcaa60b99c8d36fd0a",
-  "transaction_date": "7-4-2023",
-  "country": "45.1667;15.5"
-},
-{
-  "_id": {
-    "$oid": "683cc97e8bf92c935399ecc1"
-  },
-  "article": "683ca1986355938715707e19",
-  "provider": "683ca2026355938715707e49",
   "consumer": "683ca1fcaa60b99c8d36fd05",
-  "transaction_date": "9-0-2024",
-  "country": "46;2"
+  "transaction_date": "20-11-2023",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e0"
 },
 {
   "_id": {
-    "$oid": "683cc97e8bf92c935399ecc3"
+    "$oid": "68489cdca92c77c7faa125d7"
   },
   "article": "683ca1986355938715707e19",
   "provider": "683ca2026355938715707e49",
-  "consumer": "683ca1fcaa60b99c8d36fd15",
-  "transaction_date": "9-5-2024",
-  "country": "46;2"
+  "consumer": "683ca1fcaa60b99c8d36fd09",
+  "transaction_date": "20-3-2024",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e1"
 },
 {
   "_id": {
-    "$oid": "683cc97e8bf92c935399ecc4"
-  },
-  "article": "683ca1986355938715707e14",
-  "provider": "683ca2026355938715707e41",
-  "consumer": "683ca1fcaa60b99c8d36fd10",
-  "transaction_date": "21-3-2025",
-  "country": "38;-97"
-},
-{
-  "_id": {
-    "$oid": "683cc97e8bf92c935399ecc8"
-  },
-  "article": "683ca1986355938715707e14",
-  "provider": "683ca2026355938715707e41",
-  "consumer": "683ca1fcaa60b99c8d36fd08",
-  "transaction_date": "29-2-2023",
-  "country": "38;-97"
-},
-{
-  "_id": {
-    "$oid": "683cc97e8bf92c935399ecca"
+    "$oid": "68489cdca92c77c7faa125d9"
   },
   "article": "683ca1986355938715707e1d",
   "provider": "683ca2026355938715707e43",
-  "consumer": "683ca1fcaa60b99c8d36fd10",
-  "transaction_date": "26-5-2024",
-  "country": "46;2"
+  "consumer": "683ca1fcaa60b99c8d36fd14",
+  "transaction_date": "15-2-2023",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e2"
 },
 {
   "_id": {
-    "$oid": "683cc97e8bf92c935399ecc9"
+    "$oid": "68489cdca92c77c7faa125db"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd16",
+  "transaction_date": "28-11-2024",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489cdda92c77c7faa125dd"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd09",
+  "transaction_date": "23-8-2023",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489cdda92c77c7faa125df"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd0d",
+  "transaction_date": "17-3-2024",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489cdda92c77c7faa125e1"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd08",
+  "transaction_date": "22-1-2025",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489cdda92c77c7faa125e3"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd08",
+  "transaction_date": "18-3-2024",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489cdda92c77c7faa125e5"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd08",
+  "transaction_date": "25-12-2024",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489cdda92c77c7faa125e7"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd0e",
+  "transaction_date": "29-1-2025",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489cdda92c77c7faa125e9"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd0f",
+  "transaction_date": "30-9-2024",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489cdda92c77c7faa125eb"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd0b",
+  "transaction_date": "11-9-2023",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489cdda92c77c7faa125ed"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd06",
+  "transaction_date": "12-12-2024",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489cdda92c77c7faa125ef"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd0a",
+  "transaction_date": "28-8-2023",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489cdda92c77c7faa125f1"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd14",
+  "transaction_date": "18-6-2024",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489cdda92c77c7faa125f3"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd05",
+  "transaction_date": "6-8-2023",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489cdda92c77c7faa125f5"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd0e",
+  "transaction_date": "9-11-2024",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489cdda92c77c7faa125f7"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd07",
+  "transaction_date": "1-4-2025",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489cdda92c77c7faa125f9"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd12",
+  "transaction_date": "22-6-2024",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489cdda92c77c7faa125fb"
   },
   "article": "683ca1986355938715707e1f",
   "provider": "683ca2026355938715707e4c",
   "consumer": "683ca1fcaa60b99c8d36fd06",
-  "transaction_date": "21-0-2023",
-  "country": "49;32"
+  "transaction_date": "24-2-2025",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872dd"
 },
 {
   "_id": {
-    "$oid": "683cc97f8bf92c935399eccd"
+    "$oid": "68489cdea92c77c7faa125fd"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd0b",
+  "transaction_date": "18-9-2024",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489cdea92c77c7faa125ff"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd10",
+  "transaction_date": "8-6-2025",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489cdea92c77c7faa12601"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd07",
+  "transaction_date": "25-12-2024",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489cdea92c77c7faa12603"
   },
   "article": "683ca1986355938715707e1b",
   "provider": "683ca2026355938715707e47",
   "consumer": "683ca1fcaa60b99c8d36fd15",
-  "transaction_date": "20-0-2025",
-  "country": "49;32"
+  "transaction_date": "15-12-2023",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872de"
 },
 {
   "_id": {
-    "$oid": "683cc97f8bf92c935399ecce"
+    "$oid": "68489cdea92c77c7faa12605"
   },
   "article": "683ca1986355938715707e16",
   "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd05",
+  "transaction_date": "12-8-2023",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489cdea92c77c7faa12607"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd12",
+  "transaction_date": "26-5-2024",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489cdea92c77c7faa12609"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd0b",
+  "transaction_date": "22-11-2023",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489cdea92c77c7faa1260b"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd0e",
+  "transaction_date": "31-3-2023",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489cdea92c77c7faa1260d"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd0b",
+  "transaction_date": "27-4-2023",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489cdea92c77c7faa1260f"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
   "consumer": "683ca1fcaa60b99c8d36fd0f",
+  "transaction_date": "30-12-2024",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489cdea92c77c7faa12611"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd16",
+  "transaction_date": "17-7-2023",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489cdea92c77c7faa12613"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd10",
+  "transaction_date": "11-5-2025",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489cdea92c77c7faa12615"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd0f",
+  "transaction_date": "16-1-2024",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489cdea92c77c7faa12617"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd0e",
+  "transaction_date": "26-10-2024",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489cdea92c77c7faa12619"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd04",
+  "transaction_date": "22-9-2023",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489cdea92c77c7faa1261b"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd09",
+  "transaction_date": "2-8-2024",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489cdea92c77c7faa1261d"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd08",
+  "transaction_date": "7-2-2025",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489cdfa92c77c7faa1261f"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd0a",
+  "transaction_date": "19-11-2023",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489cdfa92c77c7faa12621"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd0d",
+  "transaction_date": "24-11-2023",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489cdfa92c77c7faa12623"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd09",
+  "transaction_date": "16-1-2025",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489cdfa92c77c7faa12625"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd0c",
+  "transaction_date": "22-8-2023",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489cdfa92c77c7faa12627"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd10",
+  "transaction_date": "15-1-2024",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489cdfa92c77c7faa12629"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd09",
+  "transaction_date": "25-11-2023",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489cdfa92c77c7faa1262b"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd17",
+  "transaction_date": "3-4-2024",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489cdfa92c77c7faa1262d"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd05",
+  "transaction_date": "25-1-2023",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489cdfa92c77c7faa1262f"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd0b",
+  "transaction_date": "31-8-2024",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489cdfa92c77c7faa12631"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd0c",
+  "transaction_date": "15-4-2025",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489cdfa92c77c7faa12633"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd14",
+  "transaction_date": "18-7-2024",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489cdfa92c77c7faa12635"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd0d",
+  "transaction_date": "20-3-2023",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489cdfa92c77c7faa12637"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd0a",
+  "transaction_date": "23-4-2025",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489cdfa92c77c7faa12639"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd17",
+  "transaction_date": "18-5-2024",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489cdfa92c77c7faa1263b"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd15",
+  "transaction_date": "15-10-2024",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489cdfa92c77c7faa1263d"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd17",
+  "transaction_date": "14-2-2024",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489ce0a92c77c7faa1263f"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd08",
+  "transaction_date": "9-7-2024",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489ce0a92c77c7faa12641"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd06",
+  "transaction_date": "21-4-2023",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489ce0a92c77c7faa12643"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd13",
+  "transaction_date": "1-1-2025",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489ce0a92c77c7faa12645"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd16",
+  "transaction_date": "9-8-2023",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489ce0a92c77c7faa12647"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd07",
+  "transaction_date": "16-4-2024",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489ce0a92c77c7faa12649"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd09",
+  "transaction_date": "30-4-2023",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489ce0a92c77c7faa1264b"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd13",
+  "transaction_date": "18-10-2024",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489ce0a92c77c7faa1264d"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd0e",
+  "transaction_date": "15-7-2023",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489ce0a92c77c7faa1264f"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd07",
+  "transaction_date": "23-9-2024",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489ce0a92c77c7faa12651"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd17",
+  "transaction_date": "16-3-2025",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489ce0a92c77c7faa12653"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd16",
+  "transaction_date": "17-2-2025",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489ce0a92c77c7faa12655"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd17",
+  "transaction_date": "29-6-2023",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489ce0a92c77c7faa12657"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd10",
+  "transaction_date": "30-4-2024",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489ce0a92c77c7faa12659"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd0a",
+  "transaction_date": "5-5-2025",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489ce0a92c77c7faa1265b"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd0a",
+  "transaction_date": "31-12-2023",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489ce0a92c77c7faa1265d"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd05",
+  "transaction_date": "9-4-2023",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489ce0a92c77c7faa1265f"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd15",
+  "transaction_date": "29-3-2024",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489ce1a92c77c7faa12661"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd04",
+  "transaction_date": "14-12-2024",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489ce1a92c77c7faa12663"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd10",
+  "transaction_date": "15-5-2023",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489ce1a92c77c7faa12665"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd08",
+  "transaction_date": "3-6-2024",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489ce1a92c77c7faa12667"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd09",
+  "transaction_date": "6-4-2024",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489ce1a92c77c7faa12669"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd13",
+  "transaction_date": "17-2-2023",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489ce1a92c77c7faa1266b"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd08",
+  "transaction_date": "2-2-2024",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489ce1a92c77c7faa1266d"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd05",
+  "transaction_date": "29-5-2025",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489ce1a92c77c7faa1266f"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd0e",
   "transaction_date": "25-7-2023",
-  "country": "-27;133"
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489ce1a92c77c7faa12671"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd0e",
+  "transaction_date": "18-2-2024",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489ce1a92c77c7faa12673"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd0a",
+  "transaction_date": "14-11-2024",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489ce1a92c77c7faa12675"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd0b",
+  "transaction_date": "30-5-2023",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489ce1a92c77c7faa12677"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd10",
+  "transaction_date": "1-2-2025",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489ce1a92c77c7faa1267a"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd16",
+  "transaction_date": "5-10-2024",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489ce1a92c77c7faa1267b"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd16",
+  "transaction_date": "20-12-2024",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489ce1a92c77c7faa1267d"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd0e",
+  "transaction_date": "6-2-2025",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489ce1a92c77c7faa1267f"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd11",
+  "transaction_date": "22-8-2023",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489ce1a92c77c7faa12681"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd12",
+  "transaction_date": "7-2-2023",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489ce2a92c77c7faa12683"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd15",
+  "transaction_date": "24-6-2024",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489ce2a92c77c7faa12686"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd0e",
+  "transaction_date": "5-7-2024",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489ce2a92c77c7faa12687"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd0c",
+  "transaction_date": "6-1-2024",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489ce2a92c77c7faa12689"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd09",
+  "transaction_date": "15-3-2025",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489ce2a92c77c7faa1268b"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd0f",
+  "transaction_date": "3-9-2023",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489ce2a92c77c7faa1268d"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd0f",
+  "transaction_date": "1-12-2024",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489ce2a92c77c7faa1268f"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd04",
+  "transaction_date": "7-2-2024",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489ce2a92c77c7faa12693"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd16",
+  "transaction_date": "25-9-2024",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489ce2a92c77c7faa12692"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd07",
+  "transaction_date": "9-1-2024",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489ce2a92c77c7faa12695"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd14",
+  "transaction_date": "13-9-2023",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489ce2a92c77c7faa12697"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd14",
+  "transaction_date": "30-12-2023",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489ce2a92c77c7faa12699"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd06",
+  "transaction_date": "27-9-2024",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489ce3a92c77c7faa1269f"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd11",
+  "transaction_date": "18-2-2025",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489ce3a92c77c7faa126a1"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd0e",
+  "transaction_date": "27-1-2025",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489ce3a92c77c7faa126a2"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd12",
+  "transaction_date": "2-4-2024",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489ce3a92c77c7faa126a0"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd17",
+  "transaction_date": "8-9-2024",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489ce3a92c77c7faa126a3"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd06",
+  "transaction_date": "8-4-2024",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489ce3a92c77c7faa126a5"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd05",
+  "transaction_date": "15-10-2023",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489ce3a92c77c7faa126ac"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd06",
+  "transaction_date": "14-12-2023",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489ce3a92c77c7faa126ab"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd12",
+  "transaction_date": "28-8-2023",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489ce3a92c77c7faa126ae"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd06",
+  "transaction_date": "17-2-2023",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489ce3a92c77c7faa126ad"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd07",
+  "transaction_date": "14-1-2023",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489ce3a92c77c7faa126af"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd09",
+  "transaction_date": "15-9-2023",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e2"
+},
+{
+  "_id": {
+    "$oid": "68489ce3a92c77c7faa126b1"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd0f",
+  "transaction_date": "11-9-2024",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489ce3a92c77c7faa126b4"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd11",
+  "transaction_date": "15-3-2023",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489ce3a92c77c7faa126b5"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd04",
+  "transaction_date": "18-3-2025",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489ce3a92c77c7faa126b9"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd0d",
+  "transaction_date": "25-4-2023",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489ce3a92c77c7faa126ba"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd10",
+  "transaction_date": "26-1-2024",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e4"
+},
+{
+  "_id": {
+    "$oid": "68489ce3a92c77c7faa126bb"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd09",
+  "transaction_date": "18-10-2023",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489ce4a92c77c7faa126bd"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd09",
+  "transaction_date": "26-2-2024",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489ce4a92c77c7faa126bf"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd12",
+  "transaction_date": "13-7-2023",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489ce4a92c77c7faa126c1"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd15",
+  "transaction_date": "18-5-2023",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872df"
+},
+{
+  "_id": {
+    "$oid": "68489ce4a92c77c7faa126c5"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd06",
+  "transaction_date": "22-10-2023",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489ce4a92c77c7faa126c6"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd14",
+  "transaction_date": "20-1-2025",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e1"
+},
+{
+  "_id": {
+    "$oid": "68489ce4a92c77c7faa126c7"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd16",
+  "transaction_date": "9-5-2024",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489ce4a92c77c7faa126c9"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd16",
+  "transaction_date": "4-3-2024",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489ce4a92c77c7faa126cb"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd07",
+  "transaction_date": "9-4-2025",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489ce4a92c77c7faa126cd"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd0c",
+  "transaction_date": "18-8-2024",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489ce4a92c77c7faa126d0"
+  },
+  "article": "683ca1986355938715707e1b",
+  "provider": "683ca2026355938715707e47",
+  "consumer": "683ca1fcaa60b99c8d36fd13",
+  "transaction_date": "10-3-2023",
+  "country": "49;32",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489ce4a92c77c7faa126d2"
+  },
+  "article": "683ca1986355938715707e1a",
+  "provider": "683ca2026355938715707e48",
+  "consumer": "683ca1fcaa60b99c8d36fd0e",
+  "transaction_date": "26-2-2024",
+  "country": "45.1667;15.5",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489ce4a92c77c7faa126d3"
+  },
+  "article": "683ca1986355938715707e1f",
+  "provider": "683ca2026355938715707e4c",
+  "consumer": "683ca1fcaa60b99c8d36fd07",
+  "transaction_date": "9-3-2023",
+  "country": "49;32",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489ce4a92c77c7faa126d5"
+  },
+  "article": "683ca1986355938715707e1d",
+  "provider": "683ca2026355938715707e43",
+  "consumer": "683ca1fcaa60b99c8d36fd17",
+  "transaction_date": "22-8-2023",
+  "country": "46;2",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e0"
+},
+{
+  "_id": {
+    "$oid": "68489ce4a92c77c7faa126d7"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd10",
+  "transaction_date": "6-6-2024",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872e3"
+},
+{
+  "_id": {
+    "$oid": "68489ce4a92c77c7faa126d9"
+  },
+  "article": "683ca1986355938715707e14",
+  "provider": "683ca2026355938715707e41",
+  "consumer": "683ca1fcaa60b99c8d36fd16",
+  "transaction_date": "20-3-2024",
+  "country": "38;-97",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872de"
+},
+{
+  "_id": {
+    "$oid": "68489ce5a92c77c7faa126db"
+  },
+  "article": "683ca1986355938715707e19",
+  "provider": "683ca2026355938715707e49",
+  "consumer": "683ca1fcaa60b99c8d36fd07",
+  "transaction_date": "31-8-2023",
+  "country": "46;2",
+  "category": "top",
+  "operator": "68489b128cceddb74bd872dd"
+},
+{
+  "_id": {
+    "$oid": "68489ce5a92c77c7faa126dd"
+  },
+  "article": "683ca1986355938715707e16",
+  "provider": "683ca2026355938715707e4a",
+  "consumer": "683ca1fcaa60b99c8d36fd0c",
+  "transaction_date": "20-2-2023",
+  "country": "-27;133",
+  "category": "sports",
+  "operator": "68489b128cceddb74bd872dd"
 }]

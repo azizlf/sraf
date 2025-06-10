@@ -10,6 +10,11 @@ import VectorLayer from 'ol/layer/Vector';
 import VectorSource from 'ol/source/Vector';
 import { Icon, Style } from 'ol/style';
 import { DataSService } from 'src/app/services/data-s.service';
+import { ArticleService } from 'src/app/services/article.service';
+import { TransactionService } from 'src/app/services/transaction.service';
+import { FormGroup, FormControl } from '@angular/forms';
+import * as XLSX from 'xlsx';
+import { saveAs } from 'file-saver';
 
 declare function createChart(ctx: any, config: any): void
 
@@ -20,75 +25,11 @@ declare function createChart(ctx: any, config: any): void
 })
 export class OperatorComponent implements OnInit, AfterViewInit {
 
-  catalogs: any = [
-    {
-      title: "films",
-      products: [
-        {
-          title: "all"
-        },
-        {
-          title: "f1",
-          consumers: ["C1", "C2", "C3"]
-
-        },
-        {
-          title: "f2",
-          consumers: ["C1", "C2", "C3"]
-
-        },
-        {
-          title: "f3",
-          consumers: ["C1", "C2", "C3"]
-
-        }
-      ],
-    },
-    {
-      title: "Videos",
-      products: [
-        {
-          title: "v1",
-          consumers: ["C1", "C2", "C3"]
-
-        },
-        {
-          title: "v2",
-          consumers: ["C1", "C2", "C3"]
-
-        },
-        {
-          title: "v3",
-          consumers: ["C1", "C2", "C3"]
-
-        }
-      ],
-    },
-    {
-      title: "Photos",
-      products: [
-        {
-          title: "p1",
-          consumers: []
-
-        },
-        {
-          title: "p2",
-          consumers: ["C1", "C2"]
-
-        },
-        {
-          title: "p3",
-          consumers: ["C1", "C2", "C3"]
-
-        }
-      ],
-    }
-  ]
+  catalogs: any = []
   products: any = []
-  consumers: any = []
+  providers: any = []
 
-  consumerSelected = ""
+  providerSelected = ""
   productSelected = ""
   catalogSelected = ""
 
@@ -105,19 +46,28 @@ export class OperatorComponent implements OnInit, AfterViewInit {
     { name: 'Tokyo', lat: 35.6895, lon: 139.6917 }
   ]
 
-  constructor(private dataService: DataSService) { }
+  allProducts: any = []
+
+  intervalDates = new FormGroup({
+    start: new FormControl(""),
+    end: new FormControl(""),
+  })
+
+  constructor(private transactionService: TransactionService, private articleService: ArticleService, private dataService: DataSService) { }
 
   ngAfterViewInit(): void {
-    this.initMap();
   }
 
   initMap() {
 
-    const features = this.locations.map(loc => {
+    const locations = this.transactionService.transactions.filter((trs: any) => trs.operator === localStorage.getItem("userid"))
+
+    const features = locations.map((loc: any) => {
       const point = new Feature({
-        geometry: new Point(fromLonLat([loc.lon, loc.lat])),
+        geometry: new Point(fromLonLat([loc.country.split(";")[1], loc.country.split(";")[0]])),
         name: loc.name
       });
+
       point.setStyle(new Style({
         image: new Icon({
           anchor: [0.5, 1],
@@ -125,16 +75,15 @@ export class OperatorComponent implements OnInit, AfterViewInit {
           scale: 0.05
         })
       }));
+
       return point;
-    })
+    });
 
     const vectorLayer = new VectorLayer({
       source: new VectorSource({
         features: features,
       }),
-    })
-
-    // this.map.addLayer(vectorLayer)
+    });
 
     this.map = new Map({
       target: 'map',
@@ -145,35 +94,260 @@ export class OperatorComponent implements OnInit, AfterViewInit {
         vectorLayer
       ],
       view: new View({
-        center: fromLonLat([0, 20]),
-        zoom: 1,
+        center: fromLonLat([10.1815, 36.8065]),
+        zoom: 0,
       }),
-    })
+    });
 
   }
 
   applySearch() {
+
     const req = {
-      consumer: this.consumerSelected,
-      product: this.productSelected,
-      catalog: this.catalogSelected
+      catalog: this.catalogSelected,
+      provider: this.providerSelected,
+      dates: this.intervalDates.value.start + ";" + this.intervalDates.value.end
     }
 
-    console.log(req)
+
+
+    this.createChart1(req.dates)
+    this.createChart2(req.dates)
+    this.createChart3(req.dates)
+    this.createChart4(req.dates)
 
   }
 
-  createChart1() {
+  selectCatalog(cat: any) {
 
-    const ctx = document.querySelector("#chart1")
+    this.providers = []
+
+    this.catalogSelected = cat
+
+    if (cat === "all") {
+      const provs = new Set()
+      this.allProducts.forEach((p: any) => {
+
+        provs.add(p.provider)
+
+      })
+      this.providers = Array.from(provs)
+    } else {
+      const provs = new Set()
+      this.allProducts.forEach((prd: any) => {
+
+        if (prd.category === cat) {
+
+          provs.add(prd.provider)
+
+        }
+
+      })
+      this.providers = Array.from(provs)
+    }
+
+  }
+
+  selectProvider(provider: any) {
+
+    this.products = []
+
+    this.providerSelected = provider
+
+    if (provider === "all") {
+      this.products = this.allProducts
+    } else {
+      this.allProducts.forEach((prd: any) => {
+
+        if (prd.provider === provider) {
+          this.products.push(prd)
+        }
+
+      })
+    }
+
+  }
+
+  exportData() {
+
+    let catalogsData: any = []
+    let transactionsData: any = []
+    let consumersData: any = []
+    let providersData: any = []
+    let dates: any = []
+
+    const date = this.intervalDates.value.start + ";" + this.intervalDates.value.end
+
+    const startDate = new Date(date.split(";")[0]).getTime()
+    const endDate = new Date(date.split(";")[1]).getTime()
+
+    this.transactionService.transactions.forEach((transaction: any) => {
+
+      const transactionDate = new Date(transaction.transaction_date).getTime()
+
+      if (transaction.operator === localStorage.getItem("userid") && (
+        transactionDate >= startDate && transactionDate <= endDate
+      )) {
+
+        dates.push(transaction.transaction_date)
+
+      }
+
+    })
+
+    dates.forEach((date: any) => {
+
+      const transactions = this.transactionService.transactions.filter((tr: any) => tr.transaction_date === date)
+
+      const catalogs = new Set()
+      const consumers = new Set()        
+      const providers = new Set()
+
+      transactions.forEach((tr: any) => {
+
+        catalogs.add(tr.category)
+
+        consumers.add(tr.consumer)
+
+        providers.add(tr.provider)
+
+      })
+
+      transactionsData.push({
+        date: date,
+        value: transactions.length
+      })
+
+      consumersData.push({
+        date: date,
+        value: Array.from(consumers).length
+      })
+
+      providersData.push({
+        date: date,
+        value: Array.from(providers).length
+      })
+
+      catalogsData.push({
+        date: date,
+        value: Array.from(catalogs).length
+      })
+
+    })
+
+    const dt = new Date().getDate()+"-"+(new Date().getMonth()+1)+"-"+new Date().getFullYear()+" "+new Date().getHours()+"h"+new Date().getMinutes()
+
+    this.downloadCSV([transactionsData,catalogsData,consumersData,providersData], "operator-dashbord "+dt)
+
+  }
+
+  downloadCSV(data: any[], filename: string) {
+    const wb = XLSX.utils.book_new();
+
+    const ws1 = XLSX.utils.json_to_sheet(data[0]);
+    const ws2 = XLSX.utils.json_to_sheet(data[1]);
+    const ws3 = XLSX.utils.json_to_sheet(data[2]);
+    const ws4 = XLSX.utils.json_to_sheet(data[3]);
+
+    XLSX.utils.book_append_sheet(wb, ws1, 'Number Of Transactions');
+    XLSX.utils.book_append_sheet(wb, ws2, 'Number Of Catalogs');
+    XLSX.utils.book_append_sheet(wb, ws3, 'Number Of Consumers');
+    XLSX.utils.book_append_sheet(wb, ws4, 'Number Of Porviders');
+
+    const wbout = XLSX.write(wb, { bookType: 'xlsx', type: 'array' });
+    const blob = new Blob([wbout], { type: 'application/octet-stream' });
+
+    saveAs(blob, filename + '.xlsx');
+  }
+
+  parseDMY(dateStr: string): Date {
+    const [day, month, year] = dateStr.split("-");
+    return new Date(Number(year), Number(month) - 1, Number(day));
+  }
+
+  createChart1(date: any) {
+
+    const oldCtx = document.querySelector("#chart1")
+    oldCtx?.remove()
+    const container = document.querySelector(".c1")
+    const ctx = document.createElement("canvas")
+    ctx.id = "chart1"
+    ctx.setAttribute("class", "chrt")
+    container?.appendChild(ctx)
+
+    const labels: any = []
+    const data: any = []
+
+    if (date === "all") {
+      this.transactionService.transactions.forEach((transaction: any) => {
+
+        if (transaction.operator === localStorage.getItem("userid")) {
+
+          labels.push(transaction.transaction_date)
+
+        }
+
+      })
+
+      labels.forEach((date: any) => {
+
+        const transactions = this.transactionService.transactions.filter((tr: any) => tr.transaction_date === date)
+
+        const catalogs = new Set()
+
+        transactions.forEach((tr: any) => {
+
+          catalogs.add(tr.category)
+
+        })
+
+        data.push(Array.from(catalogs).length)
+
+      })
+    } else {
+
+      const startDate = new Date(date.split(";")[0]).getTime()
+      const endDate = new Date(date.split(";")[1]).getTime()
+
+      this.transactionService.transactions.forEach((transaction: any) => {
+
+        const transactionDate = new Date(transaction.transaction_date).getTime()
+
+        if (transaction.operator === localStorage.getItem("userid") && (
+          transactionDate >= startDate && transactionDate <= endDate
+        )) {
+
+          labels.push(transaction.transaction_date)
+
+        }
+
+      })
+
+      labels.forEach((date: any) => {
+
+        const transactions = this.transactionService.transactions.filter((tr: any) => tr.transaction_date === date)
+
+        const catalogs = new Set()
+
+        transactions.forEach((tr: any) => {
+
+          catalogs.add(tr.category)
+
+        })
+
+        data.push(Array.from(catalogs).length)
+
+      })
+
+    }
 
     const config = {
       type: 'line',
       data: {
-        labels: ['12-03-2025', '13-03-2025', '14-03-2025', '15-03-2025', '16-03-2025', '17-03-2025'],
+        labels: labels.sort((a: any, b: any) => this.parseDMY(b).getTime() - this.parseDMY(a).getTime()).slice(0, 6),
         datasets: [{
           label: 'Number of catalogs',
-          data: [65, 59, 17, 81, 56, 8],
+          data: data,
           fill: false,
           borderColor: 'rgb(75, 192, 192)',
           tension: 0.5
@@ -192,17 +366,73 @@ export class OperatorComponent implements OnInit, AfterViewInit {
 
   }
 
-  createChart2() {
+  createChart2(date: any) {
 
-    const ctx = document.querySelector("#chart2")
+    const oldCtx = document.querySelector("#chart2")
+    oldCtx?.remove()
+    const container = document.querySelector(".c2")
+    const ctx = document.createElement("canvas")
+    ctx.id = "chart2"
+    ctx.setAttribute("class", "chrt")
+    container?.appendChild(ctx)
+
+    const labels: any = []
+    const data: any = []
+    if (date === "all") {
+
+      this.transactionService.transactions.forEach((transaction: any) => {
+
+        if (transaction.operator === localStorage.getItem("userid")) {
+
+          labels.push(transaction.transaction_date)
+
+        }
+
+      })
+
+      labels.forEach((date: any) => {
+
+        const transactions = this.transactionService.transactions.filter((tr: any) => tr.transaction_date === date)
+
+        data.push(transactions.length)
+
+      })
+
+    } else {
+      const startDate = new Date(date.split(";")[0]).getTime()
+      const endDate = new Date(date.split(";")[1]).getTime()
+
+      this.transactionService.transactions.forEach((transaction: any) => {
+
+        const transactionDate = new Date(transaction.transaction_date).getTime()
+
+        if (transaction.operator === localStorage.getItem("userid") && (
+          transactionDate >= startDate && transactionDate <= endDate
+        )) {
+
+          labels.push(transaction.transaction_date)
+
+        }
+
+      })
+
+      labels.forEach((date: any) => {
+
+        const transactions = this.transactionService.transactions.filter((tr: any) => tr.transaction_date === date)
+
+        data.push(transactions.length)
+
+      })
+    }
+
 
     const config = {
       type: 'line',
       data: {
-        labels: ['12-03-2025', '13-03-2025', '14-03-2025', '15-03-2025', '16-03-2025', '17-03-2025'],
+        labels: labels.sort((a: any, b: any) => this.parseDMY(b).getTime() - this.parseDMY(a).getTime()).slice(0, 6),
         datasets: [{
-          label: 'Number of transactions ( providers )',
-          data: [65, 59, 17, 81, 56, 8],
+          label: 'Number of transactions',
+          data: data,
           fill: false,
           borderColor: 'rgb(75, 192, 192)',
           tension: 0.5
@@ -221,17 +451,190 @@ export class OperatorComponent implements OnInit, AfterViewInit {
 
   }
 
-  createChart3() {
+  createChart3(date: any) {
 
-    const ctx = document.querySelector("#chart3")
+    const oldCtx = document.querySelector("#chart3")
+    oldCtx?.remove()
+    const container = document.querySelector(".c3")
+    const ctx = document.createElement("canvas")
+    ctx.id = "chart3"
+    ctx.setAttribute("class", "chrt")
+    container?.appendChild(ctx)
+
+    const labels: any = []
+    const data: any = []
+
+    if (date === "all") {
+      this.transactionService.transactions.forEach((transaction: any) => {
+
+        if (transaction.operator === localStorage.getItem("userid")) {
+
+          labels.push(transaction.transaction_date)
+
+        }
+
+      })
+
+      labels.forEach((date: any) => {
+
+        const transactions = this.transactionService.transactions.filter((tr: any) => tr.transaction_date === date)
+
+        const consumers = new Set()
+
+        transactions.forEach((tr: any) => {
+
+          consumers.add(tr.consumer)
+
+        })
+
+        data.push(Array.from(consumers).length)
+
+      })
+    } else {
+
+      const startDate = new Date(date.split(";")[0]).getTime()
+      const endDate = new Date(date.split(";")[1]).getTime()
+
+      this.transactionService.transactions.forEach((transaction: any) => {
+
+        const transactionDate = new Date(transaction.transaction_date).getTime()
+
+        if (transaction.operator === localStorage.getItem("userid") && (
+          transactionDate >= startDate && transactionDate <= endDate
+        )) {
+
+          labels.push(transaction.transaction_date)
+
+        }
+
+      })
+
+      labels.forEach((date: any) => {
+
+        const transactions = this.transactionService.transactions.filter((tr: any) => tr.transaction_date === date)
+
+        const consumers = new Set()
+
+        transactions.forEach((tr: any) => {
+
+          consumers.add(tr.consumer)
+
+        })
+
+        data.push(Array.from(consumers).length)
+
+      })
+
+    }
 
     const config = {
       type: 'line',
       data: {
-        labels: ['12-03-2025', '13-03-2025', '14-03-2025', '15-03-2025', '16-03-2025', '17-03-2025'],
+        labels: labels.sort((a: any, b: any) => this.parseDMY(b).getTime() - this.parseDMY(a).getTime()).slice(0, 6),
+        datasets: [{
+          label: 'Number of consumers',
+          data: data,
+          fill: false,
+          borderColor: 'rgb(75, 192, 192)',
+          tension: 0.5
+        }]
+      },
+      options: {
+        scales: {
+          y: {
+            beginAtZero: true
+          }
+        }
+      }
+    }
+
+    createChart(ctx, config)
+
+  }
+
+  createChart4(date: any) {
+
+    const oldCtx = document.querySelector("#chart4")
+    oldCtx?.remove()
+    const container = document.querySelector(".c4")
+    const ctx = document.createElement("canvas")
+    ctx.id = "chart4"
+    ctx.setAttribute("class", "chrt")
+    container?.appendChild(ctx)
+
+    const labels: any = []
+    const data: any = []
+
+    if (date === "all") {
+      this.transactionService.transactions.forEach((transaction: any) => {
+
+        if (transaction.operator === localStorage.getItem("userid")) {
+
+          labels.push(transaction.transaction_date)
+
+        }
+
+      })
+
+      labels.forEach((date: any) => {
+
+        const transactions = this.transactionService.transactions.filter((tr: any) => tr.transaction_date === date)
+
+        const providers = new Set()
+
+        transactions.forEach((tr: any) => {
+
+          providers.add(tr.provider)
+
+        })
+
+        data.push(Array.from(providers).length)
+
+      })
+    } else {
+
+      const startDate = new Date(date.split(";")[0]).getTime()
+      const endDate = new Date(date.split(";")[1]).getTime()
+
+      this.transactionService.transactions.forEach((transaction: any) => {
+
+        const transactionDate = new Date(transaction.transaction_date).getTime()
+
+        if (transaction.operator === localStorage.getItem("userid") && (
+          transactionDate >= startDate && transactionDate <= endDate
+        )) {
+
+          labels.push(transaction.transaction_date)
+
+        }
+
+      })
+
+      labels.forEach((date: any) => {
+
+        const transactions = this.transactionService.transactions.filter((tr: any) => tr.transaction_date === date)
+
+        const providers = new Set()
+
+        transactions.forEach((tr: any) => {
+
+          providers.add(tr.provider)
+
+        })
+
+        data.push(Array.from(providers).length)
+
+      })
+
+    }
+
+    const config = {
+      type: 'line',
+      data: {
+        labels: labels.sort((a: any, b: any) => this.parseDMY(b).getTime() - this.parseDMY(a).getTime()).slice(0, 6),
         datasets: [{
           label: 'Number of providers',
-          data: [65, 59, 17, 81, 56, 8],
+          data: data,
           fill: false,
           borderColor: 'rgb(75, 192, 192)',
           tension: 0.5
@@ -251,9 +654,31 @@ export class OperatorComponent implements OnInit, AfterViewInit {
   }
 
   ngOnInit(): void {
-    this.createChart1()
-    this.createChart2()
-    this.createChart3()
+    const checkData = setInterval(() => {
+      if (this.articleService.articles.length > 0) {
+
+        const catlgs = new Set()
+
+        this.allProducts = []
+
+        this.articleService.articles.forEach((art: any) => {
+
+          catlgs.add(art.category)
+          this.allProducts.push(art)
+
+        })
+
+        this.catalogs = Array.from(catlgs)
+
+        this.initMap()
+        this.createChart1("all")
+        this.createChart2("all")
+        this.createChart3("all")
+        this.createChart4("all")
+
+        clearInterval(checkData)
+      }
+    }, 500)
   }
 
 }

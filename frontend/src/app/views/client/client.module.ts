@@ -28,7 +28,7 @@ import { HttpClientModule } from '@angular/common/http';
     AssistantComponent,
     ConsumerComponent,
     ProviderComponent,
-    OperatorComponent
+    OperatorComponent,
   ],
   imports: [
     CommonModule,

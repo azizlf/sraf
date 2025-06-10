@@ -14,6 +14,8 @@ import { Icon, Style } from 'ol/style';
 import { ArticleService } from 'src/app/services/article.service';
 import { TransactionService } from 'src/app/services/transaction.service';
 import { FormGroup, FormControl } from '@angular/forms';
+import * as XLSX from 'xlsx';
+import { saveAs } from 'file-saver';
 
 declare function createChart(ctx: any, config: any): void
 
@@ -52,14 +54,14 @@ export class ProviderComponent implements OnInit, AfterViewInit {
   constructor(private articleService: ArticleService, private transactionService: TransactionService) { }
 
   ngAfterViewInit(): void {
-    
+
   }
 
   initMap() {
 
-    const locations = this.transactionService.transactions.filter((trs: any) => trs.provider === localStorage.getItem("userid") )
+    const locations = this.transactionService.transactions.filter((trs: any) => trs.provider === localStorage.getItem("userid"))
 
-    const features = locations.map((loc:any) => {
+    const features = locations.map((loc: any) => {
       const point = new Feature({
         geometry: new Point(fromLonLat([loc.country.split(";")[1], loc.country.split(";")[0]])),
         name: loc.name
@@ -129,6 +131,82 @@ export class ProviderComponent implements OnInit, AfterViewInit {
     this.createChart1(req.dates)
     this.createChart2(req.dates)
 
+  }
+
+  exportData() {
+
+    let transactionsData: any = []
+    let consumersData: any = []
+    let dates: any = []
+
+    const date = this.intervalDates.value.start + ";" + this.intervalDates.value.end
+
+    const startDate = new Date(date.split(";")[0]).getTime()
+    const endDate = new Date(date.split(";")[1]).getTime()
+
+    this.transactionService.transactions.forEach((transaction: any) => {
+
+      const transactionDate = new Date(transaction.transaction_date).getTime()
+
+      if (transaction.provider === localStorage.getItem("userid") && (
+        transactionDate >= startDate && transactionDate <= endDate
+      )) {
+
+        dates.push(transaction.transaction_date)
+
+      }
+
+    })
+
+    dates.forEach((date: any) => {
+
+      const transactions = this.transactionService.transactions.filter((tr: any) => tr.transaction_date === date)
+
+      const consumers = new Set()
+
+      transactions.forEach((tr: any) => {
+
+        consumers.add(tr.consumer)
+
+      })
+
+      transactionsData.push({
+        date: date,
+        value: transactions.length
+      })
+
+      consumersData.push({
+        date: date,
+        value: Array.from(consumers).length
+      })
+
+    })
+
+    const dt = new Date().getDate()+"-"+(new Date().getMonth()+1)+"-"+new Date().getFullYear()+" "+new Date().getHours()+"h"+new Date().getMinutes()
+
+    this.downloadCSV([transactionsData, consumersData], "provider-dashbord " + dt)
+
+  }
+
+  downloadCSV(data: any[], filename: string) {
+    const wb = XLSX.utils.book_new();
+
+    const ws1 = XLSX.utils.json_to_sheet(data[0]);
+    const ws2 = XLSX.utils.json_to_sheet(data[1]);
+
+    XLSX.utils.book_append_sheet(wb, ws1, 'Number Of Transactions');
+    XLSX.utils.book_append_sheet(wb, ws2, 'Number Of Consumers');
+
+    const wbout = XLSX.write(wb, { bookType: 'xlsx', type: 'array' });
+    const blob = new Blob([wbout], { type: 'application/octet-stream' });
+
+    saveAs(blob, filename + '.xlsx');
+  }
+
+
+  parseDMY(dateStr: string): Date {
+    const [day, month, year] = dateStr.split("-");
+    return new Date(Number(year), Number(month) - 1, Number(day));
   }
 
   createChart1(date: any) {
@@ -210,7 +288,7 @@ export class ProviderComponent implements OnInit, AfterViewInit {
     const config = {
       type: 'line',
       data: {
-        labels: labels.slice(0, 6),
+        labels: labels.sort((a: any, b: any) => this.parseDMY(b).getTime() - this.parseDMY(a).getTime()).slice(0, 6),
         datasets: [{
           label: 'Number of consumers',
           data: data,
@@ -295,7 +373,7 @@ export class ProviderComponent implements OnInit, AfterViewInit {
     const config = {
       type: 'line',
       data: {
-        labels: labels.slice(0, 6),
+        labels: labels.sort((a: any, b: any) => this.parseDMY(b).getTime() - this.parseDMY(a).getTime()).slice(0, 6),
         datasets: [{
           label: 'Number of transactions ( consumers )',
           data: data,

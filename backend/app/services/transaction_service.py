@@ -20,7 +20,8 @@ class TransactionService:
             "consumer": data.get("consumer"),
             "transaction_date": data.get("transaction_date"),
             "country": data.get("country"),
-            "category": data.get("category")
+            "category": data.get("category"),
+            "operator": data.get("operator")
         }
         
         return Transaction.create(dt)

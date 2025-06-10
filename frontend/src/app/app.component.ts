@@ -103,7 +103,7 @@ export class AppComponent implements OnInit {
 
   makeTransactions(articles: any) {
 
-    const count = 150
+    const count = 500
 
     this.userService.getAll().subscribe((usrs: any) => {
 
@@ -111,33 +111,37 @@ export class AppComponent implements OnInit {
 
       const consumers = users.filter((u: any) => u.role === 'consumer');
       const providers = users.filter((u: any) => u.role === 'provider');
+      const operators = users.filter((u: any) => u.role === 'operator');
 
       for (let i = 0; i < count; i++) {
-        const article = articles[Math.floor(Math.random() * articles.length)];
+        const article = articles[Math.floor(Math.random() * articles.length)]
 
         const providerUser = providers.find(
-          (u:any) => u.full_name === article.provider
+          (u: any) => u.full_name === article.provider
         )
 
         if (!providerUser) continue
 
-        const consumer = consumers[Math.floor(Math.random() * consumers.length)];
+        const consumer = consumers[Math.floor(Math.random() * consumers.length)]
+
+        const operator = operators[Math.floor(Math.random() * operators.length)]
 
         const transaction = {
           article: article._id,
           provider: providerUser._id,
           consumer: consumer._id,
+          operator: operator._id,
           transaction_date: this.randomDate(),
-          country:article.location,
-          category:article.category
+          country: article.location,
+          category: article.category
         }
 
-        this.transactionService.create(transaction).subscribe((res:any)=>{
+        this.transactionService.create(transaction).subscribe((res: any) => {
 
           console.log(res)
 
         })
-        
+
       }
 
     })
@@ -149,7 +153,7 @@ export class AppComponent implements OnInit {
     const start = new Date(2023, 0, 1).getTime();
     const end = new Date().getTime();
     const date = new Date(start + Math.random() * (end - start));
-    return date.getDate()+"-"+date.getMonth()+"-"+date.getFullYear();
+    return date.getDate() + "-" + (date.getMonth()+1) + "-" + date.getFullYear();
   }
 
 

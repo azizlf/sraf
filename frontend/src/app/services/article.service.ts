@@ -10,6 +10,9 @@ export class ArticleService {
   baseUrl = enviremnt.backend + "article"
   articles:any = []
 
+  dataToSave:any = []
+  fileNameToSave=""
+
   counrties_coords = [
     {
       "country": "Albania",
